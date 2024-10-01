@@ -1,0 +1,7 @@
+
+["Magician King Settings"]
+	#Determines if the Magician King will show up in Raids.
+	magicianKingRaids = true
+	#Determines the number of Magician Kings that will spawn in each wave. The first number is ignored! Wave 1 of a Raid is the 2nd element.
+	magicianKingWaveCounts = [0, 0, 0, 0, 0, 1, 0, 1]
+

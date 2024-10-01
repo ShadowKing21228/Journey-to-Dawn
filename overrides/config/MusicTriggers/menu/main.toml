@@ -1,0 +1,20 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.universal]
+		fade_out = "0"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		fade_in = "0"
+	[triggers.menu]
+		toggle_inactive_playable = true
+		priority = "7"
+[songs]
+	[songs.universal]
+		volume = "1.4"
+	[songs.variation_1]
+		triggers = [ "menu" ]

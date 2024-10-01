@@ -1,0 +1,39 @@
+
+{
+  "type": "create:compacting",
+  "ingredients": [
+      {
+      "tag": "minecraft:wooden_buttons"
+      },
+	  {
+      "tag": "minecraft:wooden_buttons"
+      },
+	  {
+      "tag": "minecraft:wooden_buttons"
+      },
+	  {
+      "tag": "minecraft:wooden_buttons"
+      },
+      {
+      "item": "supplementaries:timber_frame"
+      },
+      {
+      "tag": "storagedrawers:drawers"
+      },
+      {
+      "tag": "storagedrawers:drawers"
+      },
+      {
+      "tag": "storagedrawers:drawers"
+      },
+      {
+      "tag": "storagedrawers:drawers"
+      }
+  ],
+  "results": [
+    {
+      "item": "storagedrawers:upgrade_template",
+	  "count": 16
+    }
+  ]
+}

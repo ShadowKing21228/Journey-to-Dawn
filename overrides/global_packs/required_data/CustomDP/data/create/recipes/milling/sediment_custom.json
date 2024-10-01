@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "undergarden:depthrock"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "undergarden:sediment"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+      "item": "undergarden:depthrock_pebble"
+    }
+  ]
+}

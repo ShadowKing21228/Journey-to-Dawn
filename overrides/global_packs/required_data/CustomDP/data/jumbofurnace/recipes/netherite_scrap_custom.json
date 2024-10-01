@@ -1,0 +1,17 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "minecraft:ancient_debris",
+			"count": 3
+		}
+	],
+	"result":
+	{
+		"item": "minecraft:netherite_scrap",
+		"count": 5
+	},
+	"experience": 0.1
+}

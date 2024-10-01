@@ -1,0 +1,46 @@
+#用于调试 Used for test.
+deBug = false
+
+["渲染设置 Render Settings"]
+	#
+	#禁用所有渲染 Disable Render for ALL.
+	disableRenderAll = false
+	#
+	#禁用渲染 - 后腰 Disable Render - Back waist.
+	disableRenderBackWaist = false
+	#
+	#禁用渲染 - 头 Disable Render - Head.
+	disableRenderHead = false
+	#
+	#禁用渲染 - 不可描述 Disable Render - Indescribable.
+	disableRenderIndescribable = false
+
+["信息设置 Info Settings"]
+	#
+	#禁用倍率显示 Disable Multiplier Info.
+	disableMultiplierInfo = false
+
+["倍率设置 Multiplier Settings"]
+	#
+	#望远镜默认倍率 The default multiplier of spyglass.
+	defaultMultiplier = 7
+	#
+	#望远镜最大倍率 The maximum multiplier of spyglass.
+	#Range: 0 ~ 100
+	maxMultiplier = 12
+	#
+	#望远镜最小倍率 The minimum multiplier of spyglass.
+	#最小值小于-15将会导致镜像反转 A minimum value less than -15 will cause the image to flip.
+	#Range: -100 ~ 100
+	minMultiplier = -12
+
+["显示设置 Display Settings"]
+	#
+	#禁用使用望远镜时的电影视角 Disable cinema camera when is scoping.
+	disableCinemaCamera = false
+
+["动画设置 Animation Settings"]
+	#
+	#是否当不持有望远镜时按下按键也能使用望远镜动作 Whether the spyglass Anim can be used by pressing the key when not holding the spyglass.
+	disableAimingAnim = false
+

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplyswords:watching_warglaive"
+    },
+    "title": "Прозрение",
+    "description": "Найдите уникальное оружие - Зоркий боевой клинок.",
+    "hidden": true,
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "simplyswords:runic_weapon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "simplyswords:watching_warglaive"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

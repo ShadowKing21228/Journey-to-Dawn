@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "botania:alfheim_portal"
+  },
+  "pedestalItems": [
+    {
+      "item": "twilightforest:magic_beans"
+    },
+    {
+      "item": "create:rose_quartz"
+    },
+    {
+      "item": "botania:terrasteel_nugget"
+    },
+    {
+      "item": "botania:terrasteel_nugget"
+    },
+    {
+      "item": "botania:terrasteel_nugget"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "botania:glimmering_livingwood"
+    }
+  ],
+  "sourceCost": 4500
+}

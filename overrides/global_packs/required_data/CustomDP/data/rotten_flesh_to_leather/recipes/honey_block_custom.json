@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "minecraft:honeycomb_block"
+  },
+  "result": "minecraft:honey_block",
+  "experience": 1.0,
+  "cookingtime": 200
+}

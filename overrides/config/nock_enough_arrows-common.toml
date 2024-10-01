@@ -1,0 +1,9 @@
+
+[sputter]
+	#Enables Sputter creation
+	enableSputter = true
+
+[arrows]
+	#Tags of blocks that cannot be painted
+	unpaintableBlockTags = ["minecraft:beds", "comforts:hammocks", "comforts:sleeping_bags", "waystones:sharestone"]
+

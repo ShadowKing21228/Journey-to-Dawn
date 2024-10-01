@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:knightmetal_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:knightmetal_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:knightmetal_axe"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:phantom_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:phantom_chestplate"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:phantom_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:phantom_chestplate"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:knight_phantom_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Дорогой Бенедикт,                                 Недавно мои подопечные спросили, почему я так предан Королю. Это заставило меня рассмеяться сильнее, чем я думал, ха-ха! Как я могу не быть гордым за своего Короля? \"}','{\"text\":\"Ты встал на престол раньше положенного срока, но несмотря на это смог то, что не смогли твои предки со времён твоего прадеда Албара! Мой легион Фантомов, что почти исчез с лица Сумрачных Лесов за столько лет коррупции и лени; \"}','{\"text\":\"Mаги и изобретатели, что наконец работают сообща; Дороги вдоль всего Королевства, исключившие смертность от монстров в ноль! Я, Эдгар Бравый, не могу не гордится своим Королём. \"}','{\"text\":\"Я понимаю, что ты в недоумении зачем я тебе шлю эти оды, да, друг мой? Просто что бы ты знал, что за тобой всё твоё королевство. Ходи с гордо поднятой головой, а то твой сын, что родится намедни, тебя засмеёт! \"}','{\"text\":\"Удачи, мой старый друг \"}'],title:\"Письмо\",author:\"Эдгар Бравый\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

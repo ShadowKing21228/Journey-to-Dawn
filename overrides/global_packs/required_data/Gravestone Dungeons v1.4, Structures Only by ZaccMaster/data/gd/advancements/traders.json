@@ -1,0 +1,105 @@
+{
+  "parent": "gd:1direwood",
+  "display": {
+    "title": {
+      "text": "Различные торговцы",
+      "bold": false,
+      "italic": true,
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Познакомиться со всеми торговцами крепости",
+      "color": "gray"
+    },
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "harlan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"harlan\"]}"
+        }
+      }
+    },
+    "lyra": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"lyra\"]}"
+        }
+      }
+    },"ragnar": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"ragnar\"]}"
+        }
+      }
+    },"ragnvald": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"ragnvald\"]}"
+        }
+      }
+    },"faendal": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"faendal\"]}"
+        }
+      }
+    },"zaccarius": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"zaccarius\"]}"
+        }
+      }
+    },"eldrid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"eldrid\"]}"
+        }
+      }
+    },"alaric": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"alaric\"]}"
+        }
+      }
+    },"gilbert": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"gilbert\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["harlan"], ["lyra"], ["ragnar"], ["ragnvald"], ["faendal"], ["zaccarius"], ["eldrid"], ["alaric"], ["gilbert"]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

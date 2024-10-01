@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "hexerei:blood_bottle"
+  },
+  "mana": 13370,
+  "output": {
+    "item": "irons_spellbooks:blood_vial"
+  }
+}

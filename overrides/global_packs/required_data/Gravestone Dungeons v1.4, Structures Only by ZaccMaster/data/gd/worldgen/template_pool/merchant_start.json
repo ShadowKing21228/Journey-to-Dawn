@@ -1,0 +1,63 @@
+{
+  "name": "gd:merchant_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant1",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant2",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant3",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant4",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant5",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant6",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:merchant/merchant7",
+        "projection": "rigid",
+        "processors": "gd:merchant"
+      }
+    }
+  ]
+}

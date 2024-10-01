@@ -1,0 +1,30 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:ancient_debris"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "spirit:compressed_soul_powder_block"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 20,
+  "outputItem": "irons_spellbooks:arcane_debris"
+}

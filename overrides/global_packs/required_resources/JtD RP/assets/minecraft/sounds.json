@@ -1,0 +1,196 @@
+{
+	"my_sounds.music":
+	{"category": "master","sounds": [{"name": "my_sounds/music","stream": true}]},
+
+    "music.game": {
+	    "category": "music",
+	    "sounds": [
+		    {
+			    "name": "music/game/stronghold_appy_times",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_castlejam",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_celebration1",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_celebration2",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_draft_solo",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_fiddle_solo",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_harp1",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_harp2",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_harp3",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_horse_hair",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_journeys",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_labyrinth",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_life_of_a_good_farmer",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_marching_on",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_matts_jig",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_minstrelosity",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_pig_roast",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_pints_a_flowin",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_preparation",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_roots",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_royal",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_royal_snub",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_sad_times",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_sultana",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_the_fiddler",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_the_maiden",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_the_piper",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_two_mandolines",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_under_an_old_tree",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_virgin_territorry",
+			    "stream": true
+		    },{
+			    "name": "music/game/stronghold_wedding_song",
+			    "stream": true
+		    }
+	    ]
+    },
+	"tom_of_badlam_stronghold": {
+  "sounds": [
+     "music/game/tom_of_badlam_stronghold"      
+  ]
+ },
+	"enchanter_dragonage": {
+  "sounds": [
+     "music/game/enchanter_dragonage"      
+  ]
+ },
+	"toss_a_coin_the_witcher": {
+  "sounds": [
+     "music/game/toss_a_coin_the_witcher"      
+  ]
+ },
+	"john_barleycorn_stronghold": {
+  "sounds": [
+     "music/game/john_barleycorn_stronghold"      
+  ]
+ },
+	"nucklelavee_the_bard": {
+  "sounds": [
+     "music/game/nucklelavee_the_bard"      
+  ]
+ },
+	"the_bear_got": {
+  "sounds": [
+     "music/game/the_bear_got"      
+  ]
+ },
+	"hands_of_gold_got": {
+  "sounds": [
+     "music/game/hands_of_gold_got"      
+  ]
+ },
+	"dornishmans_wife_got": {
+  "sounds": [
+     "music/game/dornishmans_wife_got"      
+  ]
+ },
+	"stronghold_labyrinth": {
+  "sounds": [
+     "music/game/stronghold_labyrinth"      
+  ]
+ },
+	"stronghold_minstrelosity": {
+  "sounds": [
+     "music/game/stronghold_minstrelosity"      
+  ]
+ },
+	"stronghold_sad_times": {
+  "sounds": [
+     "music/game/stronghold_sad_times"      
+  ]
+ },
+	"stronghold_under_an_old_tree": {
+  "sounds": [
+     "music/game/stronghold_under_an_old_tree"      
+  ]
+ },
+	"stronghold_two_mandolines": {
+  "sounds": [
+     "music/game/stronghold_two_mandolines"      
+  ]
+ },
+	"sword_and_faith_devil": {
+  "sounds": [
+     "music/game/sword_and_faith_devil"      
+  ]
+ },
+	"blood_and_banner_marrow": {
+  "sounds": [
+     "music/game/blood_and_banner_marrow"      
+  ]
+ },
+	"skellige_battle_grimgar": {
+  "sounds": [
+     "music/game/skellige_battle_grimgar"      
+  ]
+ },
+	"godrick_the_crafted_witch": {
+  "sounds": [
+     "music/game/godrick_the_crafted_witch"      
+  ]
+ }
+
+
+
+
+
+
+
+}

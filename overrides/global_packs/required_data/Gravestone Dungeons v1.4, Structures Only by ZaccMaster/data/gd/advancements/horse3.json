@@ -1,0 +1,47 @@
+{
+  "parent": "gd:root",
+  "criteria": {
+    "on_ashen_horse": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:donkey",
+                "nbt": "{Tags:[ashen]}"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "Цок-цок",
+      "bold": false,
+      "italic": true,
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Прокатитесь верхом на Пепельном Базальтовом Взбирателе",
+      "color": "gray"
+    },
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "on_ashen_horse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

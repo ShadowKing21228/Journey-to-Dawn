@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar_head",
+  "ingredients": [
+    {
+      "item": "tyafi:oprn_boots"
+    },
+    {
+      "item": "dimdungeons:item_trophy_1"
+    },
+    {
+      "item": "dimdungeons:item_trophy_2"
+    },
+    {
+      "item": "dimdungeons:item_trophy_3"
+    },
+    {
+      "item": "dimdungeons:item_trophy_4"
+    },
+    {
+      "item": "botania:travel_belt"
+    },
+    {
+      "item": "dimdungeons:item_trophy_5"
+    },
+    {
+      "item": "dimdungeons:item_trophy_6"
+    },
+    {
+      "item": "dimdungeons:item_trophy_7"
+    },
+    {
+      "item": "dimdungeons:item_trophy_8"
+    }
+  ],
+  "mana": 100000,
+  "output": {
+    "item": "tyafi:shchz_boots"
+  }
+}

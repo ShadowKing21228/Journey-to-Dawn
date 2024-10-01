@@ -1,0 +1,52 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:amethyst_block"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "A   A",
+          " B B ",
+		  "  @  ",
+          " B B ",
+          "A   A"
+        ],
+        [
+          "CDEDC",
+          "DFGFD",
+		  "EG&GE",
+          "DFGFD",
+          "CDEDC"
+        ]
+      ],
+      "keys": {
+        "A": {
+          "block": "ars_nouveau:purple_archwood_leaves"
+        },
+		"B": {
+          "block": "byg:wailing_grass"
+        },
+		"C": {
+          "block": "createutilities:amethyst_tiles"
+        },
+		"D": {
+          "block": "ars_nouveau:smooth_sourcestone_slab"
+        },
+		"E": {
+          "block": "ars_nouveau:smooth_sourcestone_stairs"
+        },
+		"F": {
+          "block": "byg:wailing_nylium"
+        },
+		"G": {
+          "block": "ars_nouveau:smooth_sourcestone"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 60,
+  "outputItem": "minecraft:budding_amethyst"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:resonating_crystall_4"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:resonating_crystall_4",
+      "count": 2,
+      "chance": 1
+    }
+  ]
+}

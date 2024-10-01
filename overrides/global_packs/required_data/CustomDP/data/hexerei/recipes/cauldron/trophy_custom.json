@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:mixingcauldron",
+    "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "lootr:trophy"
+    },
+    {
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    {
+      "item": "ars_nouveau:archwood_chest"
+    },
+    {
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    {
+      "item": "supplementaries:statue"
+    },
+    {
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    {
+      "item": "ars_nouveau:archwood_chest"
+    },
+    {
+      "item": "forbidden_arcanus:spawner_scrap"
+    }
+  ],
+  "output": {
+    "item": "lootr:trophy",
+	"count": 2
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 0
+}

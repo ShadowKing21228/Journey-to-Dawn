@@ -1,0 +1,14 @@
+{
+  "values": [
+    "twilightforest:infested_towerwood",
+    "twilightforest:hollow_oak_sapling",
+    "twilightforest:time_sapling",
+    "twilightforest:transformation_sapling",
+    "twilightforest:mining_sapling",
+    "twilightforest:sorting_sapling",
+    "twilightforest:transformation_powder",
+	"quark:sturdy_stone",
+	"kubejs:compressed_stone",
+	"kubejs:highly_compressed_stone"
+  ]
+}

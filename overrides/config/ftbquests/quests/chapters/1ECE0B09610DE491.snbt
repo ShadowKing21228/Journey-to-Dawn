@@ -1,0 +1,1347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1ECE0B09610DE491"
+	group: "54DECDB6D89E76B0"
+	hide_quest_until_deps_visible: true
+	icon: "twilightforest:thorn_rose"
+	id: "1ECE0B09610DE491"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0137EA1E9D9E0963"]
+			description: [
+				"Этот мир опасен, и любая такая опасность может здорово сломить меня не только физически, но и морально. Надо найти способы &6тдохнуть&r и &6восстановить рассудок&r"
+				"{@pagebreak}"
+				"Думаю, для такого действа подойдёт что угодно, связанное с &6искуством,&r будь то строительство, декор, какие-то изделия или, ну, даже музыка"
+			]
+			hide: true
+			icon: "minecraft:axolotl_bucket"
+			id: "6FD097422E0517C7"
+			size: 2.0d
+			tasks: [{
+				id: "77CB827D6629E9EE"
+				title: "Ясно"
+				type: "checkmark"
+			}]
+			title: "Время отдыха"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6FD097422E0517C7"
+				"2BB48B10E6F38755"
+			]
+			description: ["Музыка, что я пытался играть во время ритуалов, мне очень понравилась. Я очень хочу играть разные мелодии на разных инструментах, но увы не особо умею. &oНадо бы взять с чего-то пример&r... Как насчёт &6нотного блока?&r"]
+			hide: true
+			id: "29AD570BF20836FF"
+			tasks: [{
+				id: "2FCE7218775E8E60"
+				item: "minecraft:note_block"
+				type: "item"
+			}]
+			title: "Сила музыки"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Если нотный блок способен производить лишь ноты, то &6динамик&r может складывать звук в нужные слова. Это очень интересный механизм, уверен что он будет мне весьма полезен"]
+			hide: true
+			id: "650D4F977C6F7032"
+			tasks: [{
+				id: "11680F0FA2CD7F9E"
+				item: "supplementaries:speaker_block"
+				type: "item"
+			}]
+			title: "Громкоговорилка"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["&oПластинки,&r что можно найти по всему миру, просто так не прослушать. Для этого нужно создать некую станцию для воспроизведения запечатанной в них мелодии, ну то есть &6проигрыватель.&r Зная, как работают ноты, это не должно составить труда"]
+			hide: true
+			id: "2BCEF9A0CCCEABBD"
+			tasks: [{
+				id: "78FB3DF23F9ACED5"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			title: "Музыкальная коробка"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Зная правила звучания, я могу переделать флейту тотемиста в нечто большее. Думаю, звук из такой &6флейты&r будет звонким, гармоничным и высоким. Гораздо лучше прошлой версии"]
+			hide: true
+			id: "49BEE2D19BFD3158"
+			tasks: [{
+				id: "42D7D44020FDE8AE"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"49BEE2D19BFD3158"
+				"29AD570BF20836FF"
+			]
+			description: ["Если чутка удлинить флейту и присоединить небольшую перегородку по центру, можно получить низкий и глубокий звук. Такой инструмент называется &6диджериду.&r &oИнтересно, откуда во мне все эти познания в музыке?&r"]
+			hide: true
+			id: "4A7CD739C13D9D43"
+			tasks: [{
+				id: "1CC0AA4F81B026C4"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:didgeridoo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Прицепив несколько обычных флейт к кожаному мешку, у меня получилась &6волынка.&r Звук сперва может показаться резким, но и он может красиво заиграть"]
+			hide: true
+			id: "4D3C752E23615078"
+			tasks: [{
+				id: "3778A113DAC9E6EA"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:bagpipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Дёргая то за одну, то за другую струну, я могу добиться звонкого и приятного бренчания. &6Лютня&r хорошо подойдёт, что бы сыграть что-то быстрое или вдохновляющее"]
+			hide: true
+			id: "3A4CDB432F34715D"
+			tasks: [{
+				id: "1EAAECB4AC684926"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Лютня"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Соединив несколько золотых деталей в цельный &6треугольник,&r можно получить необычный инструмент. Звук выходит очень тонким и высоким, но я думаю что и под такое звучание найдётся мелодия"]
+			hide: true
+			id: "75393946A995E8A5"
+			tasks: [{
+				id: "7944260305D9951F"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:triangle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Треугольник"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Используя нотный блок как основу для инструмента, можно получить небольшое &6пианино.&r Звук, получаемый из него, очень красивый и подойдёт под любую композицию"]
+			hide: true
+			id: "0A76C79FBA9E1159"
+			tasks: [{
+				id: "109F773A648EA4EB"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Пианино"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"734881E6C36E68EE"
+				"650D4F977C6F7032"
+			]
+			description: ["&oИнтересно...&r Если слегка переделать трубу, то можно получить &6какофоний.&r Он может не просто издавать звуки, а буквально копировать голоса других существ! Не знаю, как мне это может пригодится, но недооценивать такую функцию явно не стоит"]
+			hide: true
+			id: "1720D0908BB1C2C8"
+			tasks: [{
+				id: "66D76D37E45834D8"
+				item: "botania:cacophonium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"49BEE2D19BFD3158"
+				"2BCEF9A0CCCEABBD"
+			]
+			description: ["&6Бамбук&r творит необъяснимые чудеса. Переделав им &oстандартную флейту&r, то можно будет извлекать из инструмента красивые мелодии, причём даже я сам не знаю, что выйдет в тот или иной раз. Неужели это &oзвуки самой природы?&r"]
+			hide: true
+			id: "586A764506987A44"
+			tasks: [{
+				id: "4AA2AE8481617734"
+				item: {
+					Count: 1b
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Бамбуковая флейта"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29AD570BF20836FF"]
+			description: ["Звук &6трубы&r очень басистый, но при этом не звучит как-то грубо. Этот инструмент может создать как грустную, так и весёлую атмосферу, за что он мне и нравится"]
+			hide: true
+			id: "734881E6C36E68EE"
+			tasks: [{
+				id: "0C6F797C9211598F"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:trumpet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6FD097422E0517C7"
+				"407240969A006F83"
+			]
+			description: ["Конечно, небольшие декорации это хорошо, но иногда хочется увидеть у себя в доме нечто поинтересней. Элемент не просто декора, а мебельного интерьера. Стоит создать &6специальный стол&r для таких нужд"]
+			hide: true
+			id: "66D231A34CE0E87F"
+			tasks: [{
+				id: "3F2DADEAC4E78F3E"
+				item: "fantasyfurniture:furniture_station"
+				type: "item"
+			}]
+			title: "Мебель для дома"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["&6Нордический стиль-&r идеальное отражение духа средневековья. Приглушённые, даже немного блеклые цвета дерева и бежевые ткани смотрятся вместе просто идеально! Поможет украсить любое здание или замок"]
+			hide: true
+			icon: "fantasyfurniture:nordic/drawer"
+			id: "6DB7D5723B4C904F"
+			tasks: [{
+				id: "741D3938A007778F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/nordic"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/nordic"
+				type: "item"
+			}]
+			title: "Нордический стиль"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["Красивые изделия из&6 кости.&r Не слоновой, правда, а скелетной. Не удивлю, если скажу, что они сочетаются с кварцем. Если же чутка поменять технику изготовления, то белый цвет поменяется на угольно-чёрный, что тем не менее, тоже не уделено своим шармом"]
+			hide: true
+			icon: "fantasyfurniture:bone/skeleton/lockbox"
+			id: "515B02C3B7F150A3"
+			tasks: [{
+				id: "00532CA90B0EDAEC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/bone"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/bone"
+				type: "item"
+			}]
+			title: "Костяной стиль"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["Набор из &6небольших декоративных элементов,&r способных вписаться в любую постройку, хоть хибара в лесу, хоть замок за высокими стенами. Забавно, хотел уйти от мелкого декора, а в итоге к нему и пришёл. В любом случае, выглядит красиво"]
+			hide: true
+			icon: "fantasyfurniture:decorations/berry_basket_strawberry"
+			id: "3F3954995BA2C332"
+			tasks: [{
+				id: "18D4CFB91778BA65"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/decorations"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/decorations"
+				type: "item"
+			}]
+			title: "Декорации"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["Светлое дерево, зелёные цвета шерсти, некоторые элементы декора из &6стиля Данмера&r идеально впишутся в мой дом. Да и не только в мой, думаю"]
+			hide: true
+			icon: "fantasyfurniture:dunmer/bed_single"
+			id: "6894A08FE19F5FC4"
+			tasks: [{
+				id: "6F35524A77242FDA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/dunmer"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/dunmer"
+				type: "item"
+			}]
+			title: "Данмерский стиль"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["Тёмный, немного даже черноватый, цвет древесины, красная ткань...ух! В этом &6стиле Вентира&r сразу чувствуются некие нотки аристократизма"]
+			hide: true
+			icon: "fantasyfurniture:venthyr/table_small_fancy"
+			id: "36E480F55EC2EF81"
+			tasks: [{
+				id: "5D7B2CD4C0300E5F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/venthyr"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/venthyr"
+				type: "item"
+			}]
+			title: "Стиль Вентира"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["Белые цвета, позолоченные края... В этих предметах так и чувствуется запах роскоши и славы. Не уверен, что такое мне по душе, особенно после мрачности Тёмных садов, но как вариант &6королевский стиль&r стоит иметь в виду"]
+			hide: true
+			icon: "fantasyfurniture:royal/chair"
+			id: "655986AD83B360EB"
+			tasks: [{
+				id: "54D1FB12AA15A0F7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/royal"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/royal"
+				type: "item"
+			}]
+			title: "Королевский стиль"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D231A34CE0E87F"]
+			description: ["Фиолетовая ткань, тёмное дерево внутри и светлое снаружи... Если мне вдруг понадобиться стать князем тьмы и навевать на всех истинный ужас, то изделия &6некромантического стиля&r помогут мне создать нужную атмосферу"]
+			hide: true
+			icon: "fantasyfurniture:necrolord/bookshelf"
+			id: "5B31BDB57F1884F8"
+			tasks: [{
+				id: "0F93ECCE28BADDF0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fantasyfurniture:item_group_category/necrolord"
+					}
+				}
+				title: "Any #fantasyfurniture:item_group_category/necrolord"
+				type: "item"
+			}]
+			title: "Некромантический стиль"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6FD097422E0517C7"
+				"0A0E576DC681A939"
+			]
+			description: ["Конечно, простые украшения дома хорошо, но всё же заполнять пространство чем-то бесполезным не всегда хочется. Если уж и браться за это всерьёз, то только с &oфункциональным декором&r. &6Пьедестал&r будет нагляднейшим примером этой идеи"]
+			hide: true
+			id: "525A9CC7CE8943D0"
+			tasks: [{
+				id: "120B7B20FE4AD75D"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"525A9CC7CE8943D0"
+				"76F23EA325A55ABB"
+			]
+			description: ["Если камнерез используется для обработки камня, то &6лесопилка&r подойдёт для таких же махинаций с деревом. Да и смотрится она неплохо... Одним словом, минус только в том, что для её создание нужно ведьминские виды древесин"]
+			hide: true
+			id: "1A213C1A06866CC2"
+			tasks: [{
+				id: "64018EAD59E94582"
+				item: "hexerei:mahogany_woodcutter"
+				type: "item"
+			}]
+			title: "Лесопилка "
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: [
+				"Создать &6большую палатку&r и спать в ней на улице? Звучит как очень аатмосферная идея. Жаль, что для её работы нужно открытое небо сверху."
+				"&oКак же я надеюсь, что вскоре это перестанет быть проблемой...&r"
+			]
+			hide: true
+			id: "7EA32CCC59725927"
+			tasks: [{
+				id: "09DC907255B6F257"
+				item: "totemic:tipi"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Если скрепить вместе побеги бамбука, то можно получить такую &6корзину.&r Это будто сундук со встроенной воронкой! Достаточно бросить предметы &6сверху,&r и всё-они уже лежат внутри!"]
+			hide: true
+			id: "54B0F6CDA0419CFA"
+			tasks: [{
+				id: "6697EB80E8712EB4"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: [
+				"Иногда сидеть просто на земле или на стульях утомляет. Стоит сделать какие-нибудь &6мягкие кресла&r под такой случай, думаю моё здоровье ещё скажет мне спасибо"
+				"{@pagebreak}"
+				"Чуть покопавшись в этом вопросе, я понял, что могу сделать сразу &62 вариации&r такого кресла, из-за разного способа обшивки! Но я не думаю, что это как-то повлияет на функционал "
+			]
+			hide: true
+			id: "7DD21830D429BAA5"
+			tasks: [
+				{
+					id: "49F168074980DA95"
+					item: "create:white_seat"
+					type: "item"
+				}
+				{
+					id: "65D3977A8B5D0E1A"
+					item: "quark:white_stool"
+					type: "item"
+				}
+			]
+			title: "Сиденья"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Двери и люки идеально подходят для разделения пространства, однако то, что я могу видеть, что за ними только через щель, бывает неудобно. Возможно, если обрамить каркас двери&6 стеклом,&r то выйдет не так и плохо?"]
+			hide: true
+			id: "2C895F8D906DB808"
+			tasks: [
+				{
+					id: "18700C8C68931BFB"
+					item: "create:framed_glass_door"
+					type: "item"
+				}
+				{
+					id: "60FA3F0EF911D1B3"
+					item: "create:framed_glass_trapdoor"
+					type: "item"
+				}
+			]
+			title: "Стеклянные проходы"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Бывает так, что мне в голову приходят разные идеи, которые я забываю, если не записать. Для таких дел я обычно использую книги, но они не особо показательны. Хотелось бы видеть всё и без пролистывания страниц. Думаю, если сделать отдельную &6доску&r под всякие заметки, жить станет попроще"]
+			hide: true
+			id: "577970EF6677400E"
+			tasks: [{
+				id: "45930E0AAF25747F"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["577970EF6677400E"]
+			description: ["Как ни крути, но я явно &oтворческая личность&r. Мои зарисовки в журнале это подтверждают. Но заполнять журнал своими рисунками не всегда хорошая идея- вдруг я из-за них не найду своих записей? Нужно придумать мместо, где я бы смог спокойно порисовать. Что-то вроде &6меловой доски&r"]
+			hide: true
+			id: "37F24D26A9E75975"
+			tasks: [{
+				id: "64F7392080975F5D"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Иногда очень хочется иметь дома коую-нибудь животинку, но при этом что бы она не мешалась под ногами. Так, для красоты. Думаю, если сделать &6клетку&r из прутьев, то я смогу поймать в неё маленьких существ! Большего мне и не нужно"]
+			hide: true
+			id: "2E8B67BCE7EF58DC"
+			tasks: [{
+				id: "1AA08D1DB677D3ED"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Всё-таки печи медленные. Даже если использовать плавильни или коптильни, ждать бывает утомительно. Думаю, если подавать туда воздух какими-нибудь &6мехами,&r то процесс станет быстрее. Главное-расчитать время вдувов, а то ещё задую пламя"]
+			hide: true
+			id: "5F9E7A195CBF019D"
+			tasks: [{
+				id: "5B663589029E46ED"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Знать время там, где цикла дня и ночи нет-идея так себе... Я даже не уверен как оно тут будет работать. Ну, хотя бы ради эксперимента стоит сделать эти &6часы.&r Интересно, который на них будет час?"]
+			hide: true
+			id: "209CCE35374EF546"
+			tasks: [{
+				id: "6238A86E07D428A8"
+				item: "supplementaries:clock_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FFDEA81B77A45AB"]
+			description: ["Размышления о поршне натолкнули меня на ещё одну идею. Можно ли сделать силу толкания поршня ещё мощней? Думаю, переделав вал поршня под &6пружину,&r я смогу добиться неплохого результата"]
+			hide: true
+			id: "3D3BD8378AEAEB12"
+			tasks: [{
+				id: "41ADD94EBA48B14D"
+				item: "supplementaries:spring_launcher"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Хм, раз я могу сделать поршень, который двигает блоки, то неужели я не могу сделать механизм, который их &6вращает?&r Думаю, это неплохо бы смотрелось в паре с какими-нибудь стойками под броню."]
+			hide: true
+			id: "5FFDEA81B77A45AB"
+			tasks: [{
+				id: "4DDEB5F5F4743D3C"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Учитывая то, что я ничего не помню до момента, как я здесь очнулся, я в своей памяти уверен на все 0%. Никто не знает, когда случится моя следующая амнезия, поэтому вести разные записи для меня полезно, а что бы их ещё и удобно читать, можно использовать &6кафедру.&r Хоть свой журнал я сюда и не положу, другие книжки там будут смотреться изумительно"]
+			hide: true
+			id: "7E4285F2DF8FACAF"
+			tasks: [{
+				id: "3A09EF8A90AF36E7"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Да, в Тёмном саду из животных одни носачи да моги, но в будущем у меня будут самые настоящие фермы! И стоит заранее придумать способ их кормить не с руки. Думаю, так я и сделаю-собственно говоря, сделаю &6кормушку&r"]
+			hide: true
+			id: "54F8604CBDABA205"
+			tasks: [{
+				id: "2B9707916FC9929D"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["525A9CC7CE8943D0"]
+			description: ["Складывать всякие мелкие штуки по типу мисок, бутыльков и всего такого в полноценные сундуки как-то... нерелевантно, что ли? Простая &6банка&r подойдёт для такой роли больше, чем сундук. Думаю, туда даже &oособо маленькие существа&r поместятся"]
+			hide: true
+			id: "65D891C992075756"
+			tasks: [{
+				id: "7B609097652BC9AB"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6FD097422E0517C7"
+				"3E7DF98917498F93"
+			]
+			description: ["Хоть мне и нравится украшать моё жилищё, чаще всего у меня просто нет места для всяких шкафов или вроде того. В таких случаях нужно использовать что-то небольшое... Какие-нибудь маленькие декоративные элементы, вроде этого &lфонаря&r"]
+			hide: true
+			id: "23B971C4F6BCD946"
+			tasks: [{
+				id: "1BFAF21B33A30644"
+				item: "undergarden:cloggrum_lantern"
+				type: "item"
+			}]
+			title: "Маленькие и миленькие"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23B971C4F6BCD946"
+				"170D42E0FED756D3"
+			]
+			description: ["Клоггрумовый и обычный фонари выглядят потрясно, поэтому я решил- а почему бы не поэкспериментировать с материалами и не собрать &6полную коллекцию фонарей?&r"]
+			hide: true
+			id: "3D80B60C70F5F636"
+			tasks: [
+				{
+					id: "1AE5F1599C9854A9"
+					item: "supplementaries:crimson_lantern"
+					type: "item"
+				}
+				{
+					id: "7EA26182B740C82C"
+					item: "supplementaries:brass_lantern"
+					type: "item"
+				}
+				{
+					id: "2AD9698A37FBA770"
+					item: "supplementaries:copper_lantern"
+					type: "item"
+				}
+			]
+			title: "Коллекция"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: ["Цветы всегда придают месту теплоту и некий уют. Даже цветы из Тёмного сада очень красивые, и мне бы хотелось иметь парочку у себя в доме. Однако без земли они завянут, так что для этого нужен &6горшок,&r специально под них"]
+			hide: true
+			id: "34671DD435590F26"
+			tasks: [{
+				id: "667A1CED96267A59"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			title: "Горшок"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34671DD435590F26"]
+			description: ["Не всегда цветы такие маленькие, что бы поместиться в маленький горшок, да и не всегда цветами едиными полнятся желания обустроить дом. Думаю, если слегка &6увеличить&r горшок, то и него выйдет отличный элемент экстерьера!"]
+			hide: true
+			id: "3B4DBEA38135F5E8"
+			tasks: [{
+				id: "25FF802F476A00E2"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			title: "Вазон"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"23B971C4F6BCD946"
+				"5B056C6572474FF8"
+			]
+			description: ["Особые ведьминские свечи, которые варятся с помощью ведьминского котла, можно объединить в цельный &6канделябр.&r Уверен, такая статная декорация будет отлично смотреться и стоя, и свисая на цепях"]
+			hide: true
+			id: "7C59F4A18D518E20"
+			tasks: [{
+				id: "1A0AEC8EA7E8E29F"
+				item: "hexerei:candelabra"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C59F4A18D518E20"]
+			description: ["&6Хрустальный шар&r так же можно сделать через ведьминский котёл, однако ценности в нём много нет. Лишь декорация, не более, хотя... Быть может, когда-нибудь она и станет для меня большим?"]
+			hide: true
+			id: "0D180BA2A5933ADC"
+			tasks: [{
+				id: "37F42AAF7E5BC47B"
+				item: "hexerei:crystal_ball"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: ["Бывает у меня такое, что класть предметы в сундук просто не хочется. Есть желание любоваться ими, и я уже придумал решение этой проблемы! Просто поставить &6полку&r и складывать туда предметы будет, как по мне, великолепной идеей"]
+			hide: true
+			id: "4F0B5ED9FF77C080"
+			tasks: [{
+				id: "4BD75AF4EE41FF17"
+				item: "supplementaries:item_shelf"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"23B971C4F6BCD946"
+				"4F0B5ED9FF77C080"
+			]
+			description: ["Иногда таскать свой рюкзак только на спине как-то странновато. Вроде бы дискомфорта никакого, но при этом чувствуется постоянная качка предметов внутри него. По факту, логично сделать &6полку&r отдельно для него и одевать &6только&r во время путешествий. Жаль, что для этого подходят лишь стандартные виды дерева"]
+			hide: true
+			id: "06B83E096101D52A"
+			tasks: [{
+				id: "1029588BB97D1BC8"
+				item: "backpacked:oak_backpack_shelf"
+				type: "item"
+			}]
+			title: "Полка под рюкзак"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: ["Конечно, из бутылочек пить удобно, но вот радовать глаз такой процесс врад ли может. Было бы неплохо сделать отдельный &6бокал,&r куда я бы мог заливать разные жидкости. Так, красоты ради"]
+			hide: true
+			id: "5D817265135DA998"
+			tasks: [{
+				id: "46CFC8034C7F3502"
+				item: "supplementaries:goblet"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"23B971C4F6BCD946"
+				"054F37D68CBBC240"
+			]
+			description: ["&6Песочные часы&r будут неплохим дополнением к моему набору декораций. Красивый внешний вид, магическое происхождение, а главное- они не бесполезны! Они создают сигнал редстоуна всякий раз, как песок в них заканчивается и они переворачиваются"]
+			hide: true
+			icon: "supplementaries:hourglass"
+			id: "240A389CE0B49756"
+			tasks: [{
+				id: "3C3EADEAEBDF5D13"
+				item: "botania:hourglass"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: ["Носить на себе все эти доспехи бывает так тяжко! С одной стороны, хочешь полюбоваться видом своей брони, а с другой, спина всё время в напряжении. Мне стоит создать \"вешалку\" для брони, какую-нибудь &6стойку,&r что бы я мог наслаждаться её видом не только на себе"]
+			hide: true
+			id: "107CFF1FFC5DC5C8"
+			tasks: [{
+				id: "7FC591962D0B863D"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"107CFF1FFC5DC5C8"
+				"23B971C4F6BCD946"
+			]
+			description: ["Несмотря на всё, стойка достаточно громоздкая. Если я хочу просто приукрасить угол комнаты, лучше создать модель поменьше. Думаю, в руки такой &6статуэтке&r даже можно будет класть предметы."]
+			hide: true
+			id: "56AD6E3E026A7E9B"
+			tasks: [{
+				id: "7A004FB186AFEB0B"
+				item: "supplementaries:statue"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: [
+				"&6Флюгер,&r который можно изготовить из железа, имеет одну особенность- он реагирует на погоду. Конечно, в нынешних условиях погоды как таковой нет, но вот когда я вернусь, он мне сослужит неплохую службу. А пока посто просто стоит на крыше и радует глаз"
+				"{@pagebreak}"
+				"&oКогда я вернусь...&r"
+			]
+			hide: true
+			id: "1E98E152FADED5FC"
+			tasks: [{
+				id: "2FE8C125209F2E12"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"23B971C4F6BCD946"
+				"73D98EDD25488877"
+			]
+			description: [
+				"Манаткань удивительно! Просто сшив из неё такую &6куклу,&r она будет влиять на погоду, хотя и не сильно. Думаю в лексиконе об этом больше написано."
+				"&oОщущение, будто я такие уже видел. Только вот где, хотя лучше-когда...&r"
+			]
+			hide: true
+			id: "43480C3BE69AE61B"
+			tasks: [{
+				id: "0FB709C98E0B91F5"
+				item: "botania:teru_teru_bozu"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: ["Класть предметы в рамку всегда удобно, но не всегда красиво. Думаю, если сделать рамку из стекла, что бы она стала &6прозрачной,&r то лежащие в ней предметы заблестят новыми красками"]
+			hide: true
+			id: "120A61B783956A2A"
+			tasks: [{
+				id: "5EBF6343FF2CE2BA"
+				item: "quark:glass_item_frame"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23B971C4F6BCD946"]
+			description: ["Заглядывать в атлас, что бы понять \"какие координаты\" бывает неудобно. Надо придумать более эстетичный вариант для таких махинаций. Как насчёт полноценного &6глобуса?&r И лаконично, и эстетично"]
+			hide: true
+			id: "5996B896C3334542"
+			tasks: [{
+				id: "21C9A8223F80D284"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"29AD570BF20836FF"
+				"23B971C4F6BCD946"
+				"3BD502D40420C6AD"
+			]
+			description: [
+				"Рисунки, изображённые на этих &6картинах,&r очень красивые и интересные. Сюрреалистичные образы, разные пейзажи... Хотел бы я побывать в местах, которые там нарисованы."
+				"&oИногда мне кажется, будто эти картины- нечто большее, и способны они тоже на большее&r"
+			]
+			hide: true
+			id: "29B313443A9395D6"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "101FB0DB865A392B"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			title: "Прекрасные пейзажи"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"66D231A34CE0E87F"
+				"525A9CC7CE8943D0"
+				"407240969A006F83"
+			]
+			description: ["Некоторые блоки имеют направление, то есть с разных сторон они не одинаковые. Взять к примеру ту же печь. И когда мне надо &6повернуть&r их, приходится ломать и ставить заново. Неплохо было бы иметь &oотдельный предмет&r для таких целей"]
+			hide: true
+			id: "39FC21E5D98572F5"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "264837C2178F33F7"
+				item: {
+					Count: 1b
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Поворот"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"66D231A34CE0E87F"
+				"23B971C4F6BCD946"
+				"407240969A006F83"
+			]
+			description: ["Считать на глаз определённое расстояние бывает сложно, а особенно в такой темноте. Надо найти способ вести подсчёт блоков, некий &6счётчик,&r и моя жизнь станет чуточку проще"]
+			hide: true
+			id: "108EA1591516AA71"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4090A1F10145F50E"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			title: "Счетовод"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"29AD570BF20836FF"
+				"525A9CC7CE8943D0"
+				"407240969A006F83"
+			]
+			description: ["Когда мне надо разбавить однотонную стену разными блоками, мне приходится делать это вручную. Неплохо было бы иметь &6инструмент,&r который случайно расставлял бы блок"]
+			hide: true
+			id: "76DB84D623B7949A"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2C6A711168B0FCAF"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "Случайности не случайны"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1720D0908BB1C2C8"]
+			description: [
+				"Ч-что за... Что произошло? Чей этот голос? Что здесь вообще творится?! Я не понимаю..."
+				"{@pagebreak}"
+				"&aПоздравляю! Вы нашли пасхалку! Всего здесь 12 пасхалок, на каждую из глав. Открыв все, вы получите доступ к 13, особой пасхалке! Удачи!&r"
+				"                               &o&f -Сигмариус&r"
+			]
+			hide: true
+			id: "6AD169058B0672D1"
+			invisible: true
+			optional: true
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "6F4E023759D46B7C"
+				item: {
+					Count: 1b
+					id: "botania:cacophonium"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Shia Labeouf\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "ПРОСТО СДЕЛАЙ ЭТО!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6FD097422E0517C7"
+				"0EC15362C7E3BD3D"
+			]
+			description: ["Та идея о декоративном шитье не покидает мою голову. А может попробовать? Ну, создать украшения, аксессуары, что бы просто выглядеть интереснее. Ну, тогда для этого мне понадобится полноценный набор для шитья! Надеюсь, шить будет нетрудно."]
+			hide: true
+			id: "3C86C7F8ADF85D46"
+			tasks: [{
+				id: "1B24653C3D149EA7"
+				item: "cakescosmetics:sewing_kit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C86C7F8ADF85D46"]
+			description: ["Думаю, стоит &6начать с чего попроще.&r Какие простые украшения там обычно? Галстуки, бантики, очки, шарфики... &oДумаю, будет выглядеть мило.&r"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "botania:cosmetic_black_tie"
+			id: "21C10BFD0E875867"
+			tasks: [
+				{
+					id: "3AABF0A38EBBB2D9"
+					item: "botania:cosmetic_black_bowtie"
+					type: "item"
+				}
+				{
+					id: "6C241D42B4956CD9"
+					item: "botania:cosmetic_black_tie"
+					type: "item"
+				}
+				{
+					id: "63AC0D43BA02B0F6"
+					item: "botania:cosmetic_red_glasses"
+					type: "item"
+				}
+				{
+					id: "3D0D0DE7C892B840"
+					item: "botania:cosmetic_puffy_scarf"
+					type: "item"
+				}
+				{
+					id: "058F134CB00C3C32"
+					item: "botania:cosmetic_engineer_goggles"
+					type: "item"
+				}
+				{
+					id: "13A10F1138EF686C"
+					item: "botania:cosmetic_eyepatch"
+					type: "item"
+				}
+				{
+					id: "7ED6EB5E292E6A9E"
+					item: "botania:cosmetic_wicked_eyepatch"
+					type: "item"
+				}
+				{
+					id: "05CA2AC3238EE44E"
+					item: "botania:cosmetic_red_ribbons"
+					type: "item"
+				}
+				{
+					id: "56773BF155184AA5"
+					item: "botania:cosmetic_pink_flower_bud"
+					type: "item"
+				}
+				{
+					id: "07CBB63348078C27"
+					item: "botania:cosmetic_polka_dotted_bows"
+					type: "item"
+				}
+				{
+					id: "44EDD3E08F1999AD"
+					item: "botania:cosmetic_four_leaf_clover"
+					type: "item"
+				}
+				{
+					id: "337045193914B3EE"
+					item: "botania:cosmetic_blue_butterfly"
+					type: "item"
+				}
+			]
+			title: "Простые украшения"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3C86C7F8ADF85D46"
+				"21C10BFD0E875867"
+			]
+			description: ["Ну что же, шалость удалась, и мои поделки выглядят классно. Можно попробовать и &6что-то посложнее!&r Разные рожки, очки, маски, значки, или даже просто аксессуары.. &oБуду пробовать&r"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "botania:cosmetic_botanist_emblem"
+			id: "41969B0514AEFA09"
+			tasks: [
+				{
+					id: "7AEC74D0698C2B90"
+					item: "botania:cosmetic_cat_ears"
+					type: "item"
+				}
+				{
+					id: "127D0C57F14617BA"
+					item: "botania:cosmetic_witch_pin"
+					type: "item"
+				}
+				{
+					id: "33150FB15E9194AB"
+					item: "botania:cosmetic_devil_tail"
+					type: "item"
+				}
+				{
+					id: "6E33491E6F3EEB26"
+					item: "botania:cosmetic_kamui_eye"
+					type: "item"
+				}
+				{
+					id: "48CBBC29FE55C354"
+					item: "botania:cosmetic_clock_eye"
+					type: "item"
+				}
+				{
+					id: "4079E4993EB0195D"
+					item: "botania:cosmetic_unicorn_horn"
+					type: "item"
+				}
+				{
+					id: "2C3911BB1021163C"
+					item: "botania:cosmetic_devil_horns"
+					type: "item"
+				}
+				{
+					id: "3BBCCAC11D2B9BEC"
+					item: "botania:cosmetic_hyper_plus"
+					type: "item"
+				}
+				{
+					id: "4B73ADB9BFD5E5CC"
+					item: "botania:cosmetic_botanist_emblem"
+					type: "item"
+				}
+				{
+					id: "0B1A0BF6924FDD47"
+					item: "botania:cosmetic_ancient_mask"
+					type: "item"
+				}
+				{
+					id: "61E1ED892C2D2184"
+					item: "botania:cosmetic_eerie_mask"
+					type: "item"
+				}
+				{
+					id: "48E582F78F7C94D0"
+					item: "botania:cosmetic_anaglyph_glasses"
+					type: "item"
+				}
+				{
+					id: "691F2B602D0FD39C"
+					item: "botania:cosmetic_orange_shades"
+					type: "item"
+				}
+			]
+			title: "Необычные украшения"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3C86C7F8ADF85D46"
+				"21C10BFD0E875867"
+			]
+			description: ["Ну что же, шалость удалась, и мои поделки выглядят классно. Думаю, можно и &6поэкспериментировать!&r Всё, что взбредёт в голову, разные глаза, смешные очки и брови, &oхочу поразвлекаться с этим!&r"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "botania:cosmetic_groucho_glasses"
+			id: "0CC0F55C41E78930"
+			tasks: [
+				{
+					id: "57714C1F67816B62"
+					item: "botania:cosmetic_thinking_hand"
+					type: "item"
+				}
+				{
+					id: "40C82245A77958F9"
+					item: "botania:cosmetic_questgiver_mark"
+					type: "item"
+				}
+				{
+					id: "4E0A39CF0F613104"
+					item: "botania:cosmetic_tiny_potato_mask"
+					type: "item"
+				}
+				{
+					id: "7C2221E0BD417F79"
+					item: "botania:cosmetic_groucho_glasses"
+					type: "item"
+				}
+				{
+					id: "1CBEA11AE8D5916F"
+					item: "botania:cosmetic_thick_eyebrows"
+					type: "item"
+				}
+				{
+					id: "589D01E28F6233B5"
+					item: "botania:cosmetic_lusitanic_shield"
+					type: "item"
+				}
+				{
+					id: "42B15DE0B804C0F8"
+					item: "botania:cosmetic_googly_eyes"
+					type: "item"
+				}
+				{
+					id: "229DDB89C3800E62"
+					item: "botania:cosmetic_alien_antenna"
+					type: "item"
+				}
+			]
+			title: "Безумные украшения"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3C86C7F8ADF85D46"
+				"41969B0514AEFA09"
+				"0CC0F55C41E78930"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Теперь, когда я поднабрался опыта, можно и &6более качественные модели шить.&r К примеру, разные шляпы, пояса, или даже... Может, крылья попробовать? &oТеперь меня мало что сдерживает &r"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "cakescosmetics:bandolier"
+			id: "4439A1F855049B65"
+			tasks: [
+				{
+					id: "03592BDEC45AEDF5"
+					item: "cakescosmetics:captain_hat"
+					type: "item"
+				}
+				{
+					id: "5452605F9BCA7DA7"
+					item: "cakescosmetics:christmas_hat"
+					type: "item"
+				}
+				{
+					id: "2F2F474E9EB7A553"
+					item: "cakescosmetics:cowboy_hat"
+					type: "item"
+				}
+				{
+					id: "7E95BAC8FB771BD8"
+					item: "cakescosmetics:dragon_skull"
+					type: "item"
+				}
+				{
+					id: "0CF925F821318C02"
+					item: "cakescosmetics:horns"
+					type: "item"
+				}
+				{
+					id: "741EB345019583E8"
+					item: "cakescosmetics:pirate_hat"
+					type: "item"
+				}
+				{
+					id: "45F9B4295491588B"
+					item: "cakescosmetics:skull"
+					type: "item"
+				}
+				{
+					id: "401F5F1366961144"
+					item: "cakescosmetics:sombrero"
+					type: "item"
+				}
+				{
+					id: "6FDCA2669FCFED60"
+					item: "cakescosmetics:top_hat"
+					type: "item"
+				}
+				{
+					id: "7711C5C4D27A7A01"
+					item: "cakescosmetics:straw_hat"
+					type: "item"
+				}
+				{
+					id: "424F3DFF3352CEB7"
+					item: "cakescosmetics:wizards_hat"
+					type: "item"
+				}
+				{
+					id: "00EE21A3474AC08A"
+					item: "cakescosmetics:arrow_quiver"
+					type: "item"
+				}
+				{
+					id: "0525FE98FE778ECB"
+					item: "cakescosmetics:bandolier"
+					type: "item"
+				}
+				{
+					id: "64AF9478C9317CC2"
+					item: "cakescosmetics:holstered_belt"
+					type: "item"
+				}
+				{
+					id: "7295D905AF5F6408"
+					item: "cakescosmetics:wings"
+					type: "item"
+				}
+			]
+			title: "Красивые украшения"
+			x: -1.5d
+			y: 7.5d
+		}
+	]
+	title: "Время отдыха"
+}

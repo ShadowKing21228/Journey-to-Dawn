@@ -1,0 +1,50 @@
+{
+  "name": "Средняя игра",
+  "icon": "irons_spellbooks:scroll_forge",
+  "category": "irons_spellbooks:root",
+  "sortnum": -2,
+  "read_by_default" : true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Кузня свитков",
+      "text": "По достижении ресурсов на уровне Нижнего мира вы откроете совершенно новую динамику увеличения силы: Кузня свитков.$(br2)Кузня свитков используется для создания свитков с использованием чернил, бумаги и определенного Фокуса. Чернила определяют редкость (и, следовательно, уровень), а Фокус определяет школу заклинания."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:scroll_forge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Новые книги заклинаний",
+      "text": "Кроме того, промежуточные книги заклинаний можно создать с использованием ресурсов Нижнего мира.",
+      "recipe": "irons_spellbooks:gold_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:diamond_spell_book",
+      "text": "Шкура Хоглина выпадает из Хоглинов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:magic_cloth",
+      "title": "Новые материалы",
+      "text": "Также стоит начать создавать более сильную броню из магической ткани. Чтобы получить большие количества магической эссенции, вам нужно будет сосредоточиться на нападении на магические сооружения."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Броня Пугала",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:'irons_spellbooks:pumpkin_boots',Count:1b},{id:'irons_spellbooks:pumpkin_leggings',Count:1b},{id:'irons_spellbooks:pumpkin_chestplate',Count:1b},{id:'irons_spellbooks:pumpkin_helmet',Count:1b}],NoBasePlate:1b}"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blank_rune",
+      "title": "Редкие материалы",
+      "text": "Для продолжения прогресса обращайте внимание на рунные камни в магических сооружениях. Рунные камни используются для создания ещё более мощной брони. Классовые маги всегда сбрасывают руну своей школы."
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ]
+}

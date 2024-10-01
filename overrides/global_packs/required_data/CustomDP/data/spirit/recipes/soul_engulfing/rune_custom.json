@@ -1,0 +1,29 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "undergarden:utherium_block"
+        }
+      }
+    }
+  },
+  "duration": 20,
+  "outputItem": "forbidden_arcanus:rune"
+}

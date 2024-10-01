@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "waystones:waystone"
+    }
+  ],
+  "result": {
+    "item": "waystones:sharestone",
+    "count": 1
+  },
+  "time": 120
+}

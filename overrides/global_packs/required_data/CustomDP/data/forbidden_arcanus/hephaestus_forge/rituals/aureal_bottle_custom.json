@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 0
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 1
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 2
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 3
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 4
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 5
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 6
+        },
+		{
+            "item": "forbidden_arcanus:arcane_crystal_dust",
+            "slot": 7
+        }
+    ],
+    "hephaestus_forge_item": "create_enchantment_industry:hyper_experience_bottle",
+    "essences": {
+        "aureal": 70,
+        "experience": 0,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "forbidden_arcanus:aureal_bottle",
+        "count": 1
+    }
+}

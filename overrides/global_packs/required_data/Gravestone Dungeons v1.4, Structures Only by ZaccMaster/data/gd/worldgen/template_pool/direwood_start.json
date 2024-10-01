@@ -1,0 +1,15 @@
+{
+  "name": "gd:direwood_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood1",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    }
+  ]
+}

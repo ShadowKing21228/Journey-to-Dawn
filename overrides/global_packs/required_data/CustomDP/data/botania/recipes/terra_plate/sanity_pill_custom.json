@@ -1,0 +1,23 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+
+    {
+      "item": "ars_nouveau:magebloom_crop"
+    },
+    {
+      "item": "botania:pixie_dust"
+    },
+    {
+      "item": "create_bic_bit:speculaas"
+    },
+	{
+      "item": "botania:pixie_dust"
+    }
+  ],
+  "mana": 50000,
+  "result": {
+    "item": "kubejs:sanity_pill",
+	"count": 4
+  }
+}

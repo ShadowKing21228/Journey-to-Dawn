@@ -1,0 +1,109 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:redstone_torch"
+  },
+  "transitionalItem": {
+    "item": "minecraft:redstone_torch"
+  },
+  "sequence": [
+      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone_torch"
+        },
+        {
+            "item": "createutilities:polished_amethyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ]
+    },
+	  {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone_torch"
+        },
+        {
+            "item": "createutilities:polished_amethyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ]
+    },
+	      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone_torch"
+        },
+        {
+            "item": "createutilities:void_steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone_torch"
+        },
+        {
+            "item": "create:super_glue"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createutilities:graviton_tube",
+	  "count": 3
+    }
+  ],
+  "loops": 1
+}

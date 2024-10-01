@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "minecraft:allay",
+  "reversible": false,
+  "to": "ars_nouveau:whirlisprig"
+}

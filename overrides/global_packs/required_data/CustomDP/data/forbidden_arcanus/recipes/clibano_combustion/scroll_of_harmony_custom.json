@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 750,
+  "experience": 100.0,
+  "fire_type": "enchanted_fire",
+  "ingredient": {
+    "item": "irons_spellbooks:eldritch_manuscript"
+  },
+  "residue": {
+    "chance": 0.25,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "kubejs:scroll_of_harmony"
+	}
+}

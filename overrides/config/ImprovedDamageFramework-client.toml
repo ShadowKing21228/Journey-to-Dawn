@@ -1,0 +1,9 @@
+
+["Client Config"]
+	#Change health display to a bar instead of hearts. Highly recommended. You can disable this if you want to use another mod for HUD, or you want half your screen taken up by little red hearts.
+	"Change Health Display" = true
+	#Remove vanilla armour display. With the changes this mod makes, the vanilla armour display is useless. This option is included if another mod you're using needs the armour level display event to function.
+	"Remove Armour Display" = true
+	#Use the old tooltip style which is more compact but doesn't show attribute names
+	"Use Old Style" = false
+

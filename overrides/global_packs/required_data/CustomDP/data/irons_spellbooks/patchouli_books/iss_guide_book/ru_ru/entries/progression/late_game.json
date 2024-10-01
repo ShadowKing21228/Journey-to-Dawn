@@ -1,0 +1,75 @@
+{
+  "name": "Поздняя игра",
+  "icon": "irons_spellbooks:arcane_anvil",
+  "category": "irons_spellbooks:root",
+  "sortnum": -1,
+  "read_by_default" : true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Магическая наковальня",
+      "text": "Для достижения поздней игровой стадии необходимо получить нефрит и большие количества базовых ресурсов, а также создать магическую наковальню. $(br2) Магическая наковальня является самой мощной крафтовой станцией, используемой для улучшения ваших свитков, модернизации брони и книг заклинаний, а также наделения оружия заклинаниями."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:arcane_anvil"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Больше книг заклинаний",
+      "text": "Лучшие крафтовые книги заклинаний показаны здесь. Разрушенную книгу можно найти в древних городах.",
+      "recipe": "irons_spellbooks:netherite_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:dragonskin_spell_book",
+      "text": "Драконья шкура выпадает с Эндер Дракона."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:cryomancer_helmet",
+      "recipe2": "irons_spellbooks:pyromancer_helmet",
+      "title": "Броня школ"
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Пример: Броня Криоманта",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:'irons_spellbooks:cryomancer_boots',Count:1b},{id:'irons_spellbooks:cryomancer_leggings',Count:1b},{id:'irons_spellbooks:cryomancer_chestplate',Count:1b},{id:'irons_spellbooks:cryomancer_helmet',Count:1b}],NoBasePlate:1b}",
+      "text": "Броня школы изготавливается из магической ткани и особой руны школы (её Фокус), следуя этому шаблону."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:upgrade_orb",
+      "title": "Улучшение",
+      "text": "Улучшения являются последней стадией прогрессии. По умолчанию любая броня, а также книги заклинаний могут быть улучшены.$(br2)Улучшающие сферы для определённого атрибута создаются из базовой улучшающей сферы и 8 рун желаемого атрибута"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:upgrade_orb",
+      "recipe2": "irons_spellbooks:fire_upgrade_orb"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Материалы для создания улучшений",
+      "enable_visualize" : false,
+      "multiblock": {
+        "pattern": [
+          [ " D S ", "DA0PF"]
+        ],
+        "mapping": {
+          "D": "minecraft:deepslate",
+          "A": "irons_spellbooks:arcane_debris",
+          "P": "irons_spellbooks:armor_pile",
+          "S": "minecraft:soul_sand",
+          "F": "minecraft:soul_fire"
+        }
+      },
+      "text": "Магическая руда — эквивалент Древних обломков в Обыденном мире, которая находится ниже уровня y=-38. Для её добычи необходимо использовать кирку из незерита."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "irons_spellbooks:citadel_keeper",
+      "text": "Эссенция Пепла выпадает из Древних Рыцарей, которые могут быть разбужены путём разрушения складов брони в Нижнем мире."
+    }
+  ]
+}

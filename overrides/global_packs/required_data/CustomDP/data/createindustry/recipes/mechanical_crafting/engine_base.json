@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " B ",
+    "HAH",
+    "HCH",
+    "   "
+  ],
+  "key": {
+
+    "B": {
+      "item": "create:shaft"
+    },
+    "A": {
+      "item": "kubejs:kinetic_mechanism"
+    },
+    "H": {
+      "item": "createindustry:heavy_plate"
+    },
+
+  "C": {
+    "item": "createindustry:heavy_machinery_casing"
+  }
+
+
+  },
+  "result": {
+    "item": "createindustry:engine_base"
+  },
+  "acceptMirrored": true
+}

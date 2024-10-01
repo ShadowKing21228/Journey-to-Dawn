@@ -1,0 +1,16 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "undergarden:mogmoss"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.6,
+      "count": 1,
+      "item": "minecraft:string"
+    }
+  ]
+}

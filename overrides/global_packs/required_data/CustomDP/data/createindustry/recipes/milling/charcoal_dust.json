@@ -1,0 +1,17 @@
+
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "quark:charcoal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "createindustry:charcoal_dust",
+	  "count": 9
+    }
+  ],
+  "processingTime": 130
+
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "createindustry:air_intake"
+    },
+    "C": {
+      "item": "createindustry:steel_fluid_tank"
+    },
+    "D": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "pattern": [
+    " AA ",
+    " BB ",
+    "DCCD",
+    "DCCD",
+    " DD "
+  ],
+  "result": {
+    "item": "create:copper_backtank"
+  }
+}

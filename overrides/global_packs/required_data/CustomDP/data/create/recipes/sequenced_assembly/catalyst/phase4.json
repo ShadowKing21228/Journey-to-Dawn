@@ -1,0 +1,109 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:unawakened_catalyst"
+  },
+  "transitionalItem": {
+    "item": "kubejs:unawakened_catalyst"
+  },
+  "sequence": [
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        },
+        {
+            "item": "botania:mana_diamond_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        },
+        {
+            "item": "botania:mana_diamond_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ]
+    },    
+	{
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        },
+        {
+          "amount": 100,
+          "fluid": "create_enchantment_industry:hyper_experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:unawakened_catalyst"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "undergarden:catalyst"
+    }
+  ],
+  "loops": 1
+}

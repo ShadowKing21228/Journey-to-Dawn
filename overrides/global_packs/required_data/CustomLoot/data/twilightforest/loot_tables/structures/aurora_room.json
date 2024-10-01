@@ -1,0 +1,279 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:maze_wafer"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ice_bomb"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:firefly"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ice"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:packed_ice"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:arctic_fur"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:arctic_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:arctic_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:arctic_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:arctic_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:knightmetal_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:knightmetal_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_life_1"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:ice_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:ender_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:ice_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "twilightforest:chill_aura"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:glass_sword"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Ваше Высочество,    Вы сейчас читаете послание от вашего брата по ремеслу. Я помню ваше выступление на Празднике урожая. Это было потрясающе! Те глыбы льда были прозрачнее воды, но крепче камня! \"}','{\"text\":\"Я могу быть наглым, говоря вам это, но сможете ли вы рассказать, в чём ваш секрет? Не только мне, но всем магам, практикующим ледяную школу. Уверен, они будут рады получить совет от самой Королевы!  Заранее спасибо вам за всё \"}'],title:\"Заиневшее письмо\",author:\"Неизвестно\"}"
+			},
+			{
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Доченька, здравствуй. Мы с твоим отцом давно хотели тебе написать, да всё чего-то откладывали. Как тебе живётся в Высокогорье? Говорят, там растёт особая, заколдованная лоза, опутывающая любого незванного гостя ещё на подходе! \"}','{\"text\":\"Как себя ведёт Бенедикт? Так непривычно называть его по имени... Он всё такой же учтивый и добрый, или же начал показывать свою властность? Учти, чуть что- сразу нам говори! Король он или нет, но мы с нашей дочкой зла не потерпим! \"}','{\"text\":\"Прошу, ответь, как появится окошко. Вся наша деревушка за тебя беспокоится. Удачи тебе, Аврора \"}'],title:\"Заиневшее письмо\",author:\"Неизвестно\"}"
+			},
+			{
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"-=--Глава 1: О-сновы ледяной магии Введение:             Добро пожаловать в мир ледяной магии! Ледяная магия, одна из наиболее красивых и мощных школ магического искусства, позволяет контролировать и манипулировать холодом и льдом.  \"}','{\"text\":\"В этом руководстве вы узнаете основные концепции и приемы, которые помогут вам начать ваш путь как мага льда.            Раздел 1: Понимание Энергии Холода Прежде чем вы сможете использовать ледяную магию,  \"}','{\"text\":\"важно понять природу энергии холода. Эта энергия представляет собой силу замедления и замораживания. Она может быть направлена и сконцентрирована для создания льда и снега, а также для снижения температуры окружающей среды. \"}','{\"text\":\"Упражнение для Ощущения Холода Сядьте в удобное место и закройте глаза. Сделайте несколько глубоких вдохов, чтобы расслабиться. Представьте, как холодный воздух окружает ваше тело. Почувствуйте, как этот холод  \"}','{\"text\":\"​начинает проникать в вашу кожу. Сконцентрируйтесь на этом ощущении и постарайтесь удержать его как можно дольше. Повторяйте это упражнение ежедневно, чтобы развит--ь чувс--=- \"}'],title:\"Отрывок из поледеневшей книги\",author:\"Неизвестно\"}"
+			},
+			{
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"=--Заклинание 1: Созда=ние Ледяного Шара                    Это одно из самых простых и основных заклинаний в ледяной магии. Ледяной шар можно использовать как защитное средство или как основу для более сложных заклинаний.  \"}','{\"text\":\"Инструкции:       Станьте прямо и вытяните руку с фолиантом вперед, ладонью вверх. Закройте глаза и представьте, как энергия холода собирается в вашей руке. Постепенно начните формировать из этой энергии маленький ледяной шар. \"}','{\"text\":\"Представьте, как он становится тверже и холоднее. Когда шар сформируется, откройте глаза и увидьте его перед собой.  Практикуйте это заклинание, пока не сможете легко создавать и удерживать ледяной шар.  \"}','{\"text\":\"Заклинание 2: Создание Ледяных Шипов          Данное заклинание является произво-=дным прошлого, и--- \"}'],title:\"Отрывок из поледеневшей книги\",author:\"Неизвестно\"}"
+			},
+			{
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

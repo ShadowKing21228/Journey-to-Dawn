@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:catalytic_essence"
+    },
+    {
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    },
+	{
+      "item": "create:blaze_cake"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:creative_blaze_cake"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

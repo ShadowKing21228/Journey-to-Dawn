@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar_head",
+  "ingredients": [
+    {
+      "item": "twilightforest:liveroot"
+    },
+    {
+      "item": "botania:redstone_root"
+    },
+    {
+      "item": "botania:mana_bottle"
+    },
+    {
+      "item": "irons_spellbooks:common_ink"
+    },
+    {
+      "item": "botania:mana_bottle"
+    },
+    {
+      "item": "hexerei:mandrake_root"
+    }
+  ],
+  "mana": 4000,
+  "output": {
+    "item": "irons_spellbooks:rare_ink"
+  }
+}

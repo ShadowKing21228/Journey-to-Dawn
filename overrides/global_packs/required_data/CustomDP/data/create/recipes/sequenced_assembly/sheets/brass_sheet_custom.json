@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/brass"
+  },
+  "transitionalItem": {
+    "item": "create:brass_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:brass_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:brass_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.66,
+      "item": "create:brass_sheet"
+    },
+    {
+      "chance": 0.34,
+      "item": "create:brass_nugget"
+    }
+  ],
+  "loops": 3
+}

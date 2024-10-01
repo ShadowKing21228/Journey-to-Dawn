@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"gd:chests/old_worn_box\"},display:{Name:'[{\"text\":\"Old Worn Box\",\"italic\":false,\"color\":\"#336633\"}]',Lore:['[{\"text\":\"Contains basic loot and a map\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to Direwood Keep.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Worn Leather Hat\",\"italic\":false,\"color\":\"#333399\"}]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:4,Slot:head,Name:\"generic.armor\",UUID:[I;-124421,57478,163025,-114956]}],Enchantments:[{lvl:2,id:protection},{lvl:10,id:unbreaking}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{poisondagger:1b,weapon:1b,display:{Name:'[\"\",{\"text\":\"Bloodstained Dagger\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[\"\",{\"text\":\"Poisondarts I\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Once charged up, the sword throws\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"poisoned darts at enemies,\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"while sneaking.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{lvl:5,id:sharpness},{lvl:6,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:\".5\",Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-124421,46578,163025,-93156]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Base:13,Patterns:[{Pattern:glb,Color:15},{Pattern:cbo,Color:15},{Pattern:ss,Color:15},{Pattern:mr,Color:15},{Pattern:bs,Color:15},{Pattern:mc,Color:13}]},display:{Name:'[\"\",{\"text\":\"Mercenary Shield\",\"italic\":false,\"color\":\"#669933\"}]'},Enchantments:[{lvl:6,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:2,Slot:offhand,Name:\"generic.armor\",UUID:[I;-124421,57478,163025,-114956]},{AttributeName:\"generic.max_health\",Amount:2,Slot:offhand,Name:\"generic.max_health\",UUID:[I;-124421,57778,163025,-115556]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:7999259,display:{Name:'[{\"text\":\"Potion of the Bull\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[{\"text\":\"Burning like fire, but providing\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"a lot of strenght and resistance.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:22,Duration:3600,Amplifier:2},{Id:11,Duration:6000,Amplifier:1},{Id:5,Duration:6000,Amplifier:3}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:2397127,display:{Name:'[{\"text\":\"Potion of the Oak Skin\",\"italic\":false,\"color\":\"#cc6600\"}]',Lore:['[{\"text\":\"Brewed from the leaves of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Atta Aikhjarto, it imparts\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"the strenght of an oak. \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']},CustomPotionEffects:[{Id:11,Duration:1200,Amplifier:3},{Id:2,Duration:1200,Amplifier:4}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

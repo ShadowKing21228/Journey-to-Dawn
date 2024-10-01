@@ -1,0 +1,8 @@
+{
+  "type": "botania:state_copying_pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "minecraft:dirt"
+  },
+  "output": "undergarden:deepsoil"
+}

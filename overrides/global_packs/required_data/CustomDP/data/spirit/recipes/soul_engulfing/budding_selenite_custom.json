@@ -1,0 +1,62 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "hexerei:selenite_block"
+    },
+    "multiblock": {
+      "pattern": [
+	    [
+          "H   H",
+          "     ",
+		  "     ",
+          "     ",
+          "H   H"
+        ],
+        [
+          "A   A",
+          " B B ",
+		  "  @  ",
+          " B B ",
+          "A   A"
+        ],
+        [
+          "CDEDC",
+          "DFGFD",
+		  "EG&GE",
+          "DFGFD",
+          "CDEDC"
+        ]
+      ],
+      "keys": {
+        "A": {
+          "block": "hexerei:selenite_block"
+        },
+		"B": {
+          "block": "byg:quartz_crystal"
+        },
+		"C": {
+          "block": "hexerei:selenite_block"
+        },
+		"D": {
+          "block": "minecraft:smooth_quartz_slab"
+        },
+		"E": {
+          "block": "minecraft:smooth_quartz_stairs"
+        },
+		"F": {
+          "block": "byg:raw_quartz_block"
+        },
+		"G": {
+          "block": "minecraft:smooth_quartz"
+        },
+		"H": {
+          "block": "botania:prism"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 60,
+  "outputItem": "hexerei:budding_selenite"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:emerald_stoneplate_ring"
+    },
+    {
+      "item": "irons_spellbooks:nature_rune"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:poisonward_ring"
+    }
+  ]
+}

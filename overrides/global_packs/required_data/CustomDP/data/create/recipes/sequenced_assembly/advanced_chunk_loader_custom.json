@@ -1,0 +1,115 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "chunkloaders:basic_chunk_loader"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "chunkloaders:advanced_chunk_loader"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        },
+        {
+            "item": "createutilities:graviton_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        },
+        {
+            "item": "forbidden_arcanus:deorum_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        },
+        {
+          "amount": 1000,
+          "fluid": "create_enchantment_industry:experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "chunkloaders:basic_chunk_loader"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "chunkloaders:basic_chunk_loader"
+  }
+}

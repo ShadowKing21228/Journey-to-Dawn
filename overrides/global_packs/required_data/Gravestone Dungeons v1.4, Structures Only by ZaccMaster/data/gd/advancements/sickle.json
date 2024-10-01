@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Серп старика",
+            "bold": false,
+            "italic": true,
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Получить серп",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "poisonsword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:golden_hoe",
+                        "nbt": "{sickle:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:rogue_merchants"
+}

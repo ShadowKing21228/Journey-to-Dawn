@@ -1,0 +1,15 @@
+{
+  "name": "gd:fair_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/fair8",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "botania:fertilizer"
+    },
+    {
+      "item": "botania:purple_shiny_flower"
+    },
+	{
+      "item": "botania:rune_mana"
+    },
+    {
+      "item": "totemic:cedar_sapling"
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:purple_archwood_sapling"
+  },
+  "reagent": {
+    "item": "hexerei:seed_mixture"
+  }
+}

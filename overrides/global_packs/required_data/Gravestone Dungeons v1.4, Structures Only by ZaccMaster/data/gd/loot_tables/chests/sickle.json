@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['{\"text\":\"Reinforcement of Sickles:\\\\n\\\\n1x Sickle\\\\n64x Gold Ingot\\\\n1x Netherite Ingot\\\\n1x Smithing Tongs\\\\n\\\\nAll materials need to be put together on an anvil.\"}'],title:\"Reinforcement - Sickles\",author:unknown,generation:1,display:{Lore:[\"Fortune's Chisel\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

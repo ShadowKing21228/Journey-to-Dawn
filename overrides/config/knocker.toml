@@ -1,0 +1,9 @@
+
+["server and client"]
+	#use if respect_difficulty is false! 'rare, common, often'
+	spawn_rate = "common"
+	#if true, it will adjust the rareness of the Knocker to the ingame difficulty
+	respect_difficulty = true
+	#wether it plays it a sound when the Knocker spawns
+	spawn_sound = false
+

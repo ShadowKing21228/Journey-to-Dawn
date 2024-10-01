@@ -1,0 +1,24 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "hexerei:selenite_shard"
+    },
+    {
+      "item": "hexerei:selenite_shard"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "amount": 500,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:andesite"
+    }
+  ]
+}

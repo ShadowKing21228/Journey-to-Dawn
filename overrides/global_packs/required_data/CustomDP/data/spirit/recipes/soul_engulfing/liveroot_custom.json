@@ -1,0 +1,31 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "hexerei:mandrake_root",
+	  "count": 3
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "spirit:compressed_soul_powder_block"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 20,
+  "outputItem": "twilightforest:liveroot"
+}

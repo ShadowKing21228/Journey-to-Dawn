@@ -1,0 +1,51 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "irons_spellbooks:arcane_salvage"
+  },
+  "output": "irons_spellbooks:upgrade_orb",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "byg:pendorite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "byg:pendorite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+    },
+	{
+      "item": {
+        "item": "byg:pendorite_ingot"
+      }
+    },
+	{
+      "item": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "byg:pendorite_ingot"
+      }
+    }
+  ],
+  "source": 7500
+}

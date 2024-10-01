@@ -1,0 +1,25 @@
+
+[compass-behavior]
+	#Mobs search radius (in blocks).
+	#Range: > 1
+	search_radius = 65
+	#How often the compass search target will be updated. Low values can cause SERIOUS performance problems.
+	#Range: > 1
+	search_rate = 50
+	#Will experience be drained for using the compass?
+	xp_drain = false
+	#How much XP will be drained from player when Compass is active?
+	#Range: > 0
+	xp_cost = 2
+	#How often experience will be spent for using the compass?
+	#Range: > 1
+	xp_drain_rate = 270
+	#Prevents players from searching for blocks.
+	disable_block_search = false
+	#Prevents players from searching containers (chests, furnaces, etc.) based on their contents.
+	disable_container_search = false
+	#Prevents players from searching mobs based on their drops or Spawn Eggs.
+	disable_mob_search = false
+	#Disable interaction with the JEI panel.
+	disable_jei_compatibility = false
+

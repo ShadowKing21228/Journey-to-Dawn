@@ -1,0 +1,24 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "kubejs:etheric_larva"
+  },
+  "pedestalItems": [
+    {
+      "item": "enigmaticlegacy:etherium_nugget"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_nugget"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_nugget"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "alexsmobs:mosquito_larva"
+    }
+  ],
+  "sourceCost": 6500
+}

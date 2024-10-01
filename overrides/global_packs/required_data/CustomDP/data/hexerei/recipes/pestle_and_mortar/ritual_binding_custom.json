@@ -1,0 +1,24 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "twilightforest:magic_map_focus"
+    },
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "irons_spellbooks:hogskin"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:ritual_binding"
+  },
+  "grindingTime": 600
+}

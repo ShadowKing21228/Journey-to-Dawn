@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "totemic:cedar_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "totemic:stripped_cedar_log"
+    }
+  ]
+}

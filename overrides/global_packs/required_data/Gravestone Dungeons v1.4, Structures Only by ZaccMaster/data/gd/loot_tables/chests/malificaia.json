@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potions"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{banesword:1b,RepairCost:100,display:{Name:'[\"\",{\"text\":\"Crystal Sword\",\"italic\":false,\"color\":\"#006699\"}]',Lore:['[\"\",{\"text\":\"Undead\\'s Bane I\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Inflicts healing to an undead\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"victim.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{lvl:1,id:looting},{lvl:3,id:smite},{lvl:3,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:-0.2,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-12443,61062,101754,-122124]},{AttributeName:\"generic.armor\",Amount:2,Slot:mainhand,Name:\"generic.armor\",UUID:[I;-12443,61362,101754,-122724]},{AttributeName:\"generic.attack_damage\",Amount:6,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12443,61662,101754,-123324]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potion_items"
+        }
+      ]
+    }
+  ]
+}

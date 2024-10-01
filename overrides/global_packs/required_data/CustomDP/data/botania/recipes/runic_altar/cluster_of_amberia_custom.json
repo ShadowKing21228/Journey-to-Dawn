@@ -1,0 +1,30 @@
+{
+  "type": "botania:runic_altar_head",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:wet_purifying_soap"
+    },
+    {
+      "item": "kubejs:amberia_shard_1"
+    },
+	{
+      "item": "kubejs:amberia_shard_2"
+    },
+	{
+      "item": "kubejs:amberia_shard_5"
+    },
+	{
+      "item": "kubejs:amberia_shard_6"
+    },
+	{
+      "item": "kubejs:amberia_shard_7"
+    },
+	{
+      "item": "kubejs:amberia_shard_11"
+    }
+  ],
+  "mana": 99999,
+  "output": {
+    "item": "kubejs:cluster_of_amberia"
+  }
+}

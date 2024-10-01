@@ -1,0 +1,46 @@
+{
+  "parent": "gd:root",
+  "criteria": {
+    "in_cloud_nomads": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "gd:cloud_nomads"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+        "title": {
+            "text": "Там, далеко в небесах",
+            "bold": false,
+            "italic": true,
+            "color": "green"
+        },
+        "description": {
+            "text": "Найти клан Облачных кочевников",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "requirements": [
+    [
+      "in_cloud_nomads"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "byg:pendorite_ingot"
+    },
+    "B": {
+      "item": "quark:gold_bars"
+    },
+    "C": {
+      "item": "enigmaticlegacy:golden_ring"
+    },
+    "D": {
+      "item": "ars_nouveau:arcane_pedestal"
+    },
+    "E": {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    "F": {
+      "item": "irons_spellbooks:arcane_salvage"
+    }
+  },
+  "pattern": [
+    "A A",
+    "BCB",
+    "BDB",
+    "EFE"
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_brazier"
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"type": "ftbdripper:drip",
+	"inputBlock": "undergarden:tremblecrust",
+	"outputBlock": "minecraft:dripstone_block",
+	"chance": 1.0,
+	"fluid": "minecraft:water"
+}

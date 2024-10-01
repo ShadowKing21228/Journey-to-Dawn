@@ -1,0 +1,7 @@
+{
+	"type": "ftbdripper:drip",
+	"inputBlock": "undergarden:shiverstone",
+	"outputBlock": "minecraft:cobblestone",
+	"chance": 1.0,
+	"fluid": "minecraft:water"
+}

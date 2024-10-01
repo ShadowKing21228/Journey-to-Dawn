@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "undergarden:grongle_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "undergarden:stripped_grongle_log"
+    }
+  ]
+}

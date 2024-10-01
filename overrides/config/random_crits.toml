@@ -1,0 +1,26 @@
+#RandomCrits-COMMON
+#
+#Base crit chance. default = 0.12 (12%)
+base_crit_chance = 0.12
+#Amount of crit chance gained from the luck effect
+luck_crit_bonus = 0.06
+#Amount of crit chance gained from using daggers, sai, scimitars, and knives
+weapon_crit_bonus = 0.06
+#
+#Enable/disable adrenaline (increase crit chance when hit at low health)
+adrenaline = true
+#Enable/disable non-player entities dealing crits
+mob_crits = false
+#
+#Chance of Vitality activating per level
+vitality_chance = 0.12
+#Crit chance gained per level of Starstruck
+starstruck_chance = 0.06
+#
+#Enable/disable the Safeguard enchantment
+safeguard = true
+#Enable/disable the Starstruck enchantment
+starstruck = true
+#Enable/disable the Vitality enchantment
+vitality = true
+

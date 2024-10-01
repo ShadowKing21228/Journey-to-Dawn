@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "kubejs:iron_plate"
+    }
+  ],
+  "processingTime": 600,
+  "results": [
+    {
+      "count": 2,
+      "item": "sg_simple_utilities:toolkit"
+    }
+  ]
+}

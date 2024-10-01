@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Это был тяжелый бой",
+            "bold": false,
+            "italic": true,
+		"color": "gold"
+        },
+        "description": {
+            "text": "Победите Гримгара, свирепого медвежонка",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bossgrimgar": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[Boss_Grimgar]}"
+                }
+            }
+        }
+    },
+    "parent": "gd:church"
+}

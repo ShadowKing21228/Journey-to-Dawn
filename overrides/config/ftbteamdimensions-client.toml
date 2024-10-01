@@ -1,0 +1,8 @@
+
+[general]
+	#In void team dimensions, the Y level of the horizon; the lower sky turns black if the player's eye position is below this level
+	#Range: -Infinity ~ Infinity
+	voidBiomeHorizon = 0.0
+	#If true, suppress the void fog effect that appears at low Y levels while in void team dimensions
+	hideVoidFog = true
+

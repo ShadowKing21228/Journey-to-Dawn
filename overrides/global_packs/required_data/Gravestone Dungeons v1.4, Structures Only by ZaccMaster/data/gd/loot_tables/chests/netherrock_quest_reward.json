@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{warbow:1b,RepairCost:100,display:{Name:'[\"\",{\"text\":\"Morbex Heavy Warbow\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[\"\",{\"text\":\"Void I\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Once charged, the bow creates a\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"void to devour the souls of\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"your enemies.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{lvl:4,id:power},{lvl:1,id:punch},{lvl:4,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Slot:mainhand,Name:\"generic.max_health\",UUID:[I;-124413,25698,144049,-51396]},{AttributeName:\"generic.armor\",Amount:2,Slot:mainhand,Name:\"generic.armor\",UUID:[I;-124413,25998,144049,-51996]},{AttributeName:\"generic.knockback_resistance\",Amount:1,Slot:mainhand,Name:\"generic.knockback_resistance\",UUID:[I;-124413,26298,144049,-52596]}]}"
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/arrows"
+        }
+      ]
+    }
+  ]
+}

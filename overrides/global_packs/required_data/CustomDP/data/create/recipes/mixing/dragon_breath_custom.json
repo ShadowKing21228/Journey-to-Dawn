@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "botania:dragonstone"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "create_central_kitchen:dragon_breath",
+      "nbt": {}
+    }
+  ]
+}

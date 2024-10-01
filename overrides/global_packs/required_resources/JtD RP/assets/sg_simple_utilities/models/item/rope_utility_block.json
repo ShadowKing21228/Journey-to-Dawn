@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sg_simple_utilities:items/rope"
+  },
+  "render_type": "translucent"
+}

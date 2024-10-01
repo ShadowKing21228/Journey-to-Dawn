@@ -1,0 +1,44 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.universal]
+		fade_out = "120"
+		persistence = "0"
+		trigger_delay = "8000"
+		song_delay = "8000"
+		start_delay = "1000"
+		fade_in = "120"
+	[triggers.dimension]
+		identifier = "undergarden:undergarden"
+		priority = "6"
+		toggle_inactive_playable = true
+		resource_name = [ "undergarden:undergarden" ]
+[songs]
+	[songs.universal]
+		play_once = "1"
+	[songs.variation_1]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Numbness]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Expectation]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Breath]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Silence]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.deep_breath]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.welcome_to_limbo]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Do_not_forget]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Pulse]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Path_wasteland]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Movement]
+		triggers = [ "dimension-undergarden:undergarden" ]
+	[songs.Light]
+		triggers = [ "dimension-undergarden:undergarden" ]

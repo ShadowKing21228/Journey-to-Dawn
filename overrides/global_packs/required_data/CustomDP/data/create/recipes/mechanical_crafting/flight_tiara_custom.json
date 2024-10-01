@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "botania:dragonstone"
+    },
+    "B": {
+      "item": "botania:elementium_ingot"
+    },
+    "C": {
+      "item": "create:rose_quartz_tiles"
+    },
+    "D": {
+      "item": "botania:life_essence"
+    },    
+	"E": {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    "F": {
+      "item": "enigmaticlegacy:fabulous_scroll"
+    },
+    "G": {
+      "item": "cloudstorage:cloud_blower"
+    },
+    "H": {
+      "item": "twilightforest:magic_map_focus"
+    }
+  },
+  "pattern": [
+    "AB BA",
+	"BDFDB",
+	"CEGEC",
+	"BDHDB",
+	"AB BA"
+  ],
+  "result": {
+    "item": "botania:flight_tiara"
+  }
+}

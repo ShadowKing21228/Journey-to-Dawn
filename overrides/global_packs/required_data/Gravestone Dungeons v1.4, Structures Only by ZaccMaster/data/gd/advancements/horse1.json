@@ -1,0 +1,47 @@
+{
+  "parent": "gd:horse3",
+  "criteria": {
+    "on_infernal_horse": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:horse",
+                "nbt": "{Tags:[infernal]}"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "Мммм, теплое сиденье",
+      "bold": false,
+      "italic": true,
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Прокатитесь верхом на адском жеребце",
+      "color": "gray"
+    },
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "on_infernal_horse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

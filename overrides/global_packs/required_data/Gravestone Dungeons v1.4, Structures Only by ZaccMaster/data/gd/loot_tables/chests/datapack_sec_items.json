@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{witchcraft:1b,CustomPotionColor:10035746,display:{Name:'[{\"text\":\"Cursed Arrow\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"one can\\'t describe this\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:20,Duration:1}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 24,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fire_arrow:1b,CustomPotionColor:15240492,display:{Name:'[{\"text\":\"Fire Arrow\",\"italic\":false,\"color\":\"#ff3300\"}]',Lore:['[{\"text\":\"With a bag of incendiary gunpowder\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"attached to the shaft of the arrow,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"it spreads fire at landingpoint.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:24,Duration:1200}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 24,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:4184457,display:{Name:'[{\"text\":\"Great Potion of the Luky One\",\"italic\":false,\"color\":\"#99ff33\"}]',Lore:['[{\"text\":\"Lifts up the adventurer\\'s mood.\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"More loot can be found in chests\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"and barrels.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:26,Duration:36000,Amplifier:9}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:7999259,display:{Name:'[{\"text\":\"Great Potion of the Bull\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[{\"text\":\"Burning like fire, but providing\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"a lot of strenght and resistance.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:22,Duration:3600,Amplifier:3},{Id:11,Duration:6000,Amplifier:2},{Id:5,Duration:6000,Amplifier:4}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:593183,display:{Name:'[{\"text\":\"Lingering Potion of Withering\",\"italic\":false,\"color\":\"dark_gray\"}]',Lore:['[{\"text\":\"Brewed from the roots of a wither\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"rose, it poisons the mind of every\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"creature.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Keep your distance..\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:15,Duration:600},{Id:20,Duration:600,Amplifier:2}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:ring_of_potential"
+    },
+    {
+      "item": "irons_spellbooks:holy_rune"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:invisibility_ring"
+    }
+  ]
+}

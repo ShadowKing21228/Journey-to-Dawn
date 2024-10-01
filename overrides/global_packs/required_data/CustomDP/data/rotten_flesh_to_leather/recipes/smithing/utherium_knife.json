@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "undergarden:utherium_crystal"
+  },
+  "base": {
+    "item": "undergardendelight:cloggrum_knife"
+  },
+  "result": {
+    "item": "undergardendelight:utherium_knife"
+  }
+}

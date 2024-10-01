@@ -1,0 +1,8 @@
+{
+  "type": "cakescosmetics:sewing",
+  "count": 1,
+  "ingredient": {
+    "item": "cakescosmetics:sewing_kit"
+  },
+  "result": "cakescosmetics:captain_hat"
+}

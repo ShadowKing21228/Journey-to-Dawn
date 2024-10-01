@@ -1,0 +1,38 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    },
+    {
+      "item": "undergarden:sediment"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.25,
+      "item": "minecraft:bone"
+    },
+    {
+      "chance": 0.25,
+      "item": "farmersdelight:straw"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:feather"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "chance": 0.05,
+      "item": "create:copper_nugget"
+    },
+    {
+      "chance": 0.05,
+      "item": "create:zinc_nugget"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "twilightforest:structures/useless",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ironwood_ingot",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:firefly",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:experiment_115",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glowstone_dust",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone",
+          "weight": 75
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:steeleaf_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_sword"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_life_1"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:feather_falling": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:tower_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"От Его Величества, Короля Бенедикта VII                  Дорогой друг,       Снова я обращаюсь к вам, человеку, чьи руки создают будущее. Ваши эксперименты — это не просто механизмы и устройства. \"}','{\"text\":\"Они — это частицы магии, воплощенные в металле и проводах. Ваша дизэмоциональность — это ваш щит, защищающий от сомнений и колебаний. Недавно вы открыли что-то удивительное — сплав “Карминит”. Энергия, мана, сигнал —  \"}','{\"text\":\"все они слились в этом кристалле, словно ноты в симфонии. Я вижу его блеск, когда держу его в руках. Он сверкает, как пламя в отражении глаз.   Я приказываю вам: продолжайте свои исследования.  \"}','{\"text\":\"Пусть “Карминит” станет основой для новых изобретений. Пусть он будет тем мостом между магией и технологией, который приведет наше королевство к новым вершинам.      С уважением, Бенедикт \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			},
+			{
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"От Его Величества, Короля Бенедикта VII                   Дорогой мой инженер- изобретатель, с великим уважением и надеждой на вашу несравненную мастерство, я обращаюсь к вам от имени Королевства. \"}','{\"text\":\"Ваша репутация как творца, чьи эксперименты приносят благо нашему народу, идёт впереди вас и давно стала легендой. Сегодня я обращаюсь к вам с особым вопросом. Моя жена, Аврора, мечтает о замке в заснеженных горах.  \"}','{\"text\":\"Она — женщина с нежной душой и великими амбициями. Её сердце принадлежит этим снежным вершинам, и я хочу построить для неё место, где она найдет свой уют и вдохновение.  Поэтому, уважаемый инженер,  \"}','{\"text\":\"я прошу вас помочь нам в этом нелегком начинании. Пусть ваша творческая мысль и магические знания воплотятся в замке, который будет не только красив, но и функционален. Пусть он станет символом красоты тех земель и нашей любви друг к другу. \"}','{\"text\":\"​С уважением,  Бенедикт \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			},
+			{
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

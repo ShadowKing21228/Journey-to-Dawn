@@ -1,0 +1,37 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "item": "spirit:soul_powder"
+    },
+    {
+      "item": "create:crushed_raw_gold"
+    },    
+	{
+      "item": "spirit:soul_powder"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "mana": 50000,
+  "result": {
+    "item": "forbidden_arcanus:deorum_ingot",
+	"count": 2
+  }
+}

@@ -1,0 +1,45 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:dripstone_block"
+  },
+  "transitionalItem": {
+    "item": "minecraft:dripstone_block"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:dripstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:dripstone_block"
+        }
+      ]
+    },
+	{
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:dripstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:dripstone_block"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:pointed_dripstone",
+	  "count": 2
+    }
+  ],
+  "loops": 1
+}

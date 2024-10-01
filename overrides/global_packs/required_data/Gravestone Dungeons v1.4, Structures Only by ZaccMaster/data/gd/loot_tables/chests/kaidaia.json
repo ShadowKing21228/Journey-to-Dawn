@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potions"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{poisonsword:1b,RepairCost:100,display:{Name:'[\"\",{\"text\":\"Crystal Knife\",\"italic\":false,\"color\":\"#006699\"}]',Lore:['[\"\",{\"text\":\"Poison I\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Inflicts poison to a living\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"victim.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{lvl:1,id:looting},{lvl:3,id:sharpness},{lvl:3,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:0.2,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-12443,32262,101754,-64524]},{AttributeName:\"generic.movement_speed\",Amount:0.04,Slot:mainhand,Name:\"generic.movement_speed\",UUID:[I;-12443,32562,101754,-65124]},{AttributeName:\"generic.attack_damage\",Amount:4,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12443,32862,101754,-65724]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potion_items"
+        }
+      ]
+    }
+  ]
+}

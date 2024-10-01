@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "twilightforest:carminite"
+  },
+  "base": {
+    "item": "minecraft:quartz"
+  },
+  "result": {
+    "item": "create:rose_quartz",
+	"count": 4
+  }
+}

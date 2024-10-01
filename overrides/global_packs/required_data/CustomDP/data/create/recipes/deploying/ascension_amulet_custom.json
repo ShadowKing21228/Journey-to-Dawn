@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:spectral_eye_amulet"
+    },
+    {
+      "item": "kubejs:catalytic_essence"
+    }
+  ],
+  "results": [
+    {
+      "item": "enigmaticlegacy:ascension_amulet"
+    }
+  ]
+}

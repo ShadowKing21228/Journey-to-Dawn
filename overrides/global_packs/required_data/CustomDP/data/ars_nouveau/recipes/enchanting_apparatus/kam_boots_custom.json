@@ -1,0 +1,48 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "tyafi:kam_boots"
+  },
+  "pedestalItems": [
+    {
+      "item": "irons_spellbooks:blood_staff"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_axe"
+    },
+    {
+      "item": "twilightforest:glass_sword"
+    },
+    {
+      "item": "undergarden:forgotten_battleaxe"
+    },
+    {
+      "item": "createindustry:quad_potato_cannon"
+    },
+    {
+      "item": "ars_nouveau:enchanters_sword"
+    },
+    {
+      "item": "alexsmobs:bone_serpent_tooth"
+    },
+    {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    {
+      "item": "alexsmobs:mimicream"
+    },
+    {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    {
+      "item": "alexsmobs:mimicream"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "tyafi:oprn_boots"
+    }
+  ],
+  "sourceCost": 100000
+}

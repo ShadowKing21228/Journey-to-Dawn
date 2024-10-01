@@ -1,0 +1,46 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "byg:pendorite_ingot"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+    },    
+	{
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "botania:ender_air_bottle"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "botania:ender_air_bottle"
+    },
+	{
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+    },    
+	{
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "botania:dragonstone"
+    }
+  ],
+  "mana": 36000,
+  "result": {
+    "item": "createutilities:void_steel_ingot",
+	"count": 2
+  }
+}

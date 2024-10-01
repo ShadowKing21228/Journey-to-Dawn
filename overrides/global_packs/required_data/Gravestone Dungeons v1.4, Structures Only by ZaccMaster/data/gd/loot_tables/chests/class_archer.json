@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"gd:chests/old_worn_box\"},display:{Name:'[{\"text\":\"Old Worn Box\",\"italic\":false,\"color\":\"#336633\"}]',Lore:['[{\"text\":\"Contains basic loot and a map\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to Direwood Keep.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:wolf,CustomName:'[{\"text\":\"Greyhound\",\"color\":\"#336600\"}]',Health:20,Tags:[\"greyhound\"],HandItems:[{id:bone,Count:3},{id:beef,tag:{display:{Name:'[{\"text\":\"Raw Dog Meat\",\"italic\":false,\"color\":\"gray\"}]'}},Count:16}],HandDropChances:[1.00f,1.00f],ArmorItems:[{id:netherite_boots,Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:netherite_helmet,tag:{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:50,Slot:head,Name:\"generic.max_health\",UUID:[I;-123320,13344,18103,-26688]},{AttributeName:\"generic.armor\",Amount:3,Slot:head,Name:\"generic.armor\",UUID:[I;-123320,13444,18103,-26888]}],Enchantments:[{id:fire_protection,lvl:3},{id:projectile_protection,lvl:3},{id:protection,lvl:3},{id:blast_protection,lvl:3},{id:unbreaking,lvl:3}]},Count:1}],Attributes:[{Name:\"generic.movement_speed\",Base:0.4f},{Name:\"generic.max_health\",Base:60f}],ArmorDropChances:[0f,0f,0f,0f]},display:{Name:'[{\"text\":\"Greyhound\",\"italic\":false,\"color\":\"#336600\"}]',Lore:['[{\"text\":\"The Levrier, a sleek and graceful\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"dog, is an indispensable\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"companion for every huntsman.\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"With unmatched speed and agility,\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"it effortlessly tracks down prey,\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"making it an essential asset in the\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"pursuit of game.\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"To become their new master, they\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"just need to be tamed...\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{english_longbow:1b,RepairCost:100,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.04,Slot:mainhand,Name:\"generic.movement_speed\",UUID:[I;-123615,24195,21335,-48390]}],display:{Name:'[{\"text\":\"English Longbow\",\"italic\":false,\"color\":\"#cc3300\"}]',Lore:['[{\"text\":\"A timeless classic and the weapon\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of choice for every huntsman. With\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"its elegant design and superb\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"craftsmanship, it offers unrivaled\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"accuracy and range, making it a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"trusted companion for those seeking\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to master the art of archery and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"excel in their hunting endeavors.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{id:power,lvl:2},{id:punch,lvl:2},{id:unbreaking,lvl:2}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ender_arrow:1b,CustomPotionColor:613458,display:{Name:'[{\"text\":\"Ender Arrow\",\"italic\":false,\"color\":\"#095c52\"}]',Lore:['[{\"text\":\"teleports you to landingspot\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:1,Duration:1}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Archers Cap\",\"italic\":false,\"color\":\"#ff9966\"}]'},Enchantments:[{lvl:4,id:projectile_protection},{lvl:10,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2.0,Slot:head,Name:\"generic.max_health\",UUID:[I;-124421,22578,163025,-45156]}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

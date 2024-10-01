@@ -1,0 +1,94 @@
+
+[oceanworlds]
+
+	[oceanworlds.height]
+		#Ocean Worlds
+		#Ocean Height
+		ocean = 63
+		#Lava Ocean Height
+		lava = 32
+
+	[oceanworlds.scale]
+		#Ocean Scale
+		ocean = 1
+		#Lava Ocean Scale
+		lava = 10
+
+	[oceanworlds.noise]
+
+		[oceanworlds.noise.general]
+			#Inverted
+			invert = false
+			#Noise Type
+			#Allowed Values: OpenSimplex2, OpenSimplex2S, Cellular, Perlin, ValueCubic, Value
+			noisetype = "Perlin"
+			#Rotation Type 3D
+			#Allowed Values: None, ImproveXYPlanes, ImproveXZPlanes
+			rotationtype = "ImproveXZPlanes"
+			#Seed Offset
+			seedoffset = 0
+			#Frequency
+			frequency = 0.01
+
+		[oceanworlds.noise.fractal]
+			#Fractal Type
+			#Allowed Values: None, FBm, Ridged, PingPong
+			fractaltype = "FBm"
+			#Octaves
+			octaves = 1
+			#Lacunarity
+			lacunarity = 0.0
+			#Gain
+			gain = 0.0
+			#Weighted Strength
+			weightedstrength = 0.0
+			#Ping Pong Strength
+			pingpongstrength = 0.0
+
+		[oceanworlds.noise.cellular]
+			#Distance Function
+			#Allowed Values: Euclidean, EuclideanSq, Manhattan, Hybrid
+			distancefunction = "Euclidean"
+			#Return Type
+			#Allowed Values: CellValue, Distance, Distance2, Distance2Add, Distance2Sub, Distance2Mul, Distance2Div
+			returntype = "CellValue"
+			#Lacunarity
+			jitter = 0.0
+
+		[oceanworlds.noise.domainwarp]
+			#Domain Warp Type
+			#Allowed Values: None, OpenSimplex2, OpenSimplex2Reduced, BasicGrid
+			type = "OpenSimplex2"
+			#Rotation Type 3D
+			#Allowed Values: None, ImproveXYPlanes, ImproveXZPlanes
+			rotationtype = "None"
+			#Amplitude
+			amplitude = 30.0
+			#Frequency
+			frequency = 0.01
+			#Octaves
+			octaves = 1
+			#Gain
+			gain = 0.0
+
+			[oceanworlds.noise.domainwarp.fractal]
+				#Domain Warp Type
+				#Allowed Values: None, OpenSimplex2, OpenSimplex2Reduced, BasicGrid
+				type = "OpenSimplex2"
+				#Domain Warp Fractal Type
+				#Allowed Values: None, DomainWarpProgressive, DomainWarpIndependent
+				fractaltype = "None"
+				#Rotation Type 3D
+				#Allowed Values: None, ImproveXYPlanes, ImproveXZPlanes
+				rotationtype = "ImproveXZPlanes"
+				#Amplitude
+				amplitude = 0.0
+				#Frequency
+				frequency = 0.0
+				#Octaves
+				octaves = 1
+				#Lacunarity
+				lacunarity = 0.0
+				#Gain
+				gain = 0.0
+

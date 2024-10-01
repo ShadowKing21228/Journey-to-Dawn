@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 0
+        },
+        {
+            "item": "irons_spellbooks:arcane_essence",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:corrupti_dust",
+            "slot": 2
+        },
+        {
+            "item": "irons_spellbooks:arcane_essence",
+            "slot": 3
+        },
+		{
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 4
+        },
+        {
+            "item": "irons_spellbooks:arcane_essence",
+            "slot": 5
+        },
+        {
+            "item": "forbidden_arcanus:corrupti_dust",
+            "slot": 6
+        },
+        {
+            "item": "irons_spellbooks:arcane_essence",
+            "slot": 7
+        }
+    ],
+    "hephaestus_forge_item": "createindustry:aluminum_ingot",
+    "essences": {
+        "aureal": 100,
+        "experience": 100,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "irons_spellbooks:arcane_ingot",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "curios.identifier.spyglass": "Подзорная труба",
+
+  "category.spyglass_of_curios": "Spyglass of Curios",
+  "key.spyglass_of_curios.use": "Достать подзорную трубу",
+
+  "tooltip.spyglass_of_curios.multiplier": "§7§oМножитель: %s",
+  "tooltip.spyglass_of_curios.default_multiplier": "§7§oМножитель: %s",
+
+  "switch.spyglass_of_curios.head": "§6Тип рендера: §fГолова",
+  "switch.spyglass_of_curios.back_waist": "§6Тип рендера: §fСпина",
+  "switch.spyglass_of_curios.indescribable": "§6Тип рендера: §fНеописуемо"
+}

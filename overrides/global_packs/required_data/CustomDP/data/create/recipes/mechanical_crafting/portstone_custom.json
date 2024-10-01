@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+	"B": {
+      "item": "waystones:warp_scroll"
+    },
+	"C": {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+	"D": {
+      "item": "waystones:warp_stone"
+    },
+	"E": {
+      "item": "supplementaries:stone_tile"
+    },
+    "F": {
+      "item": "supplementaries:stone_tile_slab"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    " CDC ",
+	" AEA ",
+    "FEEEF"
+  ],
+  "result": {
+    "item": "waystones:portstone"
+  }
+}

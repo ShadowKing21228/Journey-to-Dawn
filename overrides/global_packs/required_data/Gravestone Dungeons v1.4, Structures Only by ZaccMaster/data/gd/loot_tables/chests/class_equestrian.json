@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"gd:chests/old_worn_box\"},display:{Name:'[{\"text\":\"Old Worn Box\",\"italic\":false,\"color\":\"#336633\"}]',Lore:['[{\"text\":\"Contains basic loot and a map\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to Direwood Keep.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:horse,Variant:515,Tame:0,Temper:100,CustomName:'[{\"text\":\"Windfury\",\"color\":\"#eeeeee\"}]',Health:24,PersistenceRequired:1b,Attributes:[{Name:\"generic.movement_speed\",Base:0.3f},{Name:\"horse.jump_strength\",Base:1.1f},{Name:\"generic.max_health\",Base:24f}]},display:{Name:'[{\"text\":\"Windfury\",\"italic\":false,\"color\":\"#eeeeee\"}]',Lore:['[{\"text\":\"Born amidst towering mountain\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"peaks,it possesses a natural\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"strength. With each thunderous\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"hoofbeat, Windfury demonstrates its\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"remarkable agility and speed,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"navigating treacherous terrain with\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ease. This noble steed is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"testament to the wild beauty of the\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mountains, a companion for those\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"who seek adventure and the thrill\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of the untamed wilderness.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ha1:1b,display:{color:11546150,Name:'[{\"text\":\"Leather Horse Armor\",\"italic\":false,\"color\":\"#996633\"}]',Lore:['[{\"text\":\"The Leather Horse Armor is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"lightweight and flexible choice for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"those seeking protection without\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"compromising mobility.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{hs1:1b,display:{Name:'[{\"text\":\"Racing Saddle\",\"italic\":false,\"color\":\"#663300\"}]',Lore:['[{\"text\":\"The Racing Saddle is a specially\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"crafted saddle designed for speed\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"enthusiasts. It enhances the\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"horse\\'s natural swiftness, granting\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"it an additional level of speed and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"making it a prime choice for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"thrilling races and swift journeys.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 14
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

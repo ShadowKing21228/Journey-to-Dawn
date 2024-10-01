@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " O ",
+    " A ",
+    "AOA",
+    "QCQ",
+    "STS",
+    "HHH"
+  ],
+  "key": {
+
+    "A": {
+      "tag": "forge:ingots/aluminum"
+    },
+    "Q": {
+      "item": "kubejs:kinetic_mechanism"
+    },
+    "H": {
+      "item": "createindustry:heavy_plate"
+    },
+    "S": {
+      "item": "createindustry:steel_mechanism"
+    },
+    "C": {
+      "item": "createindustry:heavy_machinery_casing"
+    },
+    "O": {
+      "tag": "forge:ingots/steel"
+    },
+    "T": {
+      "item": "createindustry:steel_fluid_tank"
+    }
+
+
+  },
+  "result": {
+    "item": "createindustry:diesel_engine"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:catalytic_essence"
+    },
+    {
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    },
+	{
+      "item": "kubejs:sanity_pill"
+    }
+  ],
+  "results": [
+    {
+	  "count": 8,
+      "item": "kubejs:oversanity_pill"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

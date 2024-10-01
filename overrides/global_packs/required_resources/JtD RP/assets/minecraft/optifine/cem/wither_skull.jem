@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-3, 0, -4, 6, 8, 7], "textureOffset": [0, 35], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [-1, 4, 0],
+					"boxes": [
+						{"coordinates": [-2, -2, -4, 6, 6, 6], "textureOffset": [32, 0]}
+					],
+					"submodels": [
+						{
+							"id": "jaw",
+							"invertAxis": "xy",
+							"translate": [1, -1, -0.5],
+							"rotate": [-25, 0, 0],
+							"boxes": [
+								{"coordinates": [-2, -2.75154, -3.89, 4, 2, 5], "textureOffset": [46, 46]}
+							],
+							"submodels": [
+								{
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"boxes": [
+										{"coordinates": [-2, -1.7215, -3.89, 4, 0, 5], "textureOffset": [38, 37]},
+										{"coordinates": [-2, -1.75154, -3.89, 4, 0, 5], "textureOffset": [42, 37]}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

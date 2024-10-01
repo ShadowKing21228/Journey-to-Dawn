@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:recovery_compass",
+	"enigmaticlegacy:enigmatic_amulet",
+	"minecraft:totem_of_undying",
+	"recall:item_recall",
+	"map_atlases:atlas",
+	"quark:backpack",
+	"waystones:return_scroll",
+	"waystones:bound_scroll",
+	"waystones:warp_scroll",
+	"minecraft:compass",
+	"ftbquests:book",
+	"backpacked:backpack"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Пусть нежить останется лежачей",
+            "bold": false,
+            "italic": true,
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Укрепить Кристаллический Меч",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "healthaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:diamond_sword",
+                        "nbt": "{banesword_reinforced:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:banesword"
+}

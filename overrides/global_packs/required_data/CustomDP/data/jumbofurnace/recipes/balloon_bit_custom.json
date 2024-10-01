@@ -1,0 +1,16 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "twilightforest:red_thread",
+			"count": 4
+		}
+	],
+	"result":
+	{
+		"item": "cloudstorage:balloon_bit"
+	},
+	"experience": 0.1
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    },
+    {
+      "item": "supplementaries:ash"
+    },
+	{
+      "item": "supplementaries:ash"
+    },
+	{
+      "item": "supplementaries:ash"
+    },
+	{
+      "item": "supplementaries:ash"
+    },
+    {
+      "amount": 500,
+      "fluid": "hexerei:tallow_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "supplementaries:soap"
+    }
+  ]
+}

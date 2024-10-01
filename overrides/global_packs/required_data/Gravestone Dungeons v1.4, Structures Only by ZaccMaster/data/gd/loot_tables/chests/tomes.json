@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{elder_tome:1b,display:{Name:'[{\"text\":\"Elder Tome\",\"italic\":false,\"color\":\"#9900cc\"}]',Lore:['[{\"text\":\"Encrusted with the knowledge of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ages past, their pages whisper\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"secrets long forgotten and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mysteries yet unraveled. Seekers\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of wisdom and fortune venture\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"forth, for within these venerable\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"texts, the keys to untold power\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and untamed magic await the daring\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"hand that dares to grasp them.\",\"italic\":false,\"color\":\"gray\"}]']},StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{elder_tome:1b,display:{Name:'[{\"text\":\"Ancient Scriptures\",\"italic\":false,\"color\":\"#9900cc\"}]',Lore:['[{\"text\":\"Encrusted with the knowledge of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ages past, their pages whisper\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"secrets long forgotten and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mysteries yet unraveled. Seekers\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of wisdom and fortune venture\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"forth, for within these venerable\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"texts, the keys to untold power\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and untamed magic await the daring\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"hand that dares to grasp them.\",\"italic\":false,\"color\":\"gray\"}]']},StoredEnchantments:[{id:\"minecraft:looting\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{elder_tome:1b,display:{Name:'[{\"text\":\"Hoary Scrolls\",\"italic\":false,\"color\":\"#9900cc\"}]',Lore:['[{\"text\":\"Encrusted with the knowledge of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ages past, their pages whisper\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"secrets long forgotten and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mysteries yet unraveled. Seekers\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of wisdom and fortune venture\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"forth, for within these venerable\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"texts, the keys to untold power\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and untamed magic await the daring\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"hand that dares to grasp them.\",\"italic\":false,\"color\":\"gray\"}]']},StoredEnchantments:[{id:\"minecraft:power\",lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{elder_tome:1b,display:{Name:'[{\"text\":\"Cursed Writings\",\"italic\":false,\"color\":\"#9900cc\"}]',Lore:['[{\"text\":\"Encrusted with the knowledge of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ages past, their pages whisper\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"secrets long forgotten and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mysteries yet unraveled. Seekers\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of wisdom and fortune venture\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"forth, for within these venerable\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"texts, the keys to untold power\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and untamed magic await the daring\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"hand that dares to grasp them.\",\"italic\":false,\"color\":\"gray\"}]']},StoredEnchantments:[{id:\"minecraft:protection\",lvl:4}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{elder_tome:1b,display:{Name:'[{\"text\":\"Dusty Notices\",\"italic\":false,\"color\":\"#9900cc\"}]',Lore:['[{\"text\":\"Encrusted with the knowledge of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ages past, their pages whisper\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"secrets long forgotten and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mysteries yet unraveled. Seekers\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of wisdom and fortune venture\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"forth, for within these venerable\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"texts, the keys to untold power\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and untamed magic await the daring\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"hand that dares to grasp them.\",\"italic\":false,\"color\":\"gray\"}]']},StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+    
+  
+}

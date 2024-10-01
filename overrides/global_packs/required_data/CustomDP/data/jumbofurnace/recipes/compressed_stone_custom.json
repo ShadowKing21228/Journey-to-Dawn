@@ -1,0 +1,16 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "quark:sturdy_stone",
+			"count": 9
+		}
+	],
+	"result":
+	{
+		"item": "kubejs:compressed_stone"
+	},
+	"experience": 0.1
+}

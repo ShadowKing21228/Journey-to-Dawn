@@ -1,0 +1,79 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "supplementaries:lock_block"
+  },
+  "transitionalItem": {
+    "item": "supplementaries:lock_block"
+  },
+  "sequence": [
+      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "supplementaries:lock_block"
+        },
+        {
+            "item": "dimdungeons:block_gilded_portal"
+        }
+      ],
+      "results": [
+        {
+          "item": "supplementaries:lock_block"
+        }
+      ]
+    },
+	  {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "supplementaries:lock_block"
+        },
+        {
+            "item": "minecraft:ender_eye"
+        }
+      ],
+      "results": [
+        {
+          "item": "supplementaries:lock_block"
+        }
+      ]
+    },
+	      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "supplementaries:lock_block"
+        },
+        {
+            "item": "dimdungeons:block_gilded_portal"
+        }
+      ],
+      "results": [
+        {
+          "item": "supplementaries:lock_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "supplementaries:lock_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "supplementaries:lock_block"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "dimdungeons:block_portal_keyhole"
+    }
+  ],
+  "loops": 1
+}

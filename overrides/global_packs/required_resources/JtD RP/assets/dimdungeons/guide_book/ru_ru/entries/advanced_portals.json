@@ -1,0 +1,35 @@
+{
+	"name": "Продвинутые порталы",
+	"icon": "dimdungeons:block_portal_crown",
+	"category": "dimdungeons:portals",
+	"sortnum": 3,
+	"advancement": "dimdungeons:dungeons/enter_basic_dungeon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Исследуя подземелья, вы можете изредка встретить $(item)портальные замковые блоки$(). В них содержатся $(item)продвинутые портальные ключи$(). Чтобы воспользоваться подобным ключом, вам нужно будет улучшить сам портал. Для улучшения нужны два $(item)коронных портальных блока$(), которые можно найти только в сундуках внутри подземелий. Также вам понадобятся два баннера - фиолетовый или белый."
+		},		
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+					["   ","   "," C "," K "," C ","   ","   "],
+					[" GW","   "," B ","   "," B ","   "," GP"],
+					[" BW","   "," B "," 0 "," B ","   "," BP"],
+					[" B ","   ","   "," B ","   ","   "," B "]
+				],
+				"mapping": {
+					"C": "dimdungeons:block_portal_crown",
+					"K": "dimdungeons:block_portal_keyhole",
+					"G": "dimdungeons:block_gilded_portal",
+					"B": "minecraft:stone_bricks",
+					"W": "minecraft:white_wall_banner[facing=south]",
+					"P": "minecraft:purple_wall_banner[facing=south]"
+				}
+			},
+			"text": "Затем обновите свой портал следующим образом."
+		}
+	]
+}
+			
+

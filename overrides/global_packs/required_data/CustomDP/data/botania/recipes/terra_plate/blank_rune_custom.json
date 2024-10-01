@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botania:rune_mana"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    }
+  ],
+  "mana": 25000,
+  "result": {
+    "item": "quark:blank_rune"
+  }
+}

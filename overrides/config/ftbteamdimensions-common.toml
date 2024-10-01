@@ -1,0 +1,25 @@
+
+[general]
+	#When set to true, the players inventory will be cleared when leaving a team
+	clearPlayerInventory = true
+	#Resource location of the structure NBT for the lobby
+	lobbyStructure = "ftbteamdimensions:lobby"
+	#Y position at which the lobby structure will be pasted into the overworld. Note: too near world min/max build height may result in parts of the structure being cut off, beware.
+	#Range: -64 ~ 256
+	lobbyYposition = 0
+	#When set to true, nether portals may be constructed in team dimensions
+	allowNetherPortals = true
+	#When set to false, no features may generate in void dimensions. If this set to true, some features (e.g. icebergs) will generate in applicable biomes without any checks for surrounding blocks (like water). Changing this will *not* affect any already-generated chunks.
+	allowVoidFeatureGen = false
+	#If true, generate a void dimension with only a single biome. Otherwise, generate a void dimension with overworld-like biome distribution
+	singleBiomeDimension = false
+	#If 'singleBiomeDimension' is true, this is the ID of the biome to generate
+	singleBiomeName = "minecraft:the_void"
+	#If true, then players going to the Nether via Nether Portal will be sent to a team-specific position in the Nether
+	teamSpecificNetherEntryPoint = true
+	#If true, then any entities saved in the starting structure NBT will be included when the structure is generated
+	placeEntitiesInStartStructure = true
+	#If > 0, any chunk closer than this to spawn with a cold biome (i.e. water can freeze) in its X/Z midpoint will have its biome replaced with 'minecraft:plains'. Set to 0 to disable all replacement.
+	#Range: > 0
+	replaceColdBiomesNearSpawn = 64
+

@@ -1,0 +1,8 @@
+
+[donator]
+	#Enables the Donator perk wing render
+	enabled = false
+	#Changes the Donator Wing Render Color, Format: 24 Bit AARRGGBB Hex
+	#Range: > -2147483648
+	color = -864616193
+

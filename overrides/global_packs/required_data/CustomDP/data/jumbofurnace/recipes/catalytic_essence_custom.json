@@ -1,0 +1,15 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "undergarden:catalyst"
+		}
+	],
+	"result":
+	{
+		"item": "kubejs:catalytic_essence"
+	},
+	"experience": 0.1
+}

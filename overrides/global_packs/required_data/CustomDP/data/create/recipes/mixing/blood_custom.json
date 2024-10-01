@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "undergarden:blood_globule"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "hexerei:blood_fluid",
+      "nbt": {}
+    }
+  ]
+}

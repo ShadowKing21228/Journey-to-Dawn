@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"gd:chests/old_worn_box\"},display:{Name:'[{\"text\":\"Old Worn Box\",\"italic\":false,\"color\":\"#336633\"}]',Lore:['[{\"text\":\"Contains basic loot and a map\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to Direwood Keep.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Worn Boots\",\"italic\":false,\"color\":\"#666600\"}]'},Enchantments:[{lvl:2,id:feather_falling},{lvl:10,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.01,Slot:feet,Name:\"generic.movement_speed\",UUID:[I;-124421,25831,161032,-51662]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Worn Leggings\",\"italic\":false,\"color\":\"#666600\"}]'},Enchantments:[{lvl:3,id:swift_sneak},{lvl:10,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.01,Slot:legs,Name:\"generic.movement_speed\",UUID:[I;-124421,27931,161032,-55862]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{sickle:1b,display:{Name:'[{\"text\":\"Sickle\",\"italic\":false,\"color\":\"#ff9900\"}]',Lore:['[{\"text\":\"Auto-Plant I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Allows you to plant and harvest\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"crops within a small area, by\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"sneaking.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:3}],HideFlags:1}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"gd:chests/seeds\"},display:{Name:'[{\"text\":\"Barrel full of various seeds\",\"italic\":false,\"color\":\"green\"}]'}}"
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['[[\"Manufacturing Sickles:\\\\n\\\\n1x Iron Hoe\\\\n64x Wheat Seed\\\\n1x Diamond\\\\nAll materials need to be put together on an anvil.\"]]','[[\"Usable Seedtypes\\\\n\\\\nWheat Seeds\\\\nBeetroot Seeds\\\\nCarrots\\\\nPotatoes\\\\nNetherwarts\"]]','[[\"Charging of Sickles\\\\n\\\\nTo charge, place exactly 64 seeds of one of the listed types and the Sickle on a crafting table.\\\\n\\\\nIf charged with other seeds, the old ones will be deleted.\\\\n \"]]'],title:\"Manufacturing Sickles\",author:\"unknown\",generation:1,display:{Name:'[\"\",{\"text\":\"Manufacturing Sickles\",\"italic\":false,\"color\":\"#669933\"}]',Lore:['[\"\",{\"text\":\"Creation and Charging of Sickles\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

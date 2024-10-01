@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "transitionalItem": {
+    "item": "minecraft:iron_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.66,
+      "item": "create:iron_sheet"
+    },
+    {
+      "chance": 0.34,
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "loops": 3
+}

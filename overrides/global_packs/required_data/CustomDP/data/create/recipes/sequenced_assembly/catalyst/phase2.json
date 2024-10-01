@@ -1,0 +1,108 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:empty_catalyst"
+  },
+  "transitionalItem": {
+    "item": "kubejs:empty_catalyst"
+  },
+  "sequence": [
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:empty_catalyst"
+        },
+        {
+            "item": "minecraft:iron_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:empty_catalyst"
+        },
+        {
+            "item": "minecraft:iron_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:empty_catalyst"
+        },
+        {
+            "item": "minecraft:iron_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:empty_catalyst"
+        },
+        {
+            "item": "minecraft:iron_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:empty_catalyst"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:inactive_catalyst"
+    }
+  ],
+  "loops": 1
+}

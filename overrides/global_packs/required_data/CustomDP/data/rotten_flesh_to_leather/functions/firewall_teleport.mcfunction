@@ -1,0 +1,2 @@
+give @s minecraft:diamond
+

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{flicia_shield:1b,RepairCost:100,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:-0.02,Slot:offhand,Name:\"generic.movement_speed\",UUID:[I;-123617,19886,111054,-39772]},{AttributeName:\"generic.max_health\",Amount:6,Slot:offhand,Name:\"generic.max_health\",UUID:[I;-123617,19986,111054,-39972]}],display:{Name:'[{\"text\":\"Flicia Shield of Levitation\",\"color\":\"#ffcc00\"}]',Lore:['[{\"text\":\"Levitation I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Once charged up until 100 xp, the\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"shield provides levitation while\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"sneaking.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']},Enchantments:[{id:unbreaking,lvl:4}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/rare_lootbox"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:7999259,display:{Name:'[{\"text\":\"Great Potion of the Bull\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[{\"text\":\"Burning like fire, but providing\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"a lot of strenght and resistance.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:22,Duration:3600,Amplifier:3},{Id:11,Duration:6000,Amplifier:2},{Id:5,Duration:6000,Amplifier:4}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

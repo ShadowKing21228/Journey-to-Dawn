@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "undergarden:utheric_shard"
+    },
+    {
+      "item": "undergarden:utheric_shard"
+    },
+    {
+      "item": "undergarden:utheric_shard"
+    },
+    {
+      "item": "undergarden:regalium_crystal"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "byg:emeraldite_shards"
+    }
+  ],
+  "results": [
+	{
+	  "count": 5,
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+    }
+  ]
+}

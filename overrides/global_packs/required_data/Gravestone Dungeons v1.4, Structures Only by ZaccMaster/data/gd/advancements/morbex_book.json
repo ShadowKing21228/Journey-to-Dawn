@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Выглядит полезным",
+            "bold": false,
+            "italic": true,
+            "color": "gold"
+        },
+        "description": {
+            "text": "Найти заметки Морбекса",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fangsword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:written_book",
+                        "nbt": "{morbex_book:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:traders"
+}

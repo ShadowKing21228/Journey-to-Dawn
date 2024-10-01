@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Пфффт.. Кара",
+            "bold": false,
+            "italic": true,
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Получить Кристаллический Меч",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "healthaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:iron_sword",
+                        "nbt": "{banesword:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:witches"
+}

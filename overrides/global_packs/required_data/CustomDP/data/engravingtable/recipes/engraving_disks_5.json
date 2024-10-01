@@ -1,0 +1,65 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:blank5"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:music_disc_drips",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_ocean",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_rain",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_wind",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_fire",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_clock",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_crickets",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "quark:music_disc_chatter",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "supplementaries:pancake_disc",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "sg_simple_utilities:audio_cassette_war_without_reason",
+      "count": 1,
+      "chance": 0.09
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_limbo",
+      "count": 1,
+      "chance": 0.1
+    }
+  ]
+}

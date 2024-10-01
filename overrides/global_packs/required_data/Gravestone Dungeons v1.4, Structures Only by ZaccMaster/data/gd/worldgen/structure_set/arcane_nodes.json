@@ -1,0 +1,15 @@
+{
+  
+  "structures": [
+    {
+      "structure": "gd:arcane_nodes",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 45,
+    "salt": 645851591
+  }
+}

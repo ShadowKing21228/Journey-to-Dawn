@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = E:/CurseForge/Instances/Journey to Dawn (1)/saves/Новый мdsaир
+}
+

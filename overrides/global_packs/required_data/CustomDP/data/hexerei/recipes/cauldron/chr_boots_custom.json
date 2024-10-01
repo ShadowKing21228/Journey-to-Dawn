@@ -1,0 +1,41 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "tyafi:oprn_boots"
+    },
+    {
+      "item": "alexsmobs:straddlite"
+    },
+    {
+      "item": "twilightforest:peacock_feather_fan"
+    },
+    {
+      "item": "forbidden_arcanus:golden_feather"
+    },
+    {
+      "item": "alexsmobs:crocodile_chestplate"
+    },
+    {
+      "item": "botania:water_ring"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "item": "alexsmobs:flying_fish_boots"
+    }
+  ],
+  "output": {
+    "item": "tyafi:chr_boots"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 2000,
+  "moonRequirement": "full_moon",
+  "heatRequirement": "heated"
+}

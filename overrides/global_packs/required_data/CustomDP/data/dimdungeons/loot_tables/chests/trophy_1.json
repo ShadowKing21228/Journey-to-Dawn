@@ -1,0 +1,325 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"name": "dimdungeons:trophy_list",
+			"entries": [
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_1",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 1/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Редкий гриб. Он не будет расти на мицелии.",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найден: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "1UP Гриб",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_2",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 2/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Этот благословлённый меч спит, ожидая своего героя.",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Found by: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Меч Мастеров",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_3",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 3/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Желанный символ жадности. Но разве алмазы стоят не больше камня?",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найден: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Руна ист",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]					
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_4",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 4/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Самое легендарное йойо с луны другого мира.",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найден: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Террариан",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]					
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_5",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 5/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Мощный шахтёрский инструмент из далёкой галактики.",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найден: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Манипулятор Материи",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]					
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_6",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 6/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Дайте это другу дабы восславить солнце!",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найден: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Медаль Солнца",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]					
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_7",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 7/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Для чего нужна эта нажимная плита из пурпурной терракоты?",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найден: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Розовая панель со Стрелкой",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]					
+				},
+				{
+					"type": "item",
+					"name": "dimdungeons:item_trophy_8",					
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Трофей 8/8",
+									"color": "aqua"
+								},
+								{
+									"text": "Изображение озорного осьминога из другого мира.",
+									"color": "aqua"
+								},
+								[
+									{
+										"text": "Найдена: ",
+										"color": "gold"
+									},
+									{
+										"selector": "@s"
+									}
+								]
+							],
+							"entity": "this",
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Картина Ультроса",
+								"color": "yellow",
+								"bold": "true"
+							}
+						}
+					]					
+				}
+			]
+		}
+	]
+}

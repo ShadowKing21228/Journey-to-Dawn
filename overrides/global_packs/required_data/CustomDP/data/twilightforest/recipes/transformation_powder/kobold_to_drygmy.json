@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "twilightforest:kobold",
+  "reversible": false,
+  "to": "ars_nouveau:drygmy"
+}

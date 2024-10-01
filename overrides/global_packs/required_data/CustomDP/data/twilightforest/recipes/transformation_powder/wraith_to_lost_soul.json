@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "quark:wraith",
+  "reversible": true,
+  "to": "forbidden_arcanus:lost_soul"
+}

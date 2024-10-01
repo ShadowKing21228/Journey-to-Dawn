@@ -1,0 +1,29 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "botania:livingwood"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "forbidden_arcanus:arcane_crystal_block"
+        }
+      }
+    }
+  },
+  "duration": 20,
+  "outputItem": "forbidden_arcanus:edelwood_log"
+}

@@ -1,0 +1,130 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:blank2"
+    }
+  ],
+  "results": [
+    {
+      "item": "alexsmobs:music_disc_thime",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "alexsmobs:music_disc_daze",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "cloudstorage:music_disc_drift",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "undergarden:music_disc_mammoth",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "undergarden:music_disc_limax_maximus",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "undergarden:music_disc_relict",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "undergarden:music_disc_gloomper_anthem",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "undergarden:music_disc_gloomper_secret",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "ars_nouveau:music_disc_aria_biblio",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "ars_nouveau:music_disc_thistle_the_sound_of_glass",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "ars_nouveau:music_disc_firel_the_wild_hunt",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "idas:music_disc_slither",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "idas:music_disc_calidum",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "quark:music_disc_endermosh",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_2",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_1",
+      "count": 1,
+      "chance": 0.0417
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_3",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_4",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_5",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_7",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_13",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_14",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_23",
+      "count": 1,
+      "chance": 0.0416
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_32",
+      "count": 1,
+      "chance": 0.0416
+    }
+  ]
+}

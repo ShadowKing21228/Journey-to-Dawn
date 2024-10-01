@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "irons_spellbooks:magic_cloth"
+  },
+  "base": {
+    "item": "waystones:return_scroll"
+  },
+  "result": {
+    "item": "waystones:bound_scroll"
+  }
+}

@@ -1,0 +1,40 @@
+
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "hexerei:selenite_shard"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+      }
+
+
+  ],
+  "results": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ]
+}

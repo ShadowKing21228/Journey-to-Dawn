@@ -1,0 +1,8 @@
+{
+	icon: "kubejs:blank7"
+	id: "3669A43B719FA69B"
+	loot_size: 1
+	order_index: 1
+	rewards: [{ count: 4, item: "kubejs:blank7", random_bonus: 12 }]
+	title: "Вторая болванка"
+}

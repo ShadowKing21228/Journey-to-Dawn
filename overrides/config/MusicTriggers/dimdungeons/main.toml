@@ -1,0 +1,43 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.universal]
+		fade_out = "120"
+		persistence = "0"
+		trigger_delay = "6000"
+		song_delay = "6000"
+		start_delay = "1000"
+		fade_in = "120"
+	[triggers.dimension]
+		identifier = "dimdungeons:dungeon_dimension"
+		priority = "6"
+		toggle_inactive_playable = true
+		resource_name = [ "dimdungeons:dungeon_dimension" ]
+[songs]
+	[songs.universal]
+		play_once = "1"
+	[songs.MD_Creeper_Woods]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Desert_Temple]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Cacti_Canyon]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Squid_Coast]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Soggy_Swamp]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Beach_House]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Highblock_Halls]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Dalarna]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Halland]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Redstone_Mines]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+	[songs.MD_Pumpkin_Pastures]
+		triggers = [ "dimension-dimdungeons:dungeon_dimension" ]
+

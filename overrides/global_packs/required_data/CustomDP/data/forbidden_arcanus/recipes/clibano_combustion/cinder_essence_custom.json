@@ -1,0 +1,17 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 650,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "create:cinder_flour",
+		"count": 7
+  },
+  "residue": {
+    "chance": 0.55,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "irons_spellbooks:cinder_essence"
+	}
+}

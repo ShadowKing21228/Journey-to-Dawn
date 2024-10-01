@@ -1,0 +1,54 @@
+{
+  "name": "Базовые книги заклинаний",
+  "icon": "irons_spellbooks:iron_spell_book",
+  "category": "irons_spellbooks:root",
+  "sortnum": 1,
+  "read_by_default" : true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Создаваемые книги заклинаний",
+      "text": "Из обычных и магических материалов можно создавать множество книг заклинаний. С каждым новым уровнем крафта в книге увеличивается количество ячеек для заклинаний, а зачастую появляются и дополнительные бонусы, усиливающие мощь и количество умений, которые она может вместить."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:copper_spell_book",
+      "recipe2": "irons_spellbooks:iron_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:gold_spell_book",
+      "recipe2": "irons_spellbooks:diamond_spell_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:netherite_spell_book",
+      "recipe2": "irons_spellbooks:dragonskin_spell_book"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Легендарные гримуары",
+      "text": "В разных уголках мира можно найти именные книги заклинаний. Для удачливых искателей приключений, которые знают, где искать, они часто становятся источником ценных бонусов."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:rotten_spell_book",
+      "text": "То, что некогда могло быть могущественной книгой, теперь истлело, оставив лишь жалкие три страницы. И все же, эти жалкие страницы таят в себе силу, превосходящую большинство заклинательных книг Верхнего мира. Их можно найти среди гнили и тлена, разбросанных по всему Верхнему миру."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:villager_spell_book",
+      "text": "Оказывается, даже обычная книга, тронутая божественным благословением, может стать проводником божественной магии. Заслужи хорошую репутацию у жителей деревни, особенно освободив пленников от Архивокера, и рано или поздно такая книга обязательно окажется у тебя в руках."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irons_spellbooks:blaze_spell_book",
+      "text": "Каждая Пылающая тварь, сама того не подозревая, носит с собой одну такую книгу. Хитрость заключается в том, чтобы убить ее и надеяться, что книга не превратится в пепел."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "irons_spellbooks:druidic_spell_book",
+      "text": "Внутри Истлевшей Книги Заклинаний по-прежнему теплится мощная магическая энергия. Возможно, книгу можно снова очистить и благословить, применив подходящее средство."
+    }
+  ]
+}

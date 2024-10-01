@@ -1,0 +1,46 @@
+{
+  "parent": "gd:root",
+  "criteria": {
+    "in_m_caves": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "gd:m_caves"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+        "title": {
+            "text": "Кости и Кирпичи",
+            "bold": false,
+            "italic": true,
+            "color": "green"
+        },
+        "description": {
+            "text": "Посетите Заросшие Пещеры Мурхейвена",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "requirements": [
+    [
+      "in_m_caves"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

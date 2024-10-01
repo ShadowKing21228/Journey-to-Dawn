@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "undergarden:amorous_bristle"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "tag": "forge:dimdungeon_artifacts"
+    },
+    {
+      "item": "undergarden:grongle_leaves"
+    },
+    {
+      "item": "dimdungeons:item_blank_teleporter_key"
+    },
+    {
+      "item": "undergarden:grongle_leaves"
+    },
+    {
+      "tag": "forge:dimdungeon_artifacts"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    }
+  ],
+  "output": {
+    "item": "kubejs:twilight_edelweiss"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 2000
+}

@@ -1,0 +1,13 @@
+
+[Config]
+	#Wheter Gravity should be applied in the End (if you only want to keep oxygen mechanics, or only apply it to  low gravity biomes)
+	"Gravity in the End" = true
+	#Whether Gravity should also apply to generic mobs. Even if activated, some mobs are immune / can be made immune to gravity, using the "forge:low_gravity_immune" entity tag
+	"Entity Gravity" = true
+	#Whether the player should be forced to wear a working diving suit when affected by oxygen consumption (only a few seconds of air before taking damages if not wearing a backtank and a diving helmet). Else, the player will still be able to survive for quite long with or without equipement
+	"Is Diving Suit really needed" = true
+
+["Low Gravity Biomes"]
+	#Low Gravity Biomes allow you to apply the End properties to specific biomes (or dimensions, by selecting all biomes of a dimension). 
+	"Making a Low Gravity Biomes" = "To do so, you need to create a datapack (or any other working way) to add the forge:low_gravity_biome tag to your biome. Then, you'll be able to customise it by tweaking low gravity biomes settings"
+

@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:conjuration_catalyst"
+  },
+  "input": {
+    "item": "kubejs:resonating_crystall_6"
+  },
+  "mana": 77777,
+  "output": {
+    "count": 2,
+    "item": "kubejs:resonating_crystall_6"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:overcompressed_stone_chunk"
+  },
+  "transitionalItem": {
+    "item": "kubejs:overcompressed_stone_chunk"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        },
+        {
+          "amount": 1000,
+          "fluid": "undergarden:virulent_mix_source",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        },
+        {
+            "item": "kubejs:catalytic_essence"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ]
+    },    
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        },
+        {
+          "amount": 1000,
+          "fluid": "createindustry:liquid_concrete",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ]
+    },
+	{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        },
+        {
+          "amount": 1000,
+          "fluid": "createindustry:liquid_concrete",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ]
+    },
+	{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        },
+        {
+          "amount": 1000,
+          "fluid": "createindustry:liquid_concrete",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:overcompressed_stone_chunk"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:empty_catalyst"
+    }
+  ],
+  "loops": 1
+}

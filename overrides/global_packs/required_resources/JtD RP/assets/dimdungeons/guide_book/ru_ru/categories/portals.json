@@ -1,0 +1,6 @@
+{
+	"name": "Порталы",
+	"description": "Как построить портал в измерения подземелий.",
+	"icon": "dimdungeons:block_gilded_portal",
+	"sortnum": 30
+}

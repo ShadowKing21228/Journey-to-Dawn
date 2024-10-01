@@ -1,0 +1,48 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:polished_darkstone"
+    },
+    "B": {
+      "item": "createindustry:plastic_sheet"
+    },
+    "C": {
+      "item": "forbidden_arcanus:polished_darkstone_bricks"
+    },
+	"D": {
+      "item": "forbidden_arcanus:runic_chiseled_polished_darkstone"
+    },
+    "E": {
+      "item": "jumbofurnace:jumbo_furnace"
+    },
+    "F": {
+      "item": "forbidden_arcanus:processed_obsidian_block"
+    },
+	"G": {
+      "item": "forbidden_arcanus:eternal_stella"
+    },
+    "H": {
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    "I": {
+      "item": "forbidden_arcanus:terrastomp_prism"
+    },
+	"J": {
+      "item": "forbidden_arcanus:ferrognetic_mixture"
+    }
+  },
+  "pattern": [
+    "AB   BA",
+	"BGCDCHB",
+	" CE EC ",
+	" FD DF ",
+	" CE EC ",
+	"BICDCJB",
+	"AB   BA"
+  ],
+  "result": {
+    "item": "forbidden_arcanus:clibano_core"
+  }
+}

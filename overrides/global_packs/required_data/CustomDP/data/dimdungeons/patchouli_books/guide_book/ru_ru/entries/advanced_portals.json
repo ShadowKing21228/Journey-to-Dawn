@@ -1,0 +1,35 @@
+{
+	"name": "Расширенные порталы",
+	"icon": "dimdungeons:block_portal_crown",
+	"category": "dimdungeons:portals",
+	"sortnum": 3,
+	"advancement": "dimdungeons:dungeons/enter_basic_dungeon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Исследуя подземелья, вы можете найти блоки $(item)портальных замочных скважин$(). В них находятся $(item)продвинутые портальные ключи$(). Чтобы воспользоваться таким ключом, вам нужно будет улучшить портал. Для его улучшения нужны два блока $(item)портальной короны$(), которые можно найти только в сундуках в подземельях. Также вам понадобятся два баннера - фиолетовый или белый."
+		},		
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"pattern": [
+					["   ","   "," C "," K "," C ","   ","   "],
+					[" GW","   "," B ","   "," B ","   "," GP"],
+					[" BW","   "," B "," 0 "," B ","   "," BP"],
+					[" B ","   ","   "," B ","   ","   "," B "]
+				],
+				"mapping": {
+					"C": "dimdungeons:block_portal_crown",
+					"K": "dimdungeons:block_portal_keyhole",
+					"G": "dimdungeons:block_gilded_portal",
+					"B": "minecraft:stone_bricks",
+					"W": "minecraft:white_wall_banner[facing=south]",
+					"P": "minecraft:purple_wall_banner[facing=south]"
+				}
+			},
+			"text": "Затем обновите портал следующим образом."
+		}
+	]
+}
+			
+

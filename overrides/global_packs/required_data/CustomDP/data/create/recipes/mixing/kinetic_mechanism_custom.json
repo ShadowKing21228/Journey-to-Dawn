@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:kinetic_mechanism_frame"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "item": "create:hand_crank"
+    },
+    {
+      "item": "create:cogwheel"
+    },
+    {
+      "item": "create:large_cogwheel"
+    },
+    {
+      "item": "create:cogwheel"
+    }
+  ],
+  "results": [
+	{
+      "item": "kubejs:kinetic_mechanism"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:heavy_chain_necklace"
+    },
+    {
+      "item": "irons_spellbooks:arcane_rune"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:concentration_amulet"
+    }
+  ]
+}

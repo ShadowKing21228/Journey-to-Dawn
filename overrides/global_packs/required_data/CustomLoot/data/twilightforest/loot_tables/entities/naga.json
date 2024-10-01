@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 11.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:naga_scale"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:naga_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['{\"text\":\"Дорогой,                  Я знаю, что ты не сможешь прочесть моё письмо сейчас, но надеюсь, что скоро. Ты всё ещё в плачевном состоянии. Что бы ни делал Линч и его ученики, твой бред и лихорадка возвращаются вновь. Всё королевство переживает, что же с тобой будет. \"}','{\"text\":\"Не бойся, я со всем справляюсь. Наш сынишка, Адальман, жив и здоров, я за ним ухаживаю. Он растёт настоящим богатырём, прямо как мой отец... Твою ручную змейку я пока тоже забрала. \"}','{\"text\":\"Ты знаешь, Наге так нравится ползать по моим террариумам! Хотя, с её маленьким размером любая комната для неё что парк... Но даже она по тебе скучает. \"}','{\"text\":\"​Прошу, борись. Королевство ждёт тебя. Я жду тебя.                                    С любовью,               Твоя Аврора\"}'],title:\"Письмо\",author:\"Аврора\",display:{Lore:[\"Потрёпанный тонкий фолиант, прогнивший со временем\"]}}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

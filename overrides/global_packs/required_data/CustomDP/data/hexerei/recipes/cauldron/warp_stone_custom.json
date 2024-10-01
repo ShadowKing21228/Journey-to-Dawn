@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "twilightforest:magic_map_focus"
+    },
+    {
+      "item": "botania:manasteel_nugget"
+    },
+    {
+      "item": "dimdungeons:item_homeward_pearl"
+    },
+    {
+      "item": "botania:manasteel_nugget"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "botania:manasteel_nugget"
+    },
+    {
+      "item": "dimdungeons:item_homeward_pearl"
+    },
+    {
+      "item": "botania:manasteel_nugget"
+    }
+  ],
+  "output": {
+    "item": "waystones:warp_stone"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 0
+}

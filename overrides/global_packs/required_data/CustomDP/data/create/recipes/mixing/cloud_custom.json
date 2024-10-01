@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "twilightforest:wispy_cloud"
+    },
+    {
+      "item": "twilightforest:fluffy_cloud"
+    },
+    {
+      "item": "twilightforest:fluffy_cloud"
+    },
+    {
+      "item": "twilightforest:fluffy_cloud"
+    }
+  ],
+  "results": [
+    {
+	  "count": 4,
+      "item": "cloudstorage:cloud"
+    }
+  ]
+}

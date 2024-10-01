@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "undergarden:forgotten_ingot"
+  },
+  "base": {
+    "item": "undergardendelight:cloggrum_knife"
+  },
+  "result": {
+    "item": "undergardendelight:forgotten_knife"
+  }
+}

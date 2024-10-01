@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "undergarden:stripped_smogstem_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+	  "count": 6,
+      "item": "undergarden:smogstem_planks"
+    }
+  ]
+}

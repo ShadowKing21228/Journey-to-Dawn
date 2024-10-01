@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 400,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "chunkloaders:advanced_chunk_loader"
+  },
+  "residue": {
+    "chance": 0.25,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "chunkloaders:ultimate_chunk_loader"
+	}
+}

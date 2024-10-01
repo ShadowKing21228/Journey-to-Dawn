@@ -1,0 +1,29 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "spirit:soul_steel_block"
+        }
+      }
+    }
+  },
+  "duration": 30,
+  "outputItem": "portablehole:portable_hole"
+}

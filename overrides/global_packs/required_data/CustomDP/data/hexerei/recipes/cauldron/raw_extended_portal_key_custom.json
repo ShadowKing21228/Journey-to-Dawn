@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "item": "undergarden:forgotten_ingot"
+    },
+    {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "tag": "forge:nuggets"
+    },
+    {
+      "item": "dimdungeons:item_blank_advanced_key"
+    },
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "dimdungeons:item_portal_key"
+    },
+    {
+      "tag": "forge:nuggets"
+    }
+  ],
+  "output": {
+    "item": "kubejs:raw_extended_portal_key",
+    "count": 4
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 0
+}

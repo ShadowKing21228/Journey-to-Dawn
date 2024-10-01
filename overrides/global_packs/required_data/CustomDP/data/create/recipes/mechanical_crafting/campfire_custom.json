@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "tag": "minecraft:coals"
+    },
+	"C": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " C "
+  ],
+  "result": {
+    "item": "minecraft:campfire"
+  }
+}

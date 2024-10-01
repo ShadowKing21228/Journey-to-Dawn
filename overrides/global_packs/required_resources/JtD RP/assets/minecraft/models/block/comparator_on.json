@@ -1,0 +1,105 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"5": "block/comparator_on",
+		"slab": "block/smooth_stone_redstone",
+		"particle": "block/comparator_redstone_on",
+		"top": "block/comparator_redstone_on",
+		"unlit": "block/torch/redstone_torch_off",
+		"lit": "block/torch/redstone_torch_on"
+	},
+	"elements": [
+		{
+			"name": "comparator",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#5", "cullface": "north"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#5", "cullface": "east"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#5", "cullface": "south"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#5", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#slab", "cullface": "down"}
+			}
+		},
+		{
+			"name": "wood1",
+			"from": [4, 1, 11],
+			"to": [6, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 8, 9, 12], "texture": "#unlit"},
+				"east": {"uv": [7, 8, 9, 12], "texture": "#unlit"},
+				"south": {"uv": [7, 8, 9, 12], "texture": "#unlit"},
+				"west": {"uv": [7, 8, 9, 12], "texture": "#unlit"}
+			}
+		},
+		{
+			"name": "wood2",
+			"from": [10, 1, 11],
+			"to": [12, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 8, 9, 12], "texture": "#unlit"},
+				"east": {"uv": [7, 8, 9, 12], "texture": "#unlit"},
+				"south": {"uv": [7, 8, 9, 12], "texture": "#unlit"},
+				"west": {"uv": [7, 8, 9, 12], "texture": "#unlit"}
+			}
+		},
+		{
+			"name": "wood3_little",
+			"from": [7, 2, 2],
+			"to": [9, 4, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 8], "texture": "#unlit"},
+				"east": {"uv": [7, 6, 9, 8], "texture": "#unlit"},
+				"south": {"uv": [7, 6, 9, 8], "texture": "#unlit"},
+				"west": {"uv": [7, 6, 9, 8], "texture": "#unlit"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#unlit"}
+			}
+		},
+		{
+			"name": "wood2_little",
+			"from": [10, 5, 11],
+			"to": [12, 7, 13],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"east": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"south": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"west": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#lit"}
+			}
+		},
+		{
+			"name": "wood1_little",
+			"from": [4, 5, 11],
+			"to": [6, 7, 13],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"east": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"south": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"west": {"uv": [7, 6, 9, 8], "texture": "#lit"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#lit"}
+			}
+		},
+		{
+			"name": "redstone_cube",
+			"from": [12, 1, 11],
+			"to": [4, 2, 13],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [4, 10, 12, 11], "texture": "#top"},
+				"east": {"uv": [3, 11, 4, 13], "rotation": 90, "texture": "#top"},
+				"south": {"uv": [4, 13, 12, 14], "rotation": 180, "texture": "#top"},
+				"west": {"uv": [12, 11, 13, 13], "rotation": 270, "texture": "#top"},
+				"down": {"uv": [4, 11, 12, 13], "texture": "#top"}
+			}
+		}
+	]
+}

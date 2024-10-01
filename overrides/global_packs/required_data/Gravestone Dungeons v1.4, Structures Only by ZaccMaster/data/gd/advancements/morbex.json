@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Трагическая судьба",
+            "bold": false,
+            "italic": true,
+		"color": "gold"
+        },
+        "description": {
+            "text": "Поразить Морбекса Страшного",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bossmorbex": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[Boss_Morbex]}"
+                }
+            }
+        }
+    },
+    "parent": "gd:netherrock"
+}

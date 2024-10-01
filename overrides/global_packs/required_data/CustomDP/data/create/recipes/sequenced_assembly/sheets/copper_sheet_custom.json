@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/copper"
+  },
+  "transitionalItem": {
+    "item": "minecraft:copper_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:copper_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.66,
+      "item": "create:copper_sheet"
+    },
+    {
+      "chance": 0.34,
+      "item": "create:copper_nugget"
+    }
+  ],
+  "loops": 3
+}

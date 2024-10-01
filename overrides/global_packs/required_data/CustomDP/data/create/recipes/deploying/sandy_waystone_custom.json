@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "waystones:waystone"
+    },
+    {
+      "item": "minecraft:chiseled_sandstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "waystones:sandy_waystone"
+    }
+  ]
+}

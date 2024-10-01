@@ -1,0 +1,13 @@
+
+[Config]
+	#Whether the systems and tier-progression will behave like RS3, false will make it behave like OSRS instead
+	modernrs = true
+	#Whether to restrict vanilla recipes in Survival, most being unlocked or replaced with mod-versions
+	restrictrecipes = true
+	#Whether to restrict mining ore blocks in Survival based on the player's mining level
+	restrictmining = true
+	#Whether to restrict mining tree-log blocks in Survival based on the player's woodcutting level
+	restrictchopping = true
+	#Whether to restrict health regeneration in Survival, requiring the player to eat food or to stand near Banker villagers to heal
+	restricthealing = true
+

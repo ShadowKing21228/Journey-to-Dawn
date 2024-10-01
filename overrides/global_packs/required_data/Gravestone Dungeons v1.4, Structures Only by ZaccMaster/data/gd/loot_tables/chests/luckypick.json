@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['{\"text\":\"Reinforcement of Fortune\\'s Chisel:\\\\n\\\\n1x Fortune\\'s Chisel\\\\n32x Bottle o\\' Enchanting\\\\n1x Netherite Ingot\\\\n1x Smithing Tongs\\\\n\\\\nAll materials need to be put together on an anvil.\"}'],title:\"Reinforcement - Fortune's Chisel\",author:unknown,generation:1,display:{Lore:[\"Fortune's Chisel\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

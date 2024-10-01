@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"gd:chests/old_worn_box\"},display:{Name:'[{\"text\":\"Old Worn Box\",\"italic\":false,\"color\":\"#336633\"}]',Lore:['[{\"text\":\"Contains basic loot and a map\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to Direwood Keep.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Miners Wet Boots\",\"italic\":false,\"color\":\"#996633\"}]'},Enchantments:[{lvl:3,id:depth_strider},{lvl:10,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.5,Slot:feet,Name:\"generic.knockback_resistance\",UUID:[I;-124421,18678,163025,-37356]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_shulker_box",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Holey Ore Bag\",\"italic\":false,\"color\":\"#996633\"}]'}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,luckypick:1b,display:{Name:'[{\"text\":\"Fortune\\'s Chisel\",\"italic\":true,\"color\":\"#6666cc\"}]',Lore:['[{\"text\":\"Experienceboost I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Although it only lasts a short time, this chisel ensures high precision when mining ore.\",\"italic\":false,\"color\":\"dark_gray\"}]']},Enchantments:[{id:fortune,lvl:5},{id:unbreaking,lvl:3}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/cave"
+        }
+      ]
+    }
+  ]
+}

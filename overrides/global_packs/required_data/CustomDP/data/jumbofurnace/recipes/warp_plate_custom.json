@@ -1,0 +1,30 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "supplementaries:stone_tile_slab",
+			"count": 1
+		},
+		{
+			"type": "forge:nbt",
+			"item": "waystones:warp_dust",
+			"count": 4
+		},
+		{
+			"type": "forge:nbt",
+			"item": "supplementaries:flint_block",
+			"count": 1
+		},
+		{
+			"item": "minecraft:lodestone"
+		}
+	],
+	"result":
+	{
+		"item": "waystones:warp_plate",
+		"count": 1
+	},
+	"experience": 0.9
+}

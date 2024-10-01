@@ -1,0 +1,33 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "kubejs:fractured_catalyst"
+    },
+    {
+      "item": "minecraft:infested_stone_bricks"
+    },
+    {
+      "item": "irons_spellbooks:shriving_stone"
+    },
+    {
+      "item": "minecraft:infested_stone_bricks"
+    },
+    {
+      "item": "byg:ametrine_gems"
+    },
+    {
+      "item": "minecraft:infested_stone_bricks"
+    },
+    {
+      "item": "waystones:warp_stone"
+    },
+    {
+      "item": "minecraft:infested_stone_bricks"
+    }
+  ],
+  "mana": 100000,
+  "result": {
+    "item": "undergarden:catalyst"
+  }
+}

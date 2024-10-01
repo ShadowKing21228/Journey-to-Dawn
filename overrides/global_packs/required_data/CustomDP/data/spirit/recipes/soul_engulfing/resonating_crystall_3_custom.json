@@ -1,0 +1,33 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:resonating_crystall_3"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "SXS",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "spirit:compressed_soul_powder_block"
+        },
+        "X": {
+          "block": "spirit:compressed_soul_sand"
+        }
+      }
+    }
+  },
+  "duration": 180,
+  "outputItem": "kubejs:resonating_crystall_3",
+  "outputAmount": 2
+}

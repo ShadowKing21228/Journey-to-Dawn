@@ -1,0 +1,51 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "minecraft:clay"
+  },
+  "output": "createindustry:fireclay",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:ancient_debris"
+      }
+    },
+    {
+      "item": {
+        "item": "create:cinder_flour"
+      }
+    },
+    {
+      "item": {
+        "item": "create:cinder_flour"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ancient_debris"
+      }
+    },
+    {
+      "item": {
+        "item": "create:cinder_flour"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ancient_debris"
+      }
+    },
+    {
+      "item": {
+        "item": "create:cinder_flour"
+      }
+    },
+    {
+      "item": {
+        "item": "create:cinder_flour"
+      }
+    }
+  ],
+  "source": 1500
+}

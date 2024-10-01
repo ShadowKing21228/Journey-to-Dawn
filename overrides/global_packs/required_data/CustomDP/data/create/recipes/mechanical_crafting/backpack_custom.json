@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:hogskin"
+    },
+    "B": {
+      "item": "ars_nouveau:mundane_belt"
+    },
+    "C": {
+      "item": "hexerei:small_satchel"
+    },
+    "D": {
+      "item": "backpacked:backpack"
+    },
+	"E": {
+      "item": "minecraft:bundle"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    "CDC",
+    "AEA",
+    " A "
+  ],
+  "result": {
+    "item": "quark:backpack"
+  }
+}

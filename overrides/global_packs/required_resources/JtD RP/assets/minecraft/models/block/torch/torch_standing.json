@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/torch/torch_fire",
+		"particle": "block/torch/torch",
+		"1_0": "block/torch/torch"
+	},
+	"elements": [
+		{
+			"name": "flame_cube",
+			"from": [7, 8, 7],
+			"to": [9, 10, 9],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 14, 9, 16], "texture": "#2"},
+				"east": {"uv": [9, 14, 7, 16], "texture": "#2"},
+				"south": {"uv": [7, 14, 9, 16], "texture": "#2"},
+				"west": {"uv": [9, 14, 7, 16], "texture": "#2"},
+				"up": {"uv": [8, 14, 7, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "wood",
+			"from": [7, 0, 7],
+			"to": [9, 8, 9],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [7, 8, 9, 16], "texture": "#1_0"},
+				"east": {"uv": [7, 8, 9, 16], "texture": "#1_0"},
+				"south": {"uv": [7, 8, 9, 16], "texture": "#1_0"},
+				"west": {"uv": [7, 8, 9, 16], "texture": "#1_0"},
+				"down": {"uv": [9, 14, 7, 16], "texture": "#1_0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "flame1",
+			"from": [5.25, 9, 8],
+			"to": [10.75, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [5, 8, 11, 15], "texture": "#2"},
+				"south": {"uv": [5, 8, 11, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "flame2",
+			"from": [8, 9, 5.5],
+			"to": [8, 16, 10.5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"east": {"uv": [5, 8, 11, 15], "texture": "#2"},
+				"west": {"uv": [5, 8, 11, 15], "texture": "#2"}
+			}
+		}
+	]
+}

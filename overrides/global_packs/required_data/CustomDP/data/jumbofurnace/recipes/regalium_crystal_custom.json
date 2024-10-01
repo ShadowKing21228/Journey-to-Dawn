@@ -1,0 +1,15 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "forbidden_arcanus:arcane_crystal_dust"
+		}
+	],
+	"result":
+	{
+		"item": "undergarden:regalium_crystal"
+	},
+	"experience": 0.3
+}

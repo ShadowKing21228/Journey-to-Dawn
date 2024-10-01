@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cloudstorage:cloud"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "cloudstorage:static_cloud"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "create:fluid_pipe"
+    },
+	{
+      "item": "create:fluid_pipe"
+    }
+  ],
+  "output": [
+    {
+      "item": "quark:pipe"
+    }
+  ]
+}

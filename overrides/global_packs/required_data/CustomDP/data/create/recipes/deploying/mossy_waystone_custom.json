@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "waystones:waystone"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "results": [
+    {
+      "item": "waystones:mossy_waystone"
+    }
+  ]
+}

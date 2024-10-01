@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "arrowhead": {
+    "item": "ars_nouveau:wilden_spike"
+  },
+  "fin": {
+    "item": "totemic:eagle_feather"
+  },
+  "result": {
+    "count": 32,
+    "item": "minecraft:arrow"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  }
+}

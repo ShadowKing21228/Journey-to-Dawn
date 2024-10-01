@@ -1,0 +1,183 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1b
+		id: "ars_nouveau:starby_gift"
+		tag: { }
+	}
+	id: "3249AE193D14EB50"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect1"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect2"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect3"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect4"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect5"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect6"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect7"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect8"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect9"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:mod/effect10"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect1"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect2"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect3"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect4"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect5"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect6"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect7"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect8"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect9"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:vanil/effect10"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect1"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect2"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect3"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect4"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect5"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect6"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect7"
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/function rotten_flesh_to_leather:bad/effect8"
+			silent: true
+			type: "command"
+		}
+	]
+	title: "Приятности"
+	use_title: true
+}

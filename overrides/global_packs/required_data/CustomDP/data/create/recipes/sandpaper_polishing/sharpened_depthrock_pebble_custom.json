@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "undergarden:depthrock_pebble"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:sharpened_depthrock_pebble"
+    }
+  ]
+}

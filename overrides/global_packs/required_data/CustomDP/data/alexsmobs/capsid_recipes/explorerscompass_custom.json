@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "kubejs:unawakened_compass_blank"
+    }
+  ],
+  "result": {
+    "item": "explorerscompass:explorerscompass",
+    "count": 1
+  },
+  "time": 200
+}

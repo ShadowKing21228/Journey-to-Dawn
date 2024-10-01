@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#gd:has_structure/cave_biome",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "gd:cave_start",
+  "size": 7,
+  "start_height": {
+    "type": "uniform",
+    "min_inclusive": {
+      "absolute": -60
+    },
+    "max_inclusive": {
+      "absolute": -40
+    }
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR",
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

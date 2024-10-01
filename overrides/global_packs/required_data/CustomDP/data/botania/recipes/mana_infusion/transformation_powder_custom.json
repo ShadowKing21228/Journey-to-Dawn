@@ -1,0 +1,11 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:bundle"
+  },
+  "mana": 11111,
+  "output": {
+    "item": "twilightforest:transformation_powder",
+	"count": 2
+  }
+}

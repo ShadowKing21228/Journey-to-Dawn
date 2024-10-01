@@ -1,0 +1,48 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "twilightforest:firefly"
+    },
+	"B": {
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+	"C": {
+      "item": "minecraft:red_carpet"
+    },
+	"D": {
+      "item": "botania:crafty_crate"
+    },
+	"E": {
+      "item": "minecraft:skeleton_skull"
+    },
+	"F": {
+      "item": "twilightforest:time_planks"
+    },
+	"G": {
+      "item": "craftingautomat:autocrafter"
+    },
+	"H": {
+      "item": "twilightforest:maze_map_focus"
+    },
+	"I": {
+      "item": "minecraft:crafting_table"
+    },
+	"J": {
+      "item": "botania:auto_crafting_halo"
+    }
+  },
+  "pattern": [
+    "   A   ",
+	" BCCCB ",
+	" CBDBC ",
+	"EFGHGFE",
+	" FBIBF ",
+	" BFFFB ",
+	"   J   "
+  ],
+  "result": {
+    "item": "twilightforest:uncrafting_table"
+  }
+}

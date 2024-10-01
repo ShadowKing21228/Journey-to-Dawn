@@ -1,0 +1,16 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "kubejs:resonating_crystall_1"
+		}
+	],
+	"result":
+	{
+		"item": "kubejs:resonating_crystall_1",
+		"count": 2
+	},
+	"experience": 0.1
+}

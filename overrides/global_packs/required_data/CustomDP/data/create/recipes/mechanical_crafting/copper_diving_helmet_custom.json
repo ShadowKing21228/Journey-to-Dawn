@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "kubejs:copper_plate"
+    },
+    "B": {
+      "item": "createindustry:rebar"
+    },
+    "C": {
+      "item": "create:framed_glass"
+    },
+    "D": {
+      "item": "alexsmobs:straddlite"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "ABCBA",
+    "ABCBA",
+    " ADA "
+  ],
+  "result": {
+    "item": "create:copper_diving_helmet"
+  }
+}

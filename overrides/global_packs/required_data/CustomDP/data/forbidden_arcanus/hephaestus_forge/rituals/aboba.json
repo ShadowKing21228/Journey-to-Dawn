@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "item": "byg:ametrine_gems",
+            "slot": 0
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 1
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 2
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 3
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 4
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 5
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 6
+        },
+		{
+            "item": "byg:ametrine_gems",
+            "slot": 7
+        }
+    ],
+    "hephaestus_forge_item": "farmersdelight:canvas",
+    "essences": {
+        "aureal": 70,
+        "experience": 140,
+        "blood": 0,
+        "souls": 0
+    },
+    "result": {
+        "item": "kubejs:ametrine_fabric",
+        "count": 1
+    }
+}

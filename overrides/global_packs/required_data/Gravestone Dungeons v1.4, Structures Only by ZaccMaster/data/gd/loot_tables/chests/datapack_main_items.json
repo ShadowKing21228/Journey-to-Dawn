@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{emberstone_sabatons:1b,RepairCost:100,AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Slot:feet,Name:\"generic.max_health\",UUID:[I;-123417,33605,135756,-67210]}],display:{Name:'[{\"text\":\"Rogue Emberstone Sabatons\",\"color\":\"#ff9900\"}]',Lore:['[{\"text\":\"Lava Walker I\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{id:blast_protection,lvl:2},{id:unbreaking,lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,luckypick:1b,display:{Name:'[{\"text\":\"Fortune\\'s Chisel\",\"italic\":true,\"color\":\"#6666cc\"}]',Lore:['[{\"text\":\"Experienceboost I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Although it only lasts a short time, this chisel ensures high precision when mining ore.\",\"italic\":false,\"color\":\"dark_gray\"}]']},Enchantments:[{id:fortune,lvl:5},{id:unbreaking,lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ha1:1b,display:{color:11546150,Name:'[{\"text\":\"Leather Horse Armor\",\"italic\":false,\"color\":\"#996633\"}]',Lore:['[{\"text\":\"The Leather Horse Armor is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"lightweight and flexible choice for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"those seeking protection without\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"compromising mobility.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ha2:1b,display:{Name:'[{\"text\":\"Superior Horse Armor\",\"italic\":false,\"color\":\"#ff9900\"}]',Lore:['[{\"text\":\"The Superior Horse Armor is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"sturdy and resilient piece of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"equipment for your loyal steed.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Crafted with the finest iron, it\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"provides superior protection.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ha3:1b,display:{Name:'[{\"text\":\"Fancy Horse Armor\",\"italic\":false,\"color\":\"#ffff00\"}]',Lore:['[{\"text\":\"The Fancy Horse Armor is a marvel\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of craftsmanship and elegance,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"adorned with intricate designs and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"luxurious materials. This\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"prestigious armor is fit for the\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"most discerning riders and their\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"noble steeds.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ha4:1b,display:{Name:'[{\"text\":\"Mastercrafted Horse Armor\",\"color\":\"#ffcc00\"}]',Lore:['[{\"text\":\"The Mastercrafted Horse Armor is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"testament to the skill and artistry\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of the finest armorers. Carefully\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"crafted with rare materials and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"enchantments, it bestows the horse\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"with extraordinary protection. This\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"prestigious armor is reserved for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"the bravest of steeds, ready to\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"face the most perilous of battles.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Leather Saddle\",\"italic\":false,\"color\":\"#996633\"}]',Lore:['[{\"text\":\"The Leather Saddle is a simple yet\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"reliable choice for horse riders.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"It provides the basic comfort and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"stability needed for a comfortable\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"ride, ensuring a pleasant journey\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"through the lands.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{hs1:1b,display:{Name:'[{\"text\":\"Racing Saddle\",\"italic\":false,\"color\":\"#663300\"}]',Lore:['[{\"text\":\"The Racing Saddle is a specially\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"crafted saddle designed for speed\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"enthusiasts. It enhances the\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"horse\\'s natural swiftness, granting\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"it an additional level of speed and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"making it a prime choice for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"thrilling races and swift journeys.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{hs2:1b,display:{Name:'[{\"text\":\"Superior Saddle\",\"italic\":false,\"color\":\"#339900\"}]',Lore:['[{\"text\":\"The Superior Saddle is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"masterfully crafted piece that\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"takes horse speed to new heights.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"With a remarkable increase in speed,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"it propels your steed to\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"unparalleled swiftness, making it\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"the ultimate choice for races and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"expeditions.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{hs3:1b,display:{Name:'[{\"text\":\"Mastercrafted Saddle\",\"color\":\"#ffcc00\"}]',Lore:['[{\"text\":\"The Mastercrafted Saddle is a work\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"of true artistry and engineering\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"excellence. It bestows upon your\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"loyal companion an extraordinary\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"speed boost, propelling it to\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"unmatched velocities.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{sickle:1b,display:{Name:'[{\"text\":\"Sickle\",\"italic\":false,\"color\":\"#ff9900\"}]',Lore:['[{\"text\":\"Auto-Plant I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Allows you to plant and harvest\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"crops within a small area, by\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"sneaking.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:3}],HideFlags:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Heart Of A Mystical Steed\",\"italic\":false,\"color\":\"#660066\"}]',Lore:['[\"\",{\"text\":\"Used to convert beings from other\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"dimensions by bringing them into\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"contact.\",\"italic\":false,\"color\":\"gray\"}]']},horse_heart:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

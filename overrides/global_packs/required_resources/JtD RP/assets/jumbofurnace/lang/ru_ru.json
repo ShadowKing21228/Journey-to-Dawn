@@ -1,0 +1,19 @@
+{
+	"block.jumbofurnace.jumbo_furnace": "Несуразная печь",
+	"item.jumbofurnace.jumbo_furnace": "Несуразная печь",
+	"item.jumbofurnace.jumbo_furnace_jei": "Несуразная печь",
+	"container.jumbofurnace.jumbo_furnace": "Несуразная печь",
+	"gui.jumbofurnace.category.jumbo_smelting": "Несуразное плавление",
+	"gui.jumbofurnace.category.jumbo_furnace_upgrade": "Улучшение Несуразной печи",
+	"gui.jumbofurnace.category.multiblock_building": "Мультиблочная постройка",
+	"jumbofurnace.jumbo_furnace_info_tooltip": "Поместите 27 печей в куб 3x3x3, чтобы создать Несуразную печь",
+	"jumbofurnace.jumbo_furnace_upgrade_info": "Вышеуказанный предмет(ы) можно поместить в слот улучшения Несуразной печи, чтобы увеличить количество предметов, которые она может выплавить за раз",
+	"jumbofurnace.advancements.story.assemble_jumbo_furnace.title": "Несуразная печь",
+	"jumbofurnace.advancements.story.assemble_jumbo_furnace.description": "Поместите 27 печей в куб 3x3x3, чтобы создать Несуразную печь",
+	"jumbofurnace.advancements.story.obtain_jumbo_furnace.title": "Выглядит... мелковато?",
+	"jumbofurnace.advancements.story.obtain_jumbo_furnace.description": "Создайте Несуразную печь как предмет, выплавив 27 печей в Несуразной печи",
+	"jumbofurnace.advancements.story.upgrade_jumbo_furnace.title": "Печная матрёшка",
+	"jumbofurnace.advancements.story.upgrade_jumbo_furnace.description": "Улучшите Несуразную печь Несуразной печью",
+	"jumbofurnace.advancements.story.fully_upgrade_jumbo_furnace.title": "13824 булыжника... в никуда",
+	"jumbofurnace.advancements.story.fully_upgrade_jumbo_furnace.description": "Полностью улучшите Несуразную печь, используя полный стак из 64 Несуразных печей"
+}

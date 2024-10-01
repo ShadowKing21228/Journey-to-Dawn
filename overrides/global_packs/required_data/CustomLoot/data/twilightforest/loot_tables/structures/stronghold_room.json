@@ -1,0 +1,287 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "twilightforest:structures/useless",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:maze_wafer",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ironwood_ingot",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:firefly",
+          "weight": 75
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:steeleaf_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_life_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_sword"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:ironwood_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20.0,
+              "treasure": false
+            }
+          ],
+          "name": "twilightforest:steeleaf_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": false
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": false
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": false
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "twilightforest:destruction"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:maze_map_focus"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Это было что-то... Помнишь тот провальный эксперимент? Где ещё Король присутствовал? Эти летающие твари расползлись по всему близлежайшему лесу, и начали его сжигать! \"}','{\"text\":\"Тут ещё этот научник влез со своим «Не убейте их, они ценные экземпляры! Ведите их ко мне во дворец живыми»! Раз такой умный, может сам их будешь вести к себе, а?! Я охотником на приведений не подписывался! \"}','{\"text\":\"Гр-рх, в общем, мы сильно пострадали. Вернее, наша экипировка. Эдгар, твои слова чего-то да стоят на королевской арене. Заставь этого самодовольного карминитца оплатить наши расходы! На этом я откланяюсь.  \"}','{\"text\":\"Девятый батальон пламенной дивизии, командир Сираил \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Дорогой Орден рыцарей,              Меня зовут Майя, я обычная крестьянка с Южных прибережий. Недавно в грибных лесах я начала что-то замечать. Я часто там гуляю, собираю ягоды, но в тот раз мне было как-то не по себе. \"}','{\"text\":\"Что-то в самых уголках взгляда мелькало предо мной, но тут же исчезало. Меня не покидало ощущение, что за мной наблюдают. Это существо имело лишь жёлтые глаза, светящиеся в тени грибов. \"}','{\"text\":\"Тела у них будто нет, но они как-то имитировали детский смех... Это очень жутко.        Я понимаю, у вас много работы, но прошу, придите и разберитесь, что это такое. Мы не можем спать по ночам.                                  Ждём вашего ответа \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Дорогие граждане! Вас беспокоит Орден рыцарей. Мы должны вас предупредить, что из тюрьмы смог сбежать опасный преступник. Для побега он использовал древной артефакт, кирку Крушитель Лабиринтов, а потому любые стены для него не преграда. \"}','{\"text\":\"Будьте предельно осторожны, прячьте свои ценности в тайных местах. Мы уже ведём активные поиски этого человека. Любому, кто располагает информацией о преступнике, просьба пройти к нашу ратушу.  Оставайтесь бдительными! \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Дорогой Эдгар, это я, Бенедикт. Ты знаешь, что моя жёнушка беременна. Лекари говорят, что это будет мальчик! Ты не поверишь, но я больше хотел девочку. Воспитать её изысканной и прекрасной, прямо как её мама. Но, что же, вырастет у меня сынишка-преемник! \"}','{\"text\":\"Я хочу, что бы когда ему исполнится восемь, ты взял его к себе в ученики. Никого лучше тебя в искусстве боя я не встречал. Я понимаю, что это очень эгоистичная просьба, но я хочу сделать своего сына достойным королём своего народа \"}','{\"text\":\"Что ты думаешь по этому поводу? Я спрашиваю у тебя не как Король, а как друг, потому ты можешь отказаться. Не вправе я заставлять тебя учить, коли ты не пожелаешь. Каким бы ни было твоё решение, для меня ты всё тот же Эдгар Бравый \"}'],title:\"Старый позолоченный пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Справочник по борьбе с нежитью                                  Для начала, постарайтесь подняться на возвышенность. Нежить не обладает достаточным интеллектом, что бы взбираться по уступам.  \"}','{\"text\":\"Потом начните свысока крошить конечности монстра. Серце у ниж давно не бьётся, потому эффективной тактикой будет размозжить руки и ноги, а потом придавить голову валуном. Если у вас не получается или вы боитесь, подайте сигнал помощи \"}','{\"text\":\"К вам направится эскадрилья рыцарей либо бродящие лекари и спасут вас  Ни в коем случае не пытайтесь сражаться в открытом бою, если у вас отсутствуют навыки боя! Хоть то, что нежить распостраняется укусами- это миф, \"}','{\"text\":\"однако их атаки, полные гнили, могут смертельно заразить вашу кровь и вас не успеют спасти.    Желаем вам удачи, и помните, что орден Святых рыцарей и легион Фантомов стоят на страже вашей жизни! \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

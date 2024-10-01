@@ -1,0 +1,10 @@
+{
+	"name": "Подземельные измерения",
+	"landing_text": "Отправьтесь в захватывающие путешествия по сложным подземельям с незабываемыми наградами!",
+	"model": "dimdungeons:item_guidebook",
+	"version": 0,
+	"subtitle": "v177 Июль 2023",
+	"show_progress": false,
+	"advancement_namespaces": [ "dimdungeons" ],
+	"creative_tab": "dimdungeons"
+}

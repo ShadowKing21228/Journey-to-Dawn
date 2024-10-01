@@ -1,0 +1,17 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 150,
+  "experience": 1.0,
+  "fire_type": "enchanted_fire",
+  "ingredient": {
+    "item": "botania:life_essence"
+  },
+  "residue": {
+    "chance": 0.50,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "enigmaticlegacy:astral_dust",
+		"count": 2
+	}
+}

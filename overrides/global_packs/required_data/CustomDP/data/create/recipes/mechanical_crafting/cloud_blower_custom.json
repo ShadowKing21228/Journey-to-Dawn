@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "createindustry:steel_ingot"
+    },
+    "B": {
+      "item": "cloudstorage:happy_cloud_in_a_bottle"
+    },
+    "C": {
+      "item": "cloudstorage:cloud"
+    },
+    "D": {
+      "item": "create:belt_connector"
+    },
+    "E": {
+      "item": "cloudstorage:balloon_bit"
+    }
+  },
+  "pattern": [
+    "AAA ",
+    "ABAD",
+    "AACE",
+    " DEE"
+  ],
+  "result": {
+    "item": "cloudstorage:cloud_blower"
+  }
+}

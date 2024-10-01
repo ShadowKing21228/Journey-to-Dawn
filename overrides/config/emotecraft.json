@@ -1,0 +1,51 @@
+{
+  "config_version": 4,
+  "loadbuiltin": true,
+  "quark": false,
+  "dark": false,
+  "oldChooseWheel": false,
+  "perspective": true,
+  "default3rdPersonFront": false,
+  "showicon": true,
+  "enableNSFW": false,
+  "debug": true,
+  "validate": false,
+  "validationThreshold": 8.0,
+  "emotesFolderOnLogicalServer": false,
+  "emotesDirectory": "emotes",
+  "autoFixEmoteStop": true,
+  "alwaysValidateEmote": false,
+  "playersafety": true,
+  "stopthreshold": 0.04,
+  "yratio": 0.75,
+  "showHiddenConfig": false,
+  "neverRemoveBadIcon": false,
+  "exportBuiltin": false,
+  "hideWarning": false,
+  "fastmenu": {
+    "0": {
+      "0": "54d50fbd-0000-0000-0000-000000000000",
+      "1": "23830a2a-0000-0000-0000-000000000000",
+      "2": "afe98866-0000-0000-0000-000000000000",
+      "3": "bca4c4f3-0000-0000-0000-000000000000",
+      "4": "98c08494-0000-0000-0000-000000000000",
+      "5": "cc0ef947-0000-0000-0000-000000000000",
+      "6": "92343680-0000-0000-0000-000000000000",
+      "7": "537d9a13-0000-0000-0000-000000000000"
+    },
+    "1": {
+      "0": "aba1a3d2-0000-0000-0000-000000000000",
+      "1": "6d0f8a7e-0000-0000-0000-000000000000",
+      "2": "41e3d0c9-0000-0000-0000-000000000000",
+      "3": "fd96e22d-0000-0000-0000-000000000000",
+      "4": "7fcd571a-0000-0000-0000-000000000000",
+      "5": "0711f85e-0000-0000-0000-000000000000",
+      "6": "8ae3fe02-0000-0000-0000-000000000000",
+      "7": "662b9bc2-0000-0000-0000-000000000000"
+    },
+    "2": {
+      "4": "fcbb3b13-0000-0000-0000-000000000000"
+    }
+  },
+  "keys": {}
+}

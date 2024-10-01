@@ -1,0 +1,41 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "output": "alexsmobs:straddlite",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "alexsmobs:straddlite"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "alexsmobs:straddlite"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "alexsmobs:straddlite"
+      }
+    }
+  ],
+  "source": 2500
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Громко, громче, громче всего.",
+            "bold": false,
+            "italic": true,
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Укрепить меч Гримгара",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fangsword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:netherite_sword",
+                        "nbt": "{fangsword_reinforced:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:fangsword"
+}

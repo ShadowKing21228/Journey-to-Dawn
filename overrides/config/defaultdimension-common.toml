@@ -1,0 +1,5 @@
+
+[common]
+	#The dimension the player will (re)spawn in.
+	default_dimension = "undergarden:undergarden"
+

@@ -1,0 +1,18 @@
+
+[button]
+	#Button Position Preset
+	# NONE - No preset loading
+	# DEFAULT - [140, 61] - To the right of the recipe book
+	# CLOSE - [124, 61] - Close to the right of the recipe book
+	# GRID - [76, 26] - To the left of the inventory crafting grid
+	# BAD - [-36, 64] - At least none of the other presets are this bad
+	preset = "NONE"
+	#X of the left edge of the button
+	#[Default: 140]
+	#Range: -500 ~ 500
+	buttonLeftX = 140
+	#Y of the top edge of the button
+	#[Default: 61]
+	#Range: -500 ~ 500
+	buttonTopY = 61
+

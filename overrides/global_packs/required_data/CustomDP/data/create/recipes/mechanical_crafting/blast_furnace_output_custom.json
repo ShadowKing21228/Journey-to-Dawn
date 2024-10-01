@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "createindustry:fireproof_brick"
+    },
+    "B": {
+      "item": "createindustry:cast_iron_pipe"
+    },
+    "C": {
+      "item": "createindustry:coke_oven"
+    },
+    "D": {
+      "item": "jumbofurnace:jumbo_furnace"
+    }
+  },
+  "pattern": [
+    "AAAAA",
+    "AC CA",
+    "A   A",
+    "ABDBA",
+    "AACAA"
+  ],
+  "result": {
+    "item": "createindustry:blast_furnace_output"
+  }
+}

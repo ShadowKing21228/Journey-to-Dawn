@@ -1,0 +1,212 @@
+{
+  "name": "gd:s_dungeon",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon1",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon2",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon3",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon4",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon5",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon6",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon7",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon8",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon9",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon10",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon11",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon12",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon13",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon14",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon15",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon16",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon17",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/dungeon18",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },
+{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/arena1",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/arena2",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/arena3",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/arena4",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:s_dungeon/spawner",
+        "projection": "rigid",
+        "processors": "gd:s_dungeon"
+      }
+    }
+
+
+
+
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spirit:broken_spawner"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 1,
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    {
+      "chance": 0.65,
+      "item": "forbidden_arcanus:spawner_scrap"
+    }
+  ]
+}

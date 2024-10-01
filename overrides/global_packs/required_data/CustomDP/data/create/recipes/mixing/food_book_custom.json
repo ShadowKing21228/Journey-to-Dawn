@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:copper_spell_book"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    },
+    {
+      "item": "undergarden:glitterkelp"
+    }
+  ],
+  "results": [
+    {
+      "item": "solcarrot:food_book"
+    }
+  ]
+}

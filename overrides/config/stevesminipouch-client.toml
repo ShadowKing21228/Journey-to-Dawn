@@ -1,0 +1,10 @@
+
+#If you edit this Config, please do so with care. Some combinations may cause unintended behavior.
+[client]
+	#X Offset the position of the page change button
+	#Range: > -2147483648
+	x = 0
+	#Y Offset the position of the page change button
+	#Range: > -2147483648
+	y = 0
+

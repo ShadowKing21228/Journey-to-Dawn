@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:magebloom"
+    }
+  ],
+  "results": [
+    {
+	  "count": 4,
+      "item": "ars_nouveau:magebloom_fiber"
+    }
+  ]
+}

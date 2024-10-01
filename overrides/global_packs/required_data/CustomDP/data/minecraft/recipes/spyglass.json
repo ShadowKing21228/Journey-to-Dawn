@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "createutilities:polished_amethyst"
+    },
+    "Y": {
+      "item": "create:fluid_pipe"
+    },
+    "X": {
+      "item": "create:copper_nugget"
+    }
+  },
+  "pattern": [
+    " # ",
+    " Y ",
+    " X "
+  ],
+  "result": {
+    "item": "minecraft:spyglass"
+  }
+}

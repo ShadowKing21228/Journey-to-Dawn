@@ -1,0 +1,26 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+	{
+      "item": "minecraft:beetroot_seeds"
+    },
+    {
+      "item": "hexerei:sage_seed"
+    }
+  ],
+  "output": {
+    "item": "hexerei:seed_mixture"
+  },
+  "reagent": {
+    "item": "twilightforest:torchberries"
+  }
+}

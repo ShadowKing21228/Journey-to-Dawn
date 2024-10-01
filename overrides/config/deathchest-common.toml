@@ -1,0 +1,15 @@
+
+[general]
+	#whether a death chest spawns with a skull above it
+	#
+	hasSkull = true
+	#whether players should be given a journal of their death
+	#
+	giveJournal = true
+	#whether chests should be locked so that only its owner can open it
+	lockChest = true
+	#whether journal shows death position
+	#only works if giveJournal is true
+	#
+	journalPos = true
+

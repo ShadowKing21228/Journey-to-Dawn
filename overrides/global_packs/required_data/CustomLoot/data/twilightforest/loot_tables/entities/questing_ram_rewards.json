@@ -1,0 +1,129 @@
+  {
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:crumble_horn"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Items:[{Count:1b,id:\"twilightforest:quest_ram_trophy\"},{Count:1b,id:\"minecraft:coal_block\"},{Count:1b,id:\"minecraft:copper_block\"},{Count:1b,id:\"minecraft:iron_block\"},{Count:1b,id:\"minecraft:redstone_block\"},{Count:1b,id:\"minecraft:lapis_block\"},{Count:1b,id:\"minecraft:gold_block\"},{Count:1b,id:\"minecraft:diamond_block\"},{Count:1b,id:\"minecraft:emerald_block\"},{Count:1b,id:\"twilightforest:ironwood_block\"},{Count:1b,id:\"twilightforest:steeleaf_block\"},{Count:1b,id:\"twilightforest:fiery_block\"},{Count:1b,id:\"twilightforest:knightmetal_block\"},{Count:1b,id:\"twilightforest:carminite_block\"},{Count:1b,id:\"nocubescreateexp:exp_block\"}]}"
+            }
+          ],
+          "name": "minecraft:bundle"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:brimstone_claymore"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:watcher_claymore"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:storms_edge"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:stormbringer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:watching_warglaive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:toxic_longsword"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:emberblade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:hearthflame"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulkeeper"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:twisted_blade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulstealer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:soulrender"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:soulpyre"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:frostfall"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:molten_edge"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:livyatan"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:icewhisper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:arcanethyst"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:thunderbrand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:mjolnir"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:slumbering_lichblade"
+        },
+		{
+          "type": "minecraft:item",
+          "name": "simplyswords:shadowsting"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:dormant_relic"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "botania:runic_altar_head",
+  "ingredients": [
+    {
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "item": "undergarden:froststeel_nugget"
+    }
+  ],
+  "mana": 10000,
+  "output": {
+    "item": "irons_spellbooks:frozen_bone"
+  }
+}

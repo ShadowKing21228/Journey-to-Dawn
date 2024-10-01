@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sg_simple_utilities:blocks/workbench_bottom",
+    "up": "sg_simple_utilities:blocks/workbench_top",
+    "north": "sg_simple_utilities:blocks/workbench_front",
+    "east": "sg_simple_utilities:blocks/workbench_lside",
+    "south": "sg_simple_utilities:blocks/workbench_back",
+    "west": "sg_simple_utilities:blocks/workbench_rside",
+    "particle": "sg_simple_utilities:blocks/workbench_bottom"
+  },
+  "render_type": "solid"
+}

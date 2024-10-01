@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "quark:pipe"
+    },
+    {
+      "tag": "forge:glass/colorless"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:encased_pipe"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar_head",
+  "ingredients": [
+    {
+      "item": "botania:livingrock_bricks_slab"
+    },
+    {
+      "item": "botania:livingrock_bricks_slab"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "botania:livingrock_bricks_slab"
+    }
+  ],
+  "mana": 12500,
+  "output": {
+    "item": "botania:mana_tablet"
+  }
+}

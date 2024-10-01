@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:wheat_seeds"
+    },
+    "result": "minecraft:large_fern",
+    "count": 1
+}

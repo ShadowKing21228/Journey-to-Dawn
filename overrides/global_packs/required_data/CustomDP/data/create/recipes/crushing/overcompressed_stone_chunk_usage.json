@@ -1,0 +1,36 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "kubejs:overcompressed_stone_chunk"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "chance": 0.6,
+	  "count": 9,
+      "item": "kubejs:highly_compressed_stone"
+    },
+    {
+      "chance": 0.1,
+	  "count": 5,
+      "item": "undergarden:forgotten_nugget"
+    },
+    {
+      "chance": 0.1,
+	  "count": 4,
+      "item": "botania:terrasteel_nugget"
+    },
+    {
+      "chance": 0.1,
+	  "count": 3,
+      "item": "forbidden_arcanus:deorum_nugget"
+    },
+    {
+      "chance": 0.1,
+	  "count": 1,
+      "item": "quark:diamond_heart"
+    }
+  ]
+}

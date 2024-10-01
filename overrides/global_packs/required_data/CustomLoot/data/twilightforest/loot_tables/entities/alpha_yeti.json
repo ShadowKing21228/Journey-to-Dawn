@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:alpha_yeti_fur"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:ice_bomb"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:alpha_yeti_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Мой любимый,           Я даже не знаю, что и сказать. Я безмерно тебя люблю, но не слишком ли ты торопишься с помолвкой? У тебя ведь столько дел и проектов, которые ты ещё не закончил, ты уверен что для королевства сейчас лучшее время праздновать? \"}','{\"text\":\"Не думай, что я лишь отнекиваюсь от тебя. Ты стал моей опорой, смыслом моей жизни. Я готова стать твоей супругой, и очень этого хочу, но ты Король... \"}','{\"text\":\"А король должен в первую очередь думать о всём королевстве, а не о одном его жителеЯ надеюсь, что ты поймёшь меня. Всё так же, из заснеженных земель,                              С любовью,             Твоя Аврора\"}'],title:\"Письмо\",author:\"Аврора\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

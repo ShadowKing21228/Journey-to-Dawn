@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "undergarden:droopvine_item"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sugar"
+    }
+  ]
+}

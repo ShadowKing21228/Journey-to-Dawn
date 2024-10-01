@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:crying_obsidian"
+    }
+  ]
+}

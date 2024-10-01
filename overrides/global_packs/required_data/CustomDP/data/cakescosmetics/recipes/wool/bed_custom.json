@@ -1,0 +1,8 @@
+{
+  "type": "cakescosmetics:sewing",
+  "ingredient": {
+    "item": "kubejs:wool_cloth",
+	"count": 4
+  },
+  "result": "minecraft:white_bed"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "cloudstorage:angry_cloud_in_a_bottle"
+  },
+  "output": "cloudstorage:happy_cloud_in_a_bottle",
+  "pedestalItems": [],
+  "source": 500
+}

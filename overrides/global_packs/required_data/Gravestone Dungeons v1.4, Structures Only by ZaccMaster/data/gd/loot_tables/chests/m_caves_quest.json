@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['[[\"Report of the Mangrove Caves:\\\\n            \u06e9\\\\nIn the realm of untamed nature, an awe-inspiring dungeon lay concealed beneath the majestic mountain\u2014a needle-like peak that seemed to pierce the very heavens. It was a sight that left me spellbound, beckoning\"]]','[[\"me with an irresistible allure to explore its hidden depths.\\\\nAt the mountain\\'s base, I discovered an entrance, its features weathered and worn by the relentless forces of nature. A portal into the unknown, leading into the belly of a vast and mysterious cave system. My heart\"]]','[[\"quickened with excitement as I ventured forth, driven by an insatiable curiosity to uncover the enigmas that awaited within.\\\\nYet, my journey was not without challenges. In the darkness, lurking within the shadows, skeletal guardians stood\"]]','[[\"sentinel, warning intruders like me to proceed with caution. Their presence added an air of mystery and foreboding to the labyrinthine passageways.\\\\nAs I delved deeper, a powerful resonance echoed from the depths\u2014a low rumble that seemed to\"]]','[[\"resonate through the very earth itself. It was a sound both ominous and intriguing, leaving me to wonder about the secrets concealed below.\\\\nRegrettably, the time for further exploration was not yet right, and I reluctantly departed from the caves. However,\"]]','[[\"the memory of the dungeon\\'s allure and the mysteries hidden within remained etched in my mind, fueling a desire to return one day\u2014to conquer the uncharted depths and unravel the enigmatic secrets that lay within the heart of the mountain.\"]]'],title:\"Bones and Bricks\",author:\"curious wanderer\",generation:1,display:{Name:'[\"\",{\"text\":\"Bones and Bricks\",\"italic\":false,\"color\":\"#cccccc\"}]',Lore:['[\"\",{\"text\":\"Explore the antique ruins of\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"an old civilization.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

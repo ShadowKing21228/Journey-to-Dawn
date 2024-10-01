@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "undergarden:depthrock"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 1,
+      "item": "undergarden:sediment"
+    },
+    {
+      "chance": 0.5,
+      "item": "undergarden:sediment"
+    }
+  ]
+}

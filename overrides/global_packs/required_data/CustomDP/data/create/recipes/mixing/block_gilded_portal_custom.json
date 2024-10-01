@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "item": "kubejs:golden_plate"
+    },
+    {
+      "item": "kubejs:golden_plate"
+    },
+    {
+      "item": "kubejs:golden_plate"
+    },
+    {
+      "item": "kubejs:golden_plate"
+    },
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "create:golden_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "dimdungeons:block_gilded_portal"
+    }
+  ]
+}

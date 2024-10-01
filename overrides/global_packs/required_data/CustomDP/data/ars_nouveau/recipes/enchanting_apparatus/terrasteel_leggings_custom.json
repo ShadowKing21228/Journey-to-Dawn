@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "botania:terrasteel_leggings"
+  },
+  "pedestalItems": [
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "botania:manaweave_leggings"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "botania:elementium_leggings"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "minecraft:netherite_leggings"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "ars_nouveau:archmage_leggings"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "hexerei:infused_fabric"
+    }
+  ],
+  "sourceCost": 10000
+}

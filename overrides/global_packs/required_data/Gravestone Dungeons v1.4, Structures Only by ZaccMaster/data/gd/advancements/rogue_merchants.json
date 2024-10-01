@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Блуждающие торговцы",
+            "bold": false,
+            "italic": true,
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Встретить мошенника-торговца",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cloudtraders": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{Tags:[merchant]}"
+                }
+            }
+        }
+    },
+    "parent": "gd:2fair"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "twilightforest:charm_of_life_2"
+    },
+    {
+      "item": "botania:overgrowth_seed"
+    },
+    {
+      "item": "botania:avatar"
+    },
+    {
+      "item": "spirit:soul_crystal_shard"
+    },
+    {
+      "item": "hexerei:gold_rings"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

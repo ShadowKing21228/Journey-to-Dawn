@@ -1,0 +1,150 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 11,
+          "quality": 2,
+          "functions": [
+{
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:4862479,display:{Name:'[{\"text\":\"Stunning Arrow\",\"italic\":false,\"color\":\"#660000\"}]',Lore:['[{\"text\":\"effective against strong opponents\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:1},{Id:2,Duration:200,Amplifier:6}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 11,
+          "quality": 2,
+          "functions": [
+{
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:1562151,display:{Name:'[{\"text\":\"Poisoning Arrow\",\"italic\":false,\"color\":\"#00cc33\"}]',Lore:['[{\"text\":\"effective against armor...\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"slowly but surely\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:19,Duration:600,Amplifier:3},{Id:18,Duration:600,Amplifier:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+{
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:1815505,display:{Name:'[{\"text\":\"Levitating Arrow\",\"italic\":false,\"color\":\"#66ccff\"}]',Lore:['[{\"text\":\"what goes up, always comes down\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:2},{Id:9,Duration:200,Amplifier:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 8,
+          "quality": 2,
+          "functions": [
+{
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{fire_arrow:1b,CustomPotionColor:15240492,display:{Name:'[{\"text\":\"Fire Arrow\",\"italic\":false,\"color\":\"#ff3300\"}]',Lore:['[{\"text\":\"With a bag of incendiary gunpowder\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"attached to the shaft of the arrow,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"it spreads fire at landingpoint.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:24,Duration:1200}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 3,
+          "quality": 8,
+          "functions": [
+{
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{ender_arrow:1b,CustomPotionColor:613458,display:{Name:'[{\"text\":\"Ender Arrow\",\"italic\":false,\"color\":\"#095c52\"}]',Lore:['[{\"text\":\"teleports you to landingspot\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:1,Duration:1}]}"
+            }
+          ]
+        },
+{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 7,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bonfire_arrow:1b,CustomPotionColor:16771584,display:{Name:'[{\"text\":\"Bonfire Arrow\",\"italic\":false,\"color\":\"#ffff00\"}]',Lore:['[{\"text\":\"summons a shower of arrows \",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"at the landing place \",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:24,Duration:100,show_particles:0b,Amplifier:1}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+{
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+
+            {
+              "function": "set_nbt",
+              "tag": "{witchcraft:1b,CustomPotionColor:10035746,display:{Name:'[{\"text\":\"Cursed Arrow\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"one can\\'t describe this\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"must be held with offhand\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:20,Duration:1}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

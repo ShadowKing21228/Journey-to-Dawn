@@ -1,0 +1,57 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "totemic:stripped_cedar_wood"
+  },
+  "transitionalItem": {
+    "item": "totemic:stripped_cedar_wood"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "totemic:stripped_cedar_wood"
+        }
+      ],
+      "results": [
+        {
+          "item": "totemic:stripped_cedar_wood"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "totemic:stripped_cedar_wood"
+        }
+      ],
+      "results": [
+        {
+          "item": "totemic:stripped_cedar_wood"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "totemic:stripped_cedar_wood"
+        }
+      ],
+      "results": [
+        {
+          "item": "totemic:stripped_cedar_wood"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:kinetic_mechanism_frame"
+    }
+  ],
+  "loops": 1
+}

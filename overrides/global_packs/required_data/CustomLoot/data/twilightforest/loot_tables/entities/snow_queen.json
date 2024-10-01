@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:triple_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:seeker_bow"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 7.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:packed_ice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 16.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:snowball"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:snow_queen_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Речь принца Адальмана                                            Мой народ! Мы близки к нашей цели как никогда! Пред нами простёрлись величайшие опасности за всю нашу историю. Существо, древнее мира, в коем покоится; \"}','{\"text\":\"Мир, граничащий с пустотой, которая столько раз губила наши судьбы; Источники силы, что заставляют усомниться в реальности бытия. Но кто мы такие, что бы сдаваться?! Мы прошли историю, что нам и не снится сейчас в самых страшных кошмарах! \"}','{\"text\":\"Мы величайший и единственный народ во всех мирах! Мы- Маэмар!! Пусть у нашего врага крылья, мы сами взлетим к нему в небеса. Пусть у нашего врага смертельное дыханье, мы покрова себя непробиваемым щитом. Пусть нас ждёт пустота, мы к этому готовы. \"}','{\"text\":\"Я отдам всё, что бы подарить народу новый дом! Вы пойдёте за мной? Я спрашиваю Вас, вы пойдёте за мной?! Да будет так! Да процветает Маэмар!! \"}'],title:\"Королевские хроники\",author:\"Неизвестно\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

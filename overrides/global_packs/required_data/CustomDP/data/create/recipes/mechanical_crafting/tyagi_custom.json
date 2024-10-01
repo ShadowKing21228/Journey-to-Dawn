@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "kubejs:catalytic_essence"
+    },
+    "B": {
+      "item": "kubejs:ametrine_fabric"
+    },
+    "C": {
+      "item": "totemic:buffalo_hide"
+    },
+    "D": {
+      "item": "kubejs:cluster_of_amberia"
+    },
+    "E": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "F": {
+      "item": "createindustry:plastic_sheet"
+    }
+  },
+  "pattern": [
+    "    ABC",
+    "   BBDE",
+    " BBCCCE",
+    "BFFFFE "
+  ],
+  "result": {
+    "item": "tyafi:oprn_boots"
+  }
+}

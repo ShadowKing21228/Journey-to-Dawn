@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "twilightforest:slime_beetle",
+  "reversible": false,
+  "to": "alexsmobs:fly"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 400,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "twilightforest:deadrock",
+		"count": 4
+  },
+  "residue": {
+    "chance": 0.25,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "irons_spellbooks:blank_rune"
+	}
+}

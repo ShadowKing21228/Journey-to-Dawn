@@ -1,0 +1,7 @@
+{
+	"type": "ftbdripper:drip",
+	"inputBlock": "kubejs:fragile_handicraft_alloy",
+	"outputBlock": "kubejs:hardened_craft_alloy",
+	"chance": 1.0,
+    "fluid": "minecraft:lava"
+}

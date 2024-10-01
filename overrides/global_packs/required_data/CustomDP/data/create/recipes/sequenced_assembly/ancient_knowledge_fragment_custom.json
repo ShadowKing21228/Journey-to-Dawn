@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ars_nouveau:blank_parchment"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        },
+        {
+            "item": "quark:ancient_fruit"
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        },
+        {
+          "amount": 30,
+          "fluid": "create_enchantment_industry:hyper_experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ]
+    },
+	{
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        },
+        {
+          "amount": 750,
+          "fluid": "create_enchantment_industry:ink",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:blank_parchment"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ars_nouveau:blank_parchment"
+  }
+}

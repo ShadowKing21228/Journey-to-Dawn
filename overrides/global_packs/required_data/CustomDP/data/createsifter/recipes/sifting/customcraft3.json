@@ -1,0 +1,26 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "twilightforest:trollsteinn"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.1,
+      "item": "minecraft:mud"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:quartz"
+    },
+    {
+      "chance": 0.6,
+      "item": "create:crushed_raw_aluminum"
+    }
+  ]
+}

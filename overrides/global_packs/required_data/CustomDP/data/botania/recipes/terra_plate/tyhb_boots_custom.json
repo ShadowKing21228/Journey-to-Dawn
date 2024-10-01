@@ -1,0 +1,39 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "tyafi:oprn_boots"
+    },
+    {
+      "item": "createindustry:red_concrete"
+    },
+    {
+      "item": "irons_spellbooks:greater_healing_potion"
+    },
+    {
+      "item": "createindustry:red_concrete"
+    },
+    {
+      "item": "spirit:soul_crystal"
+    },
+    {
+      "item": "createindustry:red_concrete"
+    },
+    {
+      "item": "alexsmobs:guster_eye"
+    },
+    {
+      "item": "createindustry:red_concrete"
+    },
+    {
+      "item": "quark:diamond_heart"
+    },
+    {
+      "item": "createindustry:red_concrete"
+    }
+  ],
+  "mana": 1000000,
+  "result": {
+    "item": "tyafi:tyhb_boots"
+  }
+}

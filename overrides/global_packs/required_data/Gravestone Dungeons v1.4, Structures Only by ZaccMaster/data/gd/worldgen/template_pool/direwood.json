@@ -1,0 +1,296 @@
+{
+  "name": "gd:direwood",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood1",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood2",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood3",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood4",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood5",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood6",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood7",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood8",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood9",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood10",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood11",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood12",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood13",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood14",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood15",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood16",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood17",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood18",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood19",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood20",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood21",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood22",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/direwood23",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/ragnvald_frostbeard",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/alaric_stormweaver",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/dogmeat",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/eldrid_grayhair",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/faendil_boldtongue",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/gilbert_silverhand",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/harlan_ironmug",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/lraven",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/lyra_frostwind",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/monk_zaccarius",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/ragnar_thornvale",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/villager",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/ysembert",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    }
+
+  ]
+}

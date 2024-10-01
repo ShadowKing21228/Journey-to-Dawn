@@ -1,0 +1,50 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "spirit:soul_steel_block"
+    },
+    "B": {
+      "item": "forbidden_arcanus:corrupti_dust"
+    },
+    "C": {
+      "item": "byg:pendorite_scraps"
+    },
+    "D": {
+      "item": "createindustry:steel_casing"
+    },
+    "K": {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    "L": {
+      "item": "alexsmobs:straddlite"
+    },
+    "M": {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    "E": {
+      "item": "portablehole:portable_hole"
+    },
+    "F": {
+      "item": "botania:dice"
+    },
+    "G": {
+      "item": "minecraft:painting"
+    },
+    "H": {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    "J": {
+      "item": "spirit:soul_cage"
+    }
+  },
+  "pattern": [
+    "ABECD",
+    "KFGHK",
+    "DLJMA"
+  ],
+  "result": {
+    "item": "dimpaintings:end_painting"
+  }
+}

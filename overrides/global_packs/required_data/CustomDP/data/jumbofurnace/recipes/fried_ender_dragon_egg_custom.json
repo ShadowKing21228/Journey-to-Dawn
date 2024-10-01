@@ -1,0 +1,15 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "minecraft:dragon_egg"
+		}
+	],
+	"result":
+	{
+		"item": "kubejs:fried_ender_dragon_egg"
+	},
+	"experience": 0.1
+}

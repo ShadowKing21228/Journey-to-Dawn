@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:aureal_bottle"
+    },
+    {
+      "item": "kubejs:catalytic_essence"
+    }
+  ],
+  "results": [
+    {
+      "item": "enigmaticlegacy:ichor_bottle"
+    }
+  ]
+}

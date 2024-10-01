@@ -1,0 +1,397 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:diamond",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 7.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gold_ingot",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:emerald",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6.0,
+                  "min": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:spider_eye",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 7.0,
+                  "min": 3.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rotten_flesh",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_horse_armor",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_horse_armor",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_horse_armor",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 2
+          },
+	    {
+  		"type": "minecraft:item",
+ 		"weight": 20,
+ 		"name": "minecraft:written_book",
+  		"functions": [
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{book_3:1b,title:\"Book III - Places of Power\",author:\"Monk Zaccarius\",pages:[\"{\\\"text\\\":\\\"\\\\n\\\\nTales by Monk Zaccarius\\\\n\\\\nBook III\\\\n\\\\nPlaces of Power\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nColorful stones of power,\\\\nScattered all around,\\\\nThose who kneel before them,\\\\nMay hear the old gods\' sound.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nBlessed with their favor,\\\\nFor a day, you shall be,\\\\nThe power of the ancients,\\\\nYours to wield and see.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nBut be wary, dear traveler,\\\\nFor the stones are not yours to own,\\\\nThey belong to the gods above,\\\\nAnd their wrath you shall be shown.\\\\n\\\\n\\\"}\"
+
+]}"
+
+    }
+  ]
+},{
+  		"type": "minecraft:item",
+ 		"weight": 20,
+ 		"name": "minecraft:written_book",
+  		"functions": [
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{book_4:1b,title:\"Book IV - Coven of Shadows\",author:\"Monk Zaccarius\",pages:[\"{\\\"text\\\":\\\"\\\\n\\\\nTales by Monk Zaccarius\\\\n\\\\nBook IV\\\\n\\\\nCoven of Shadows\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nIn the land of chaos, where darkness reigns,\\\\nThe three witches hold sway over their domains,\\\\nKaidaia, Malificaia, and Sylvanaia, they're called,\\\\nDevious, alluring, and utterly appalled.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nCrafting potions and weapons, they stay unbeaten,\\\\nTheir secrets unknown, their magic unseen,\\\\nThe Warp Crystal, a product of their witchcraft,\\\\nteleporting them anywhere, in the blink of an eye, and fast.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nPlacing it on the altar in their portal room,\\\\nA ritual begins, and the world around them is consumed.\\\\nRumors speak of a fourth, even more devastating,\\\\nA weapon beyond compare, combining their craft, worth waiting.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nThe altar beneath the weeping willow tree,\\\\nWhere the three witches gather, and the world may see,\\\\nTheir power and might, their magic unleashed,\\\\nAs the darkness envelops, and their enemies are breached.\\\\n\\\\n\\\"}\"
+
+]}"
+
+    }
+  ]
+},{
+  		"type": "minecraft:item",
+ 		"weight": 20,
+ 		"name": "minecraft:written_book",
+  		"functions": [
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{book_5:1b,title:\"Book V - The Emberstone Bastion\",author:\"Monk Zaccarius\",pages:[\"{\\\"text\\\":\\\"\\\\n\\\\nTales by Monk Zaccarius\\\\n\\\\nBook V\\\\n\\\\nThe Emberstone Bastion\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nIn the vast expanse where skies meet stone,\\\\nA colossal red rock claims its throne.\\\\nFloating high with roots cascading below,\\\\nA beacon of treasure, a mystical glow.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nWithin its depths, an ancient bastion lies,\\\\nBuilt from black stone that time defies.\\\\nMorbex the Necromancer reigns supreme,\\\\nHis dark magic conjures an eerie dream.\\\\n\\\\n\\\"}\",
+\"{\\\"text\\\":\\\"\\\\n\\\\nUndead minions heed his grim command,\\\\nSummoned from realms beyond this land.\\\\nFrom spectral steeds that glide over water's sheen,\\\\nTo fiery mounts taming molten ravine.\\\\n\\\\n\\\"}\",\"{\\\"text\\\":\\\"\\\\n\\\\nYet mysteries untold await the bold,\\\\nIn this realm where wonders unfold.\\\\nFor there is more than meets the eye,\\\\nIn this dark, enchanting sky.\\\\n\\\\n\\\"}\"
+
+]}"
+
+    }
+  ]
+},
+
+
+
+{
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "decoration": "red_x",
+                "function": "minecraft:exploration_map",
+                "destination" : "gd:netherrock",
+                "skip_existing_chunks": false,
+                "zoom": 2
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Emberstone Bastion Explorer Map"
+              }
+            ],
+            "name": "minecraft:map"
+          },
+
+
+
+
+{
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "decoration": "red_x",
+                "function": "minecraft:exploration_map",
+                "destination" : "gd:church",
+                "skip_existing_chunks": false,
+                "zoom": 2
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Infested Church Explorer Map"
+              }
+            ],
+            "name": "minecraft:map"
+          },
+
+
+
+{
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "decoration": "red_x",
+                "function": "minecraft:exploration_map",
+                "destination" : "gd:m_caves",
+                "skip_existing_chunks": false,
+                "zoom": 2
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Mangrove Caves Explorer Map"
+              }
+            ],
+            "name": "minecraft:map"
+          },
+
+
+
+{
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "decoration": "red_x",
+                "function": "minecraft:exploration_map",
+                "destination" : "gd:cloud_traders",
+                "skip_existing_chunks": false,
+                "zoom": 2
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Cloud Traders Explorer Map"
+              }
+            ],
+            "name": "minecraft:map"
+          },
+
+
+
+
+
+          {
+            "type": "minecraft:empty",
+            "weight": 15
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 4.0,
+          "min": 2.0
+        }
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gunpowder",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rotten_flesh",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:string",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sand",
+            "weight": 10
+          }
+        ],
+        "rolls": 4.0
+      }
+    ]
+  }

@@ -1,0 +1,261 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:ironwood_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:maze_wafer"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:firefly"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:steeleaf_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 15.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:red_thread"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:maze_map_focus"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tnt"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "twilightforest:fire_react"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\"}"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Манасталь: 20 тонн, в Восточную провинцию    Арчивудская древесина: 27 кубометров, к Главному Дворцу. Тип не важен    Железистые руды: повысить поставку на 20% в связи с недавним ЧП \"}','{\"text\":\"Тёмное дерево: постоянные поставки к Карминитовому Замку. Возведение дополнительных башен          Стальные листы: уменьшить производство до значений позапрошлого года. Из-за обилия на рынке цена падает \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Здравствуйте!         Я хотела сообщить вам, что мой товар задерживается уже как неделю, или даже больше! Скажите пожалуйста, всё ли в порядке? Мне важно знать, там дорогой моему мужу предмет  С уважением,    Каридия М.  \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Эй, Уриэль.        Ребята с карьера из Юго-Западного высокогорья говорят прислать им больше людей. Говорят, что нашли новую руду, которая светится тем сильнее, чем меньше света вокруг. \"}','{\"text\":\"Странно всё это, почему Король-то не знал об этом? Он как-никак владыка высот. Ты там свяжись с ними, тебе они врать не станут.  На этом у меня всё.                      Вице-глава отдела шахтёрских перевозок \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Добрый день, Оробас.                              Говорит глава транспортной коалиции. Я вынужден попросить Вас прекратить финансирование контрафактной перевозки. \"}','{\"text\":\"Вся торговля должна проходить наше строгое лицензирование, и то, что Вы делаете всё в тайне, наталкивает на мысли о незаконных товарах. Я буду рад узнать, что ошибаюсь, и Вы просто не знали о процедуре, но предупреждаю- \"}','{\"text\":\"не стоит делать нас врагами. На нашей стороне его Величество, а значит и всё Королевство.  С наилучшими намерениями,          У. Ф.  \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Добрый день,          Это письмо адресуется отделу межрегиональных перевозок. Я бы хотел арендовать у Вас на четырнадцать суток около пятидесяти ваших рабочих.  \"}','{\"text\":\"Я знаю о Ваших условиях в виде лимита на 30 наёмных, но мне нужны большие мощности в эти сжатые сроки, поэтому я готов заплатить 65℅ сверху. Прошу простить за излишнюю наглость и войти в моё положение.\"}','{\"text\":\"Вы можете связаться со мной по обратному адресу.                Буду ждать от Вас ответа  \"}'],title:\"Старый пергамент\",author:\"Неизвестно\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

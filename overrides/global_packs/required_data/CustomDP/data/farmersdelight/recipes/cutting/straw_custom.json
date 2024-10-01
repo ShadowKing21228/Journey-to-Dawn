@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "undergarden:tall_shimmerweed"
+    }
+  ],
+  "result": [
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+	  "chance": 0.5,
+      "item": "undergarden:shimmerweed"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

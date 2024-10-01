@@ -1,0 +1,16 @@
+
+#General settings
+[general]
+	#Set max durability of item
+	#Range: > 1
+	durability = 50
+	#Emit particles when using item
+	particlesEnabled = true
+	#Allow to teleport across dimensions
+	allowCrossDimension = true
+	#How long it should take to use the item
+	#Range: > 1
+	casttime = 100
+	#Play sounds when using item
+	soundsEnabled = true
+

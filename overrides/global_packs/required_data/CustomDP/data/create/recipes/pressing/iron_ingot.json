@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:iron_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:iron_sheet"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "rope_throw": {
+    "subtitle": "subtitles.rope_throw",
+    "sounds": [
+      {
+        "name": "sg_simple_utilities:rope_throw",
+        "stream": false
+      }
+    ]
+  }
+}

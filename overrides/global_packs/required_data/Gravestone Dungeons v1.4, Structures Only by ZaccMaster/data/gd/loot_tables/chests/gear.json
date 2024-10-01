@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0.5
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_horse_armor",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ha1:1b,display:{color:11546150,Name:'[{\"text\":\"Leather Horse Armor\",\"italic\":false,\"color\":\"#996633\"}]',Lore:['[{\"text\":\"The Leather Horse Armor is a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"lightweight and flexible choice for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"those seeking protection without\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"compromising mobility.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:saddle",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{hs1:1b,display:{Name:'[{\"text\":\"Racing Saddle\",\"italic\":false,\"color\":\"#663300\"}]',Lore:['[{\"text\":\"The Racing Saddle is a specially\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"crafted saddle designed for speed\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"enthusiasts. It enhances the\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"horse\\'s natural swiftness, granting\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"it an additional level of speed and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"making it a prime choice for\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"thrilling races and swift journeys.\",\"italic\":false,\"color\":\"gray\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 6,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cobweb",
+          "weight": 6,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "weight": 4,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 2,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

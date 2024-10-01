@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+	"B": {
+      "item": "createindustry:rebar"
+    },
+	"C": {
+      "item": "hexerei:herb_enhanced_broom_brush"
+    },
+	"D": {
+      "item": "twilightforest:fiery_ingot"
+    },
+	"E": {
+      "item": "cloudstorage:cloud_blower"
+    },
+	"F": {
+      "item": "ars_nouveau:fire_essence"
+    },
+    "G": {
+      "item": "botania:lens_fire"
+    }
+  },
+  "pattern": [
+    "AB  ",
+    "BCBD",
+	" BEF",
+    " DFG"
+  ],
+  "result": {
+    "item": "hexerei:broom_thruster_brush"
+  }
+}

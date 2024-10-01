@@ -1,0 +1,29 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "chunkloaders:single_chunk_loader"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "createindustry:steel_block"
+        }
+      }
+    }
+  },
+  "duration": 30,
+  "outputItem": "chunkloaders:basic_chunk_loader"
+}

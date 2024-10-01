@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "undergarden:smogstem_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "undergarden:stripped_smogstem_wood"
+    }
+  ]
+}

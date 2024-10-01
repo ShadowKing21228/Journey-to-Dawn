@@ -1,0 +1,23 @@
+{
+  "name": "gd:cheatroom_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cheatroom/cheatroom",
+        "projection": "rigid",
+        "processors": "gd:cheatroom"
+      }
+    }
+
+
+
+
+
+
+
+
+  ]
+}

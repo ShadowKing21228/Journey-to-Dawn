@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:blank_rune"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:nature_rune"
+    }
+  ]
+}

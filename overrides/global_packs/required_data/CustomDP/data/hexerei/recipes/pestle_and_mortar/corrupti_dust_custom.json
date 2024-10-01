@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "forbidden_arcanus:bat_wing"
+    },
+    {
+      "item": "createindustry:slag"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ],
+  "output": {
+    "item": "forbidden_arcanus:corrupti_dust",
+    "count": 4
+  },
+  "grindingTime": 400
+}

@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+	{
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "alexsmobs:rainbow_jelly"
+    },
+	{
+      "item": "forbidden_arcanus:wax"
+    },
+	{
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+	{
+      "item": "forbidden_arcanus:wax"
+    },
+	{
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+	{
+      "item": "supplementaries:soap_block"
+    },
+	{
+      "item": "forbidden_arcanus:aureal_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "forbidden_arcanus:purifying_soap"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

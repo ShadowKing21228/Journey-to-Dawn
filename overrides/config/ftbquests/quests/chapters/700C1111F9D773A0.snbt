@@ -1,0 +1,1031 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "700C1111F9D773A0"
+	group: "54DECDB6D89E76B0"
+	hide_quest_until_deps_visible: true
+	icon: "farmersdelight:horse_feed"
+	id: "700C1111F9D773A0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0A0E576DC681A939"
+				"77BCD429A6F67917"
+			]
+			description: ["Теперь же, когда я создал печь, можно и &oприготовить &fеду получше.&r &fВ здешних океанах &rводится очень много &6мелкой рыбёшки. &fДумаю, её бы я и мог попробовать"]
+			id: "4398DCBD68A1997F"
+			shape: "diamond"
+			tasks: [{
+				id: "2C207A0994C47E16"
+				item: "undergarden:cooked_gwibling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0A0E576DC681A939"
+				"77BCD429A6F67917"
+			]
+			description: ["В местных лесах &rводятся забавные &6носачи. &fИз их мяса можно было бы &6приготовить отличный стейк! &fНаконец нормальная еда, а то уже устал носить столько супов и фруктов!"]
+			id: "3A83D3BC1AF55317"
+			shape: "diamond"
+			tasks: [{
+				id: "0B65126511D7349C"
+				item: "undergarden:dweller_steak"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["46811996EA5BF62C"]
+			description: ["Этот мир выглядит очень холодным и жестоким, но не стоит обращать внимания только на фауну. Я приметил множество &6грибов и ягод, &fкоторые можно использовать в &6пищу"]
+			hide: true
+			id: "77BCD429A6F67917"
+			shape: "diamond"
+			tasks: [{
+				id: "4F3B0DD888E0643B"
+				title: "Ясно"
+				type: "checkmark"
+			}]
+			title: "Еда в Подбедроковых садах"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0A0E576DC681A939"
+				"77BCD429A6F67917"
+			]
+			description: ["&6Мрачники-&r это подобие лягушек. Они довольно высоко прыгают и распространяют вирулентность. Их мясо довольно вкусное, а так же вроде &6помогает в допрыгивании.&r &oЯ теперь сам лягух, хах?..&r"]
+			id: "64D90E7FE75B240F"
+			shape: "diamond"
+			tasks: [{
+				id: "34291EE308E355E6"
+				item: "undergarden:gloomper_leg"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77BCD429A6F67917"]
+			description: ["&6Грибы из крови,&r брр... Даже думать жутко. Однако такая жидкость при употреблении увеличивает мою силу! &oВозможно, это как-то связано с усилением кровотока...&r Тогда это объясняет почему я так же становлюсь &6восприимчевей к боли&r"]
+			id: "6BD53DF6CBD9099E"
+			shape: "diamond"
+			tasks: [{
+				id: "52C77AA6F7ABCD42"
+				item: "undergarden:bloody_stew"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77BCD429A6F67917"]
+			description: ["&6Суп &fиз каких-то &6чернильных грибов. &fНе лучшая еда, после них в глазах мутнеет, однако на удивление я начинаю &oменьше чувствовать боль...&r"]
+			id: "2C05D5CB7B1072B3"
+			shape: "diamond"
+			tasks: [{
+				id: "09CC6A4A5BB3E0ED"
+				item: "undergarden:inky_stew"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77BCD429A6F67917"]
+			description: ["Ещё &6суп&r из грибов, но &6синих!&r Кажется, они помогают чуть лучше видеть в темноте, но... Они долольно калорийные, &oи ходить после них тяжеловато...&r"]
+			id: "1E4A1DDB533CABAB"
+			shape: "diamond"
+			tasks: [{
+				id: "1326FAD712F1774F"
+				item: "undergarden:indigo_stew"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77BCD429A6F67917"]
+			description: ["&6Шторогрибы&r оказались более приятными, чем другие грибы. После их поедания мне гораздо проще спускаться с уступов, я как будто &6становлюсь легче.&r &oИнтересно и полезно&r"]
+			id: "258A47F489FEC03A"
+			shape: "diamond"
+			tasks: [{
+				id: "49236B4B2B12814D"
+				item: "undergarden:veiled_stew"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77BCD429A6F67917"]
+			description: ["&6Ягоды &fоказались фруктом. Пустым на вкус и витымины... Но зато их много, они сладкие и могут ненадолко &6осветить мою кожу.&r &oТак даже бродить чуть приятней, хах...&r"]
+			id: "6F4C753468E6DD07"
+			shape: "diamond"
+			tasks: [{
+				id: "1A02F148A9EA1200"
+				item: "undergarden:droopvine_item"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77BCD429A6F67917"]
+			description: ["Я нашёл отличный &6ягодный куст, &fнапоминающий обычные сладкие ягоды. Их растёт достаточно много, но из них часто вырастают опасные гнилые варианты. &oХотя, может и их можно использовать?&r"]
+			id: "4BCDFAA3C297EDA1"
+			shape: "diamond"
+			tasks: [{
+				id: "7D93010C9FDBBA18"
+				item: "undergarden:blisterberry"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"77BCD429A6F67917"
+				"0A0E576DC681A939"
+			]
+			description: ["На местных лугах растёт &fмножество растений с &6бобами.&r Вроде съедобны, быстро едятся и &oдаже не плохи&r"]
+			id: "5D27F7265E894C0A"
+			tasks: [{
+				id: "64FE31FE0922C210"
+				item: "undergarden:roasted_underbeans"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["На опушке леса встретил каких-то &6кабанчиков. &fНе отказался бы сейчас от свининки"]
+			id: "3CFBAC0CF57CC28F"
+			tasks: [{
+				id: "01FC43900921AD07"
+				item: "minecraft:cooked_porkchop"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["&6Баран! &fНу из его мяса &6стейк &fточно будет неплохим. Надо вот только его ещё убить, да"]
+			id: "6B1B32348AA494FC"
+			tasks: [{
+				id: "7079A8D288581FD8"
+				item: "minecraft:cooked_mutton"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["Самая обычная &6курица, &fчто может быть проще для &6разведения? &fВозможно, это будет моей &6главной пищей &fв этом мире"]
+			id: "03D0BEF0E21C9D94"
+			tasks: [{
+				id: "0A6CFF1C6046B665"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["&6Олени,&r что водятся в этих лесах, отличаются от других животных, они гораздо более стадные. Мне интересно &6попробовать их мясо.&r &oОно уникально или похоже на какое-нибудь другое?&r"]
+			id: "189FF143AD1D8645"
+			tasks: [{
+				id: "42561C01BE4595F1"
+				item: "twilightforest:cooked_venison"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["&oПолулюд, полубык!&r Если вспомнить легенды, то это явно &6минотавр. &fИнтересно, какое у него мясо? Он же всё-таки корова &fнаполовину"]
+			id: "53A5439F4C2DDC89"
+			tasks: [{
+				id: "35FF26FC59959E20"
+				item: "twilightforest:cooked_meef"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E60B5618C549EB5"]
+			description: ["Наконец я выбрался из Подземелий. Я вижу небо! Это... так красиво... Я уже подметил в этом мире &6животных, &fиз которых явно можно &6пожарить стейки"]
+			id: "4CE9F9D2E51407BD"
+			tasks: [{
+				id: "450503094AE84DE3"
+				title: "Еда в Сумеречном лесу"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["В водах Сумрачного леса должна быть более пригодная флора для рыб. Может, попробовать &6порыбачить здесь?&r &oЯ бы не отказался от какой-нибудь трески&r"]
+			icon: "minecraft:tropical_fish"
+			id: "3023753DAFBF9D30"
+			tasks: [{
+				id: "42DB7410A310A9EE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+				title: "Любая рыба"
+				type: "item"
+			}]
+			title: "Рыба"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4CE9F9D2E51407BD"
+				"0D8792DC2FAF3E36"
+			]
+			description: ["&6Чугун- &rидеальный металл для инструментов готовки. К примеру, &6сковородка!&r Она не только крепкая и больно бьёт, но и может жарить еду целыми стопками! Ещё и в руках можно поготовить. &oОтличный походный инструмент&r"]
+			id: "3BAA3C9F7E17771B"
+			tasks: [{
+				id: "5F96312B22A6F868"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4CE9F9D2E51407BD"
+				"0D8792DC2FAF3E36"
+			]
+			description: ["Попытки готовить с железной посуде, я помню, &oу меня не увенчались успехом.&r Ну, на то я и создал &6чугун!&r Это крепкий и нержавеющий сплав, который хорошо подойдёт для создания &6кухонного котелка&r"]
+			id: "38BD5BDEBAFA4BF7"
+			tasks: [{
+				id: "1543F21F7E26D486"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CE9F9D2E51407BD"]
+			description: ["Раз уж я начал по полной заниматься готовкой, то грех не вспомнить &6про ножи!&r Ими можно и травы нарезать и мяса... &oУверен, они мне ещё понадобятся&r"]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "786D66BC632DAAA4"
+			tasks: [{
+				id: "6BED424E2A61A78C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "Любой нож"
+				type: "item"
+			}]
+			title: "Ножи"
+			x: 3.25d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4CE9F9D2E51407BD"
+				"20135B92693D6D36"
+			]
+			description: ["После того как я увидел &6горелку всполоха,&r в моей голове всплыло одно воспоминание... &oТам человек обжаривал еду в кипящем масле.&r Раз у меня теперь есть нагрев, смогу ли я повторить этот опыт и создать похожую &6фритюрницу?&r"]
+			icon: "create_bic_bit:mechanical_fryer"
+			id: "3F44F39198A782A1"
+			tasks: [
+				{
+					id: "27E478195C175FB6"
+					item: "create_bic_bit:mechanical_fryer"
+					type: "item"
+				}
+				{
+					id: "5C46C80CA151409A"
+					item: "create_bic_bit:frying_oil_bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F44F39198A782A1"]
+			description: ["Готовка на фритюрнице подтолкнула меня к ещё одной &6термической обработке еды,&r &oесли можно так сказать...&r Если &6нагреть молоко,&r оно должно свернуться, так? Таким образом получится сыр, если я не перепутал?"]
+			id: "0E5C3B79E80D4405"
+			tasks: [{
+				id: "05484F008D62CA97"
+				item: "create_bic_bit:curdled_milk_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E5C3B79E80D4405"]
+			description: ["&oХах, я оказался прав.&r &6Свернувшееся молоко&r надо просто взболтать, и получится сыр. Останется лишь поставить его на полку и &6дождаться его выдерживания.&r &oЭто будет очень вкусно и полезно!&r"]
+			id: "61908B51EB4EC889"
+			tasks: [{
+				id: "1357D5D4A17D6F4F"
+				item: "create_bic_bit:aged_cheese"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74FB9AF549034A54"]
+			description: ["Получившиеся блюда вышли &oслегка пресноватыми.&r Может, им недостаёт &6соуса?&r Я знаю по памяти кетчуп, это соус из томатов, и майонез, он из яичного белка. &oМожет, попробовать такие сделать...&r"]
+			icon: "create_bic_bit:ketchup_bottle"
+			id: "7169EFB03EBBE3DE"
+			tasks: [
+				{
+					id: "13B35A7E6FB1632D"
+					item: "create_bic_bit:mayonnaise_bottle"
+					type: "item"
+				}
+				{
+					id: "692DA0281EBFCE0D"
+					item: "create_bic_bit:ketchup_bottle"
+					type: "item"
+				}
+			]
+			title: "Соусы"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F44F39198A782A1"]
+			description: ["Если обделать какое-нибудь яйуо, или мясо, или даже овощ мукой, то его &6можно будет обжарить в масле.&r Он покроется корочной и будет очень насыщенным. Интересно, &oсколько разных видов пищи я смогу придумать?"]
+			icon: "create_bic_bit:bitterballen"
+			id: "0638DAAEA2912FD1"
+			tasks: [
+				{
+					id: "7411A4BEA31D9972"
+					item: "create_bic_bit:kroket"
+					type: "item"
+				}
+				{
+					id: "37685CAA10D304E5"
+					item: "create_bic_bit:frikandel"
+					type: "item"
+				}
+				{
+					id: "37BA74312A023B8B"
+					item: "create_bic_bit:cheese_souffle"
+					type: "item"
+				}
+				{
+					id: "3B46C825978ED2A5"
+					item: "create_bic_bit:churros"
+					type: "item"
+				}
+				{
+					id: "6C4BE81167DD1D5C"
+					item: "create_bic_bit:fries"
+					type: "item"
+				}
+				{
+					id: "6BF0364E0D21E795"
+					item: "create_bic_bit:bitterballen"
+					type: "item"
+				}
+				{
+					id: "4708997662F450F0"
+					item: "create_bic_bit:eggball"
+					type: "item"
+				}
+				{
+					id: "2A6923FCFBF7ADE0"
+					item: "create_bic_bit:oliebollen"
+					type: "item"
+				}
+			]
+			title: "Обжарено и жирно"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0638DAAEA2912FD1"]
+			description: ["Некоторые блюда по вкусу мне понравились, но... Вот как мне есть кучу ломтиков картошки, &oесли они все сыпятся из рук?&r У меня появилась идея сделать для всяких котлеток или той же картошки место, куда их &6можно будет положить&r и есть, не замарав руки"]
+			icon: "create_bic_bit:wrapped_fries"
+			id: "74FB9AF549034A54"
+			tasks: [
+				{
+					id: "4EDE2C4976A53D5F"
+					item: "create_bic_bit:frikandel_sandwich"
+					type: "item"
+				}
+				{
+					id: "74D0C477BA32F9F7"
+					item: "create_bic_bit:kroket_sandwich"
+					type: "item"
+				}
+				{
+					id: "6F02A9A584EBB142"
+					item: "create_bic_bit:wrapped_fries"
+					type: "item"
+				}
+			]
+			title: "Еда в обёртке"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F44F39198A782A1"]
+			description: ["Оказалось, в этой штуке можно готовить не только разную жирную пищу, &oно и выпечку!&r Для этого мне надо будет &6сладкое тесто&r по-разному приготовить. Я думаю выйдет &oдаже круче чем печеньки!&r"]
+			icon: "create_bic_bit:speculaas"
+			id: "6E41558C4F4A8567"
+			tasks: [
+				{
+					id: "417AD80EA3029294"
+					item: "create_bic_bit:stroopwafel"
+					type: "item"
+				}
+				{
+					id: "5CC324FBF7E33771"
+					item: "create_bic_bit:speculaas"
+					type: "item"
+				}
+				{
+					id: "5919AF132EFDDCB6"
+					item: "create_bic_bit:kruidnoten"
+					type: "item"
+				}
+			]
+			title: "Выпечка"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"38BD5BDEBAFA4BF7"
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["Думаю, &oможно начать с чего попроще,&r необязательно же сразу там что-то варить или тушить. Можно попробовать просто &6приготовить рис,&r или мясо в листьях салата. Кстати об этом, почему бы не попробовать &6сделать салат?&r &oВыйдет же неплохо&r"]
+			icon: "farmersdelight:dumplings"
+			id: "00FA6423496EAB99"
+			tasks: [
+				{
+					id: "2F9FF87E8A78256F"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					id: "31C28C65528DB385"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					id: "6443123AE0B55ACE"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+				{
+					id: "292422352D7FC1F8"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "386DAEB67AADEA34"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+			]
+			title: "Простые блюда"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"38BD5BDEBAFA4BF7"
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["Раз у меня есть кастрюля, почему бы не приготовить &oчто-то жидкое&r в ней? &oВроде супов.&r Можно как просто жидкие супы вроде свекольного, так и к примеру с гущей. Налить в миску &oи-вперёд!&r"]
+			icon: "farmersdelight:chicken_soup"
+			id: "6B8C7A946D54C21B"
+			tasks: [
+				{
+					id: "6DB25EBAD0513E76"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+				{
+					id: "70951BAC619E50EA"
+					item: "farmersdelight:pumpkin_soup"
+					type: "item"
+				}
+				{
+					id: "0342D9CA62AAA128"
+					item: "farmersdelight:noodle_soup"
+					type: "item"
+				}
+				{
+					id: "7DB89C2BDD8DA01E"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "67563C66FDE7B52E"
+					item: "farmersdelight:bone_broth"
+					type: "item"
+				}
+				{
+					id: "3C80AD599C0709F6"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+			]
+			title: "Супы"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"38BD5BDEBAFA4BF7"
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["В такой кастрюле я наконец смогу мясо и овощи не только жарить, &6но и тушить.&r Это и кролика можно потушить, и рыбу, и даже грибы! &oТоже очень аппетитные блюда&r"]
+			icon: "minecraft:rabbit_stew"
+			id: "6F05AED125EAC3DE"
+			tasks: [
+				{
+					id: "227067AFE0BA1017"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+				{
+					id: "1801984B08D24D3A"
+					item: "farmersdelight:baked_cod_stew"
+					type: "item"
+				}
+				{
+					id: "02F23ADED412258E"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					id: "33BCBD878C6E7E63"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					id: "270125FF42E139B2"
+					item: "minecraft:rabbit_stew"
+					type: "item"
+				}
+				{
+					id: "1DA94F16A107D2F0"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+			]
+			title: "Тушёная еда"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6F05AED125EAC3DE"
+				"6B8C7A946D54C21B"
+				"00FA6423496EAB99"
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Я уже поэкспериментировал с готовкой в котелке, можно попробовать и что-то потяжелее. Приготовить &6блюда на тарелке!&r Это целое ассорти из разной пищи, оно получится очень вкусным и сытним. &oСколько всего вариаций я смогу придумать?&r"]
+			icon: "farmersdelight:pasta_with_meatballs"
+			id: "474E4C3049EB8138"
+			tasks: [
+				{
+					id: "467ACC30B3C0D47C"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "49906E06C3E047AC"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+				{
+					id: "214450B145EA8E78"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+				{
+					id: "127F2496A41C3291"
+					item: "farmersdelight:pasta_with_meatballs"
+					type: "item"
+				}
+				{
+					id: "56087AFF823FE5C8"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "46F4D6FAA069DA1D"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					id: "1A4AAF44D90A2C23"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					id: "0F5E54CC5AEF691B"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "58A959D101F12FDC"
+					item: "farmersdelight:ratatouille"
+					type: "item"
+				}
+				{
+					id: "466BF250E077526D"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+			]
+			title: "Блюда на тарелке"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["474E4C3049EB8138"]
+			description: ["После готовки на тареках ко мне пришла новая &oмысль о многоразовой еде.&r Такую большую порцию можно просто поставить на стол и &6есть её несколько раз.&r &oИ дому украшение, и мне питание!&r"]
+			icon: "farmersdelight:honey_glazed_ham_block"
+			id: "6F58E13A51129E93"
+			tasks: [
+				{
+					id: "45C4EF37E7C66756"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "04F7C3D34F2D4E1F"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "2F75638177D972EE"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "0DAC2F02AA61BFA1"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "778B9979BCE15F3D"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+			]
+			title: "Большие порции"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6F05AED125EAC3DE"
+				"6B8C7A946D54C21B"
+				"00FA6423496EAB99"
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&oА что это я только для себя изыски делаю?&r Надо и моим питомцам что-то приготовить. &6Корм для собак&r сделает их сильнее и живучее, а &6лошади&r от своего корма станут быстрее и ловчее"]
+			icon: "farmersdelight:dog_food"
+			id: "46FF18F53A865019"
+			tasks: [
+				{
+					id: "0EBAE01AE31BC5EA"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "040344F2721FDCED"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+			]
+			title: "Еда для питомцев"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["Я начал уж больно заморачиватся над готовкой. &oМожет, отдохнуть от этого?&r У меня есть идеи простых блюд, которые можно сделать &6буквально на руках.&r Это разные сэндвичи или рыба в ламинарии, выйдет и просто и сытно"]
+			icon: "farmersdelight:hamburger"
+			id: "1E8F0575A517F0DE"
+			tasks: [
+				{
+					id: "384CD50150CBC9FD"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					id: "15132FF5EC5682E1"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+				{
+					id: "6A71206005FFC4A7"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					id: "2CDE2BA9238ECDCC"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "4A4DAF1B98FE3E2D"
+					item: "farmersdelight:chicken_sandwich"
+					type: "item"
+				}
+				{
+					id: "30DF0D39E81A7952"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					id: "3CC858A9E9DA47AA"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+				{
+					id: "5D9DC507DEED0463"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+				{
+					id: "5FA0D6B90149C94C"
+					item: "farmersdelight:kelp_roll"
+					type: "item"
+				}
+			]
+			title: "Еда на ходу"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["Я всегда знал, что &oсахар помогает мозгу.&r Возможно, создавать сладкие блюда хорошая идея... Я бы попробовал создать что-то большое, вроде &6пирогов или торта.&r Такой еды хватит надолго!"]
+			icon: "farmersdelight:chocolate_pie"
+			id: "0241C30756AFB67F"
+			tasks: [
+				{
+					id: "22697BAEE335BBB0"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "4FC6A177D939B2B4"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "2E4C701DBE3AF135"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "0F24A378F5A27474"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "7016350FFD1E5455"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			title: "Пироги"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["Я всегда знал, что &oсахар помогает мозгу.&r Возможно, создавать сладкие блюда хорошая идея... Я бы попробовал создать что-то простое, вроде &6печенья или карамельных конфет.&r Оно быстро готовится и естся, то что надо для дома"]
+			icon: "supplementaries:candy"
+			id: "16535C95DFF188FE"
+			tasks: [
+				{
+					id: "0F1996D9A96A93A9"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+				{
+					id: "398D439DC160CA21"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+				{
+					id: "2007EF7FC95A3E7B"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "0C9E1161A8DE92C7"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "54DF54A8CD916967"
+					item: "supplementaries:pancake"
+					type: "item"
+				}
+				{
+					id: "13A887BE17F6C5D5"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+			]
+			title: "Простые сладости"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B2F1923F20A5A94"
+				"148FA44183F1C431"
+			]
+			description: ["Я всегда знал, что &oсахар помогает мозгу.&r Возможно, создавать сладкие блюда хорошая идея... Я бы попробовал создать что-то необычное, вроде &6шоколада или коктейлей&r Такая еда будет и вкусной, и сытной"]
+			icon: "farmersdelight:glow_berry_custard"
+			id: "403E0C13E63ED494"
+			tasks: [
+				{
+					id: "43590D79322A9D75"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+				{
+					id: "34615ADC1A946DB8"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					id: "2A68141D9076A8C3"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+				{
+					id: "497BF0A44C41D004"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "100F37CD3D876E33"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					id: "4C9B53718FD147CD"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+			]
+			title: "Сложные сладости"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"786D66BC632DAAA4"
+				"3BAA3C9F7E17771B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Оказывается, используя &6ножи&r можно гораздо более филигранно разделывать животных. Можно получить больше кожи или мяса... Со свиньи вроде как я смогу даже &6ветчину вырезать!&r &oСтоит опробовать&r"]
+			id: "67C5D61322914C58"
+			tasks: [{
+				id: "58BEA18955D5D4C4"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"786D66BC632DAAA4"
+				"3BAA3C9F7E17771B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Я был прав, ножи и впрямь могут &6разделывать мясо.&r Это могут быть как мяса обычных скотных животных, так и филе рыб. Хочу попробовать их потом ещё и пожарить. &oНасколько вкусно выйдет?&r"]
+			icon: "farmersdelight:cooked_mutton_chops"
+			id: "332A86A9A1CE080C"
+			tasks: [
+				{
+					id: "416AAD696CC29986"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+				{
+					id: "570A97B3C2FAC199"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "7D05DEF07CA2C8E9"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "120AB4F6BFCE5101"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "364A1604F390BE60"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+				{
+					id: "0215DEEFCA1212AD"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+			]
+			title: "Разделывание мяса"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3BAA3C9F7E17771B"
+				"7077D656AA9371A3"
+			]
+			description: [
+				"Н-ну... Это действительно... деликатес. Пожарить яйцо дракона, кто бы мог подумать что это вообще возможно..."
+				"{@pagebreak}"
+				"&aПоздравляю! Вы нашли пасхалку! Всего здесь 12 пасхалок, на каждую из глав. Открыв все, вы получите доступ к 13, особой пасхалке! Удачи!&r"
+				"                               &o&f -Сигмариус&r"
+			]
+			hide_text_until_complete: false
+			id: "060DEDB8828CBE89"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "77BC2D218E0BF794"
+				item: "kubejs:fried_ender_dragon_egg"
+				type: "item"
+			}]
+			title: "По вкусу вкусно, по сути вкусно"
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	title: "Кулинария"
+}

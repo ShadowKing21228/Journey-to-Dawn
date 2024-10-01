@@ -1,0 +1,41 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "undergarden:miserabell"
+    },
+    {
+      "item": "totemic:cedar_leaves"
+    },
+    {
+      "item": "undergarden:butterbunch"
+    },
+    {
+      "item": "hexerei:sage_bundle"
+    },
+    {
+      "item": "undergarden:shimmerweed"
+    },
+    {
+      "item": "totemic:cedar_leaves"
+    },
+    {
+      "item": "undergarden:amorous_bristle"
+    }
+  ],
+  "output": {
+    "item": "kubejs:humus"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 500,
+  "heatRequirement": "heated"
+}

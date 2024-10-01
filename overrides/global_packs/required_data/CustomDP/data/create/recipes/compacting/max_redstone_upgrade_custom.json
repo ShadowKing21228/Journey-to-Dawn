@@ -1,0 +1,21 @@
+
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "storagedrawers:redstone_upgrade"
+      },
+    {
+      "item": "supplementaries:timber_frame"
+      },
+    {
+      "item": "storagedrawers:obsidian_storage_upgrade"
+      }
+  ],
+  "results": [
+    {
+      "item": "storagedrawers:max_redstone_upgrade",
+	  "count": 3
+    }
+  ]
+}

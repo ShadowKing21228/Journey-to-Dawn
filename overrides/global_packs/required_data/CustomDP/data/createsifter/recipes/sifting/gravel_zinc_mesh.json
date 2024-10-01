@@ -1,0 +1,46 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.05,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.07,
+      "item": "create:zinc_nugget"
+    },
+    {
+      "chance": 0.05,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.12,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:flint"
+    },
+    {
+      "chance": 0.1,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

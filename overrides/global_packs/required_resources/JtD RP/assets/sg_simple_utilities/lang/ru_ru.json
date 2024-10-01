@@ -1,0 +1,16 @@
+{
+  "tooltip.sg_simple_utilities.secret_ticket1": "Тотем тихонько шепчет Ваше имя:",
+  "gui.sg_simple_utilities.work_table.label_storage": "Хранилище",
+  "itemGroup.tabsimple_utilities_window": "JtD Simple Utilities",
+  "item.sg_simple_utilities.iron_cords": "Железные связки",
+  "item.sg_simple_utilities.toolkit": "Набор инструментов",
+  "item.sg_simple_utilities.secret_ticket": "Билет на аудиенцию",
+  "gui.sg_simple_utilities.work_table.label_inventory": "Инвентарь",
+  "tooltip.sg_simple_utilities.secret_ticket2": ". Это значит, что вы достойны аудиенции. Свяжитесь с автором сборки в ЛС на Discord, и вы сможете попасть в историю модпака",
+  "item.sg_simple_utilities.throwable_rope": "Метательная вервёка",
+  "gui.sg_simple_utilities.work_show.label_workbench_recipes": "Рецепты рабочего стола",
+  "block.sg_simple_utilities.workbench": "Рабочий стол",
+  "subtitles.rope_throw": "Бросок веревки",
+  "block.sg_simple_utilities.rope_utility_block": "Служебный блок верёвки",
+  "gui.sg_simple_utilities.work_table.label_workbench": "Рабочий стол"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "undergarden:utherium_crystal"
+  },
+  "base": {
+    "item": "undergarden:cloggrum_chestplate"
+  },
+  "result": {
+    "item": "undergarden:utherium_chestplate"
+  }
+}

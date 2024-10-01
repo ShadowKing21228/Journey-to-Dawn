@@ -1,0 +1,38 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "kubejs:humus"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.2,
+      "item": "minecraft:carrot"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:potato"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:beetroot_seeds"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:glow_berries"
+    }
+  ]
+}

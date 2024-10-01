@@ -1,0 +1,47 @@
+{
+  "name": "gd:arcane_nodes_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:arcane_nodes/arcane_base_1",
+        "projection": "rigid",
+        "processors": "gd:arcane_nodes"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:arcane_nodes/arcane_base_2",
+        "projection": "rigid",
+        "processors": "gd:arcane_nodes"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:arcane_nodes/arcane_base_3",
+        "projection": "rigid",
+        "processors": "gd:arcane_nodes"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:arcane_nodes/arcane_base_4",
+        "projection": "rigid",
+        "processors": "gd:arcane_nodes"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:arcane_nodes/arcane_base_5",
+        "projection": "rigid",
+        "processors": "gd:arcane_nodes"
+      }
+    }
+  ]
+}

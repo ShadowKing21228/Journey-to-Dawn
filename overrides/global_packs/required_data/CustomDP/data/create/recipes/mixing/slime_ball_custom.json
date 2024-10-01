@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "undergarden:goo_ball"
+    },
+    {
+      "item": "undergarden:goo_ball"
+    },
+    {
+      "item": "undergarden:goo_ball"
+    },
+    {
+      "item": "undergarden:mogmoss"
+    },
+    {
+      "item": "undergarden:mogmoss"
+    },
+    {
+      "item": "undergarden:mogmoss"
+    }
+  ],
+  "results": [
+    {
+	  "count": 2,
+      "item": "minecraft:slime_ball"
+    }
+  ]
+}

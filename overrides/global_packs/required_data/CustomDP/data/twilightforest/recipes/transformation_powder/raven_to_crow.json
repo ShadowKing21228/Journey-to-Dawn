@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "twilightforest:raven",
+  "reversible": false,
+  "to": "hexerei:crow"
+}

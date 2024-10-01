@@ -1,0 +1,7 @@
+{
+	"type": "ftbdripper:drip",
+	"inputBlock": "undergarden:depthrock",
+	"outputBlock": "undergarden:tremblecrust",
+	"chance": 1.0,
+    "fluid": "minecraft:lava"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sg_simple_utilities:block/rope_utility_block"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Блестящая маленькая штучка",
+            "bold": false,
+            "italic": true,
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Получить кристаллический большой меч",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "poisonsword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:iron_sword",
+                        "nbt": "{luminous:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:witches"
+}

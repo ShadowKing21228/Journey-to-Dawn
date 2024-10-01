@@ -1,0 +1,776 @@
+{
+  "name": "gd:church",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_3",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_4",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_5",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_6",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_7",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_8",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_9",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_10",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_11",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_12",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_13",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_14",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add1_15",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_3",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_4",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_5",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_6",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_7",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_8",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_9",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_10",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_11",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_12",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_13",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_14",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_15",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_16",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_17",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_18",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_19",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_20",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add2_21",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add3_1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add3_2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add4_1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add4_2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add5_1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add6_1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/add6_2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature3",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature4",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature5",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature6",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature7",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature8",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature9",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature10",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature11",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature12",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/feature13",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber3",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber4",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 24,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber5",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 16,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber6",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber7",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/chamber8",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church1",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church2",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church3",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church4",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church5",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church6",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church7",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church8",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church9",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church10",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church11",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church12",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church13",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church14",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church15",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church16",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church17",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church18",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church19",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church20",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church21",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church22",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church23",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church24",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church25",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church26",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church27",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church28",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church29",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church30",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church31",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church32",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/church33",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Gravestone Dungeons",
+            "bold": false,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false,
+            "color": "gold"
+        },
+        "description": {
+            "text": "Таким образом, начинается история...",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/deepslate_bricks.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+            }
+        }
+    }
+}

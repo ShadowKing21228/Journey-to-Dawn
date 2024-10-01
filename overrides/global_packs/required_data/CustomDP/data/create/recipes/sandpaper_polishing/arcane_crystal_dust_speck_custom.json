@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "undergarden:regalium_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+    }
+  ]
+}

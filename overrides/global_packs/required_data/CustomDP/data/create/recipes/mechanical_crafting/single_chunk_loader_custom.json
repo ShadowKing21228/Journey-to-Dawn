@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "botania:manasteel_ingot"
+    },
+    "B": {
+      "item": "createindustry:cast_iron_flywheel"
+    },
+	"C": {
+      "item": "waystones:warp_dust"
+    },
+    "D": {
+      "item": "create:encased_chain_drive"
+    },
+	"E": {
+      "item": "dimdungeons:block_portal_keyhole"
+    }
+  },
+  "pattern": [
+    " ABA ",
+	"C D C",
+	"BDEDB",
+	"C D C",
+	" ABA "
+  ],
+  "result": {
+    "item": "chunkloaders:single_chunk_loader"
+  }
+}

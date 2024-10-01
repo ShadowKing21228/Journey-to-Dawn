@@ -1,0 +1,47 @@
+{
+  "parent": "gd:horse3",
+  "criteria": {
+    "on_ebon_horse": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:skeleton_horse",
+                "nbt": "{Tags:[soulsteed]}"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "Мне нельзя это трогать",
+      "bold": false,
+      "italic": true,
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Прокатитесь верхом на духовном коне",
+      "color": "gray"
+    },
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "on_ebon_horse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

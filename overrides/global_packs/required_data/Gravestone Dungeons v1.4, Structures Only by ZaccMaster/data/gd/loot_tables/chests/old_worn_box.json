@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/coins"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/food"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potions"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['[\"\",{\"text\":\"Gravestone Dungeons\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n     \\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"The Beginning\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":2}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Direwood Keep\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":3}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Currency\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":4}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Trader\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":5}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Contracts\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":7}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Dungeons\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":9}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Bosses\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":11}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Arcane Nodes\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":13}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Weapons and Armor\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":14}},{\"text\":\"\\\\n\\\\u2b26\",\"color\":\"reset\"},{\"text\":\"Maps\\\\n\\\\u2b26\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":18}},{\"text\":\"Bugreport\",\"italic\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":19}}]','[\"\",{\"text\":\"The Beginning\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nQuite early, you meet Ysembert, who sells you a few supplies and a map to Direwood Keep, where you start your journey. \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Direwood Keep\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nForms the center of the whole datapack. Here you can find the first few characters like traders, contractgivers, the duke of this land, wizards and a place to call home in the beginning.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Currency\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nTo trade with the custom traders, you will need to earn the custom silver and gold coins, by selling ressources to the new traders, loot dungeons or defeat bosses and claim your reward. You can\\'t craft them yourself. \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Trader\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nYou can find traders living at Direwood Keep or villages, wandering in the wild, inprisoned in dungeons, on airships or unlocked by defeating bosses.\",\"color\":\"reset\"}]','{\"text\":\"They have a limited stock of supplies and coins, which refreshes every day. You can change silver and gold coins with Faendil, the vogt of Direwood Keep for a little tax.\"}','[\"\",{\"text\":\"Contracts\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"A few characters can give you contracts. Some for small, others for big dungeons. To complete these, you need to find the wanted object by defeating the dungeonboss, following clues in the dungeons or do a few smaller\",\"italic\":true}]','[\"\",{\"text\":\"contracts to get the item in return. \",\"italic\":true},{\"text\":\"These items can be exchanged for the contractreward at the character, who gave you the contract. \\\\nSome contracts are only unlocked by completing other contracts and only if you accepted the contract. \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Dungeons\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nDungeons could span between 32 and 258 blocks to all directions. They spawn in all dimensions and most of them hold strong enemies and precious loot. Dungeons are rare, some are 10.000 blocks apart, until they repeat. \",\"color\":\"reset\"}]','{\"text\":\"Please note, that bosses are strong. Be prepared and never underestimate them.\\\\nSadly, due to minecrafts code, some structures could be flooded, which destroys the immersion. \\\\nI can\\'t prevent the game from doing this. \"}','[\"\",{\"text\":\"Bosses\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nWith each update, i will add more dungeons (big and small) and bosses to defeat. Some are wandering in their catacombs, some are lurking in the dark at the end of a dungeon. Some need a ritual and specific items to be summoned. \",\"color\":\"reset\"}]','{\"text\":\"You will find books with informations about the dungeons in Zaccarius\\' library in the bookshelfs (added with each update).\\\\nSome normal enemies will drop chests with better ore worse random loot. Bosses will drop an item, which could be exchanged for a contractreward.\\\\n \"}','[\"\",{\"text\":\"Arcane Nodes\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nThese are often shrines of various gods and grant effects to those who kneel (sneak) in front of their shrine. They spawn random in the world, or are part of dungeons. If the gods aren\\'t pleased with you, they punish you instead.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Weapons and Armor\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nWeapons, armor, tools and shields can be bought at various traders, some only at higher leveled traders, some are the reward for completing dungeons. They have custom attributes to strengthen the player, and could be\",\"color\":\"reset\"}]','{\"text\":\"enchanted. Their special ability can be charged up with xp, works like mending until fully charged. They can be used by sneaking, while hoilding it a specific hand (description). \\\\nMost custom items can be reinforced, to get their next level counterpart.\"}','{\"text\":\"Through this, stats and secondary attacks become stronger and more durable. The books, which descripe how to reinforce specific weapons, are sold by Zaccarius. They can also be repaired. Gilbert Silberhand sells a book, which describes that way.\"}','[\"\",{\"text\":\"Reinforcing and repairing, \"},{\"text\":\"ONLY\",\"bold\":true},{\"text\":\" works the described way!\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Maps\",\"bold\":true,\"italic\":true,\"color\":\"gold\"},{\"text\":\"\\\\n\\\\nMaps can be bought from Eldrid Grayhair at Direwood Keep. They lead to the nearest dungeon of that type, which hasn\\'t been explored yet. If you stand at the right coordinates, but can\\'t find any dungeon.. look up or dig down.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"All elements of the datapack are subject to change. I\\'m still working on improvement, but i am no expert.\\\\n\\\\nIf you find bugs or problems, please write a comment!\\\\n\\\\n\"},{\"text\":\"Planet Minecraft\",\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.planetminecraft.com/data-pack/gravestone-dungeons-v1-0/\"}}]','{\"text\":\"\\\\n\\\\n\\\\nHope you enjoy my datapack!\\\\nHave fun exploring it!\\\\n\\\\nZaccMaster\"}'],title:\"Tome of Gravestone Chronicles\",author:\"The Developer\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1000,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "gd:direwood",
+              "decoration": "red_x",
+              "zoom": 2,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Direwood Keep Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

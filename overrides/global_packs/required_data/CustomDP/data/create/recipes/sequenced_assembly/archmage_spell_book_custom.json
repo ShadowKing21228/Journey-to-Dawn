@@ -1,0 +1,66 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ars_nouveau:apprentice_spell_book"
+  },
+  "transitionalItem": {
+    "item": "ars_nouveau:apprentice_spell_book"
+  },
+  "sequence": [
+      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book"
+        },
+        {
+            "item": "ars_nouveau:wilden_tribute"
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book"
+        }
+      ]
+    },
+	  {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book"
+        },
+        {
+            "item": "minecraft:totem_of_undying"
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book"
+        }
+      ]
+    },
+	      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book"
+        },
+        {
+            "item": "minecraft:nether_star"
+        }
+      ],
+      "results": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ars_nouveau:archmage_spell_book"
+    }
+  ],
+  "loops": 1
+}

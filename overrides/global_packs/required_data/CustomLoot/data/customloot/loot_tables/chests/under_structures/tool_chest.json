@@ -1,0 +1,255 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:twistytwig",
+          "weight": 11
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 8
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 5,
+		  "functions": [
+		  {
+            "function": "enchant_with_levels",
+            "levels": 4
+          },
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.27
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 5,
+		  "functions": [
+		  {
+            "function": "enchant_with_levels",
+            "levels": 4
+          },
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "weight": 5,
+		  "functions": [
+		  {
+            "function": "enchant_with_levels",
+            "levels": 4
+          },
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+          "weight": 4,
+		  "functions": [
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "weight": 4,
+		  "functions": [
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 3,
+		  "functions": [
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:utherium_sword",
+          "weight": 3,
+		  "functions": [
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:cloggrum_pickaxe",
+          "weight": 3,
+		  "functions": [
+          {
+            "function": "set_damage",
+            "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.45,
+                "min": 0.26
+              }
+          }
+        ]
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick",
+          "weight": 14
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow",
+          "weight": 11
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:cloggrum_nugget",
+          "weight": 11
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:cloggrum_ingot",
+          "weight": 8
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:raw_froststeel",
+          "weight": 8
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "create:crushed_raw_iron",
+          "weight": 8
+        }
+      ],
+      "rolls": 3.0
+    }
+  ]
+}

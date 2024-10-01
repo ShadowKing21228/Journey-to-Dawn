@@ -1,0 +1,145 @@
+{
+  "TECHNICAL": {
+    "VERSION_DO_NOT_EDIT": 1,
+    "FORCE_RESET": false
+  },
+
+  "halberd": {
+        "wooden": {
+          "tier": "WOOD",
+          "damage": 6,
+          "speed": 1.6,
+          "durability": 59
+        },
+        "stone": {
+          "tier": "STONE",
+          "damage": 6
+        },
+        "iron": {
+          "tier": "IRON",
+          "damage": 7
+        },
+        "golden": {
+            "tier": "GOLD",
+            "damage": 8
+        },
+        "diamond":{
+            "tier": "DIAMOND",
+            "damage": 8
+        },
+        "netherite": {
+          "tier": "NETHERITE",
+          "damage": 9,
+          "fire_resistant": true
+        }
+      },
+      "warglaive": {
+        "wooden": {
+          "tier": "WOOD",
+          "damage": 1
+        },
+        "stone": {
+          "tier": "STONE",
+          "damage": 1
+        },
+        "iron": {
+          "tier": "IRON",
+          "damage": 2
+        },
+        "golden": {
+            "tier": "GOLD",
+            "damage": 3
+        },
+        "diamond":{
+            "tier": "DIAMOND",
+            "damage": 3
+        },
+        "netherite": {
+          "tier": "NETHERITE",
+          "damage": 4,
+          "fire_resistant": true
+        }
+      },
+      "scythe": {
+        "wooden": {
+          "tier": "WOOD",
+          "damage": 5
+        },
+        "stone": {
+          "tier": "STONE",
+          "damage": 5
+        },
+        "iron": {
+          "tier": "IRON",
+          "damage": 6
+        },
+        "golden": {
+            "tier": "GOLD",
+            "damage": 7
+        },
+        "diamond":{
+            "tier": "DIAMOND",
+            "damage": 7
+        },
+        "netherite": {
+          "tier": "NETHERITE",
+          "damage": 8,
+          "fire_resistant": true
+        }
+      },
+      "greatsword": {
+        "wooden": {
+          "tier": "WOOD",
+          "damage": 8
+        },
+        "stone": {
+          "tier": "STONE",
+          "damage": 8
+        },
+        "iron": {
+          "tier": "IRON",
+          "damage": 9
+        },
+        "golden": {
+            "tier": "GOLD",
+            "damage": 10
+        },
+        "diamond":{
+            "tier": "DIAMOND",
+            "damage": 10
+        },
+        "netherite": {
+          "tier": "NETHERITE",
+          "damage": 11,
+          "fire_resistant": true
+        }
+      },
+      "hammer": {
+        "wooden": {
+          "tier": "WOOD",
+          "damage": 4
+        },
+        "stone": {
+          "tier": "STONE",
+          "damage": 4
+        },
+        "iron": {
+          "tier": "IRON",
+          "damage": 5
+        },
+        "golden": {
+            "tier": "GOLD",
+            "damage": 6
+        },
+        "diamond":{
+            "tier": "DIAMOND",
+            "damage": 6
+        },
+        "netherite": {
+          "tier": "NETHERITE",
+          "damage": 7,
+          "fire_resistant": true
+        }
+      }
+
+}

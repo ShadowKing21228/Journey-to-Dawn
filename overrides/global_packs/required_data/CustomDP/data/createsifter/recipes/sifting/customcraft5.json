@@ -1,0 +1,38 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "undergarden:sediment"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "undergarden:raw_cloggrum"
+    },
+    {
+      "chance": 0.3,
+      "item": "undergarden:froststeel_nugget"
+    },
+    {
+      "chance": 0.11,
+      "item": "undergarden:utheric_shard"
+    },
+    {
+      "chance": 0.11,
+      "item": "undergarden:regalium_crystal"
+    },
+    {
+      "chance": 0.03,
+      "item": "undergarden:forgotten_nugget"
+    },
+    {
+      "chance": 0.15,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 150,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "kubejs:overcompressed_stone_chunk"
+  },
+  "residue": {
+    "chance": 0.65,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "enigmaticlegacy:earth_heart"
+	}
+}

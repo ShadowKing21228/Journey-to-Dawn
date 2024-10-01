@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "kubejs:raw_extended_portal_key"
+  },
+  "result": "dimdungeons:item_blank_advanced_key",
+  "experience": 1.0,
+  "cookingtime": 200
+}

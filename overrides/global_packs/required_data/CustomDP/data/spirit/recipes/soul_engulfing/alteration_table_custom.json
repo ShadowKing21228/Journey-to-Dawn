@@ -1,0 +1,29 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "ars_nouveau:scribes_table"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "spirit:soul_steel_block"
+        }
+      }
+    }
+  },
+  "duration": 60,
+  "outputItem": "ars_nouveau:alteration_table"
+}

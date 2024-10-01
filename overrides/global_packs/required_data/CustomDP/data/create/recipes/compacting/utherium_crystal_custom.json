@@ -1,0 +1,23 @@
+
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "undergarden:utheric_shard"
+      },
+    {
+      "item": "undergarden:utheric_shard"
+      },
+    {
+      "item": "undergarden:utheric_shard"
+      }
+	  
+	  
+  ],
+  "results": [
+    {
+      "item": "undergarden:utherium_crystal",
+	  "count": 1
+    }
+  ]
+}

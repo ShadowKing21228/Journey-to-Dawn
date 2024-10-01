@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "item": "kubejs:scroll_of_harmony",
+            "slot": 0
+        },
+		{
+            "item": "twilightforest:transformation_planks",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:deorum_nugget",
+            "slot": 2
+        },
+		{
+            "item": "botania:mana_string",
+            "slot": 3
+        },
+        {
+            "item": "totemic:wind_chime",
+            "slot": 4
+        },
+		{
+            "item": "botania:mana_string",
+            "slot": 5
+        },
+        {
+            "item": "forbidden_arcanus:deorum_nugget",
+            "slot": 6
+        },
+		{
+            "item": "twilightforest:transformation_planks",
+            "slot": 7
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:note_block",
+    "essences": {
+        "aureal": 150,
+        "experience": 0,
+        "blood": 0,
+        "souls": 1
+    },
+    "result": {
+        "item": "genshinstrument:windsong_lyre",
+        "count": 1
+    }
+}

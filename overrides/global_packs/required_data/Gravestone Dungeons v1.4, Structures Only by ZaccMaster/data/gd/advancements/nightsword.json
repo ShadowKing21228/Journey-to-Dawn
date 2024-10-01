@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Легенды не врут",
+            "bold": false,
+            "italic": true,
+            "color": "gold"
+        },
+        "description": {
+            "text": "Завершить ритуал ковки Ночного Клинка",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "healthaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:netherite_sword",
+                        "nbt": "{night:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:banesword_re"
+}

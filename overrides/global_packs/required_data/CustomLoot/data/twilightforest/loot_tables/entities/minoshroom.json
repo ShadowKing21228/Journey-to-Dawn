@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:meef_stroganoff"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:minoshroom_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:diamond_minotaur_axe"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['{\"text\":\"Мы приступаем к программе переселения. По словам Эдгара, его легион уже проложил маршрут. Удалось создать форты через каждые тысячу метров. Мои ребята будут сопровождать граждан, пока мы не доберёмся до той точки. \"}','{\"text\":\"Всё это кажется сном. Как же так вышло, что даже ад стал местом лучше, чем наши сумрачные рощи?.. \",\"strikethrough\":true}','{\"text\":\"Мне понадобятся около двухста пехотинцев для сопровождения и пяти рот конной дивизии для грузоперевозки. Отдать приказ по подготовке к отправлению. Понадобится не менее двадцати заходов в месяц, что бы доставить всех. \"}','{\"text\":\"Время затянуть пояса\"}'],title:\"Отчёт\",author:\"Шрам\",display:{Lore:[\"Небольшой блокнот с отчётом, запачканный чернилами и поросший спорами\"]}}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

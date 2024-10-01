@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:dark_runic_glass"
+    },
+    "B": {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    "C": {
+      "item": "forbidden_arcanus:edelwood_planks"
+    },
+    "D": {
+      "item": "alexsmobs:soul_heart"
+    },
+	"E": {
+      "item": "botania:forest_eye"
+    },
+    "F": {
+      "item": "forbidden_arcanus:edelwood_slab"
+    },
+    "G": {
+      "item": "createindustry:plastic_sheet"
+    }
+  },
+  "pattern": [
+    "AAA     ",
+    "ABACDCCE",
+    "AACFFGF ",
+    " GC     ",
+    "  G     "
+  ],
+  "result": {
+    "item": "forbidden_arcanus:soul_extractor"
+  }
+}

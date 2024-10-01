@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{starsword:1b,RepairCost:100,display:{Name:'[\"\",{\"text\":\"Sacred Relic Sword\",\"italic\":false,\"color\":\"#ffff00\"}]',Lore:['[\"\",{\"text\":\"Star Shower I\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Once charged up, the sword\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"creates a sphere of golden\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"shooting stars that assail\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"the area.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{lvl:3,id:fire_aspect},{lvl:2,id:looting},{lvl:5,id:smite},{lvl:10,id:unbreaking},{lvl:1,id:vanishing_curse}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Slot:mainhand,Name:\"generic.max_health\",UUID:[I;-12441,51160,131316,-102320]},{AttributeName:\"generic.armor\",Amount:2,Slot:mainhand,Name:\"generic.armor\",UUID:[I;-12441,51460,131316,-102920]},{AttributeName:\"generic.movement_speed\",Amount:-0.02,Slot:mainhand,Name:\"generic.movement_speed\",UUID:[I;-12441,51760,131316,-103520]},{AttributeName:\"generic.attack_damage\",Amount:12,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12441,52060,131316,-104120]}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/rare_lootbox"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:blank4"
+    }
+  ],
+  "results": [
+    {
+      "item": "sg_simple_utilities:music_disc_neko_arc",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_senko",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_in_the_cute_rock",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_unknown_0",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_unknown_1",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_unknown_2",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_unknown_3",
+      "count": 1,
+      "chance": 0.125
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_unknown_4",
+      "count": 1,
+      "chance": 0.125
+    }
+  ]
+}

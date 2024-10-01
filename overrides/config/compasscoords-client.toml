@@ -1,0 +1,6 @@
+#Coordinates Position
+#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+Position = "BOTTOM_LEFT"
+#If false, the Y coordinate is not displayed.
+"Show Y Coordinate" = false
+

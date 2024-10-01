@@ -1,0 +1,44 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "transitionalItem": {
+    "item": "create:iron_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:iron_sheet"
+        }
+      ]
+    },
+	{
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:iron_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "engravingtable:iron_needle"
+    }
+  ],
+  "loops": 1
+}

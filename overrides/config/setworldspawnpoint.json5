@@ -1,0 +1,13 @@
+{
+	// If enabled, spawns players on the exact world spawn instead of around it.
+	"_forceExactSpawn": true,
+	// The X coordinate of the spawn point of newly created worlds.
+	// min: -100000, max: 100000
+	"xCoordSpawnPoint": 0,
+	// The Y coordinate of the spawn point of newly created worlds. By default -1, which means it'll be the first solid block descending from y=256.
+	// min: -1, max: 256
+	"yCoordSpawnPoint": -1,
+	// The Z coordinate of the spawn point of newly created worlds.
+	// min: -100000, max: 100000
+	"zCoordSpawnPoint": 0
+}

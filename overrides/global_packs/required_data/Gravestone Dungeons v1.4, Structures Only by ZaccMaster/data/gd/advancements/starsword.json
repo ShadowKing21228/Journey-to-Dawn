@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "Не совсем зубочистка",
+            "bold": false,
+            "italic": true,
+            "color": "gold"
+        },
+        "description": {
+            "text": "Завершить ритуал ковки меча Священной Реликвии",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fliciashield": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:golden_sword",
+                        "nbt": "{starsword:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "gd:devil"
+}

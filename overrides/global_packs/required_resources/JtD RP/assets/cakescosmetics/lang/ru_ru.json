@@ -1,0 +1,22 @@
+{
+  "item.cakescosmetics.sewing_kit": "Набор для шитья",
+  "item.cakescosmetics.bandolier": "Патронташ",
+  "item.cakescosmetics.captain_hat": "Капитанская шляпа",
+  "item.cakescosmetics.cowboy_hat": "Ковбойская шляпа",
+  "item.cakescosmetics.holstered_belt": "Пояс с кобурой",
+  "item.cakescosmetics.horns": "Рога",
+  "item.cakescosmetics.sombrero": "Сомбреро",
+  "item.cakescosmetics.top_hat": "Шляпа",
+  "item.cakescosmetics.wizards_hat": "Шляпа волшебника",
+  "item.cakescosmetics.straw_hat": "Соломенная шляпа",
+  "item.cakescosmetics.arrow_quiver": "Колчан",
+  "item.cakescosmetics.christmas_hat": "Рождественская шляпа",
+  "item.cakescosmetics.dragon_skull": "Череп дракона",
+  "item.cakescosmetics.pirate_hat": "Пиратская шляпа",
+  "item.cakescosmetics.skull": "Череп",
+  "item.cakescosmetics.wings": "Крылья",
+
+  "block.cakescosmetics.sewing_station": "Швейный стол",
+
+  "itemGroup.cakes_cosmetics_tab": "Cake's Cosmetics"
+}

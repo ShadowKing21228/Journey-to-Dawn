@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['{\"text\":\"Reinforcement of Crystal Weapons:\\\\n\\\\n1x Crystal Weapon\\\\n1x End Crystal\\\\n6x Block of Diamond\\\\n1x Smithing Tongs\\\\n\\\\nAll materials need to be put together on an anvil.\"}'],title:\"Reinforcement - Crystal Weapons\",author:unknown,generation:1,display:{Lore:[\"Crystal Weapons\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "undergarden:sediment_glass"
+  },
+  "result": "minecraft:glass",
+  "experience": 1.0,
+  "cookingtime": 200
+}

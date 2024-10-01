@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "hexerei:selenite_block"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "createindustry:nitrate_dust"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+      "item": "createindustry:nitrate_dust"
+    }
+  ]
+}

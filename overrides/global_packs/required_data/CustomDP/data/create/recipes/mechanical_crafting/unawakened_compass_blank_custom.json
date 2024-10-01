@@ -1,0 +1,45 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "twilightforest:magic_map"
+    },
+    "B": {
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+	"D": {
+      "item": "minecraft:infested_stone_bricks"
+    },
+    "E": {
+      "item": "quark:magnet"
+    },
+    "F": {
+      "item": "twilightforest:maze_map_focus"
+    },
+	"G": {
+      "item": "minecraft:recovery_compass"
+    },
+    "H": {
+      "item": "irons_spellbooks:wayward_compass"
+    },
+    "I": {
+      "item": "naturescompass:naturescompass"
+    }
+  },
+  "pattern": [
+    " AB BC ",
+	"C DBD A",
+	"BDEFEDB",
+	" BG HB ",
+	"BDEIEDB",
+	"A DBD C",
+	" CB BA "
+  ],
+  "result": {
+    "item": "kubejs:unawakened_compass_blank"
+  }
+}

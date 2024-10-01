@@ -1,0 +1,25 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "twilightforest:red_thread",
+	"count": 2
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "undergarden:utherium_crystal"
+    },
+    {
+      "item": "botania:mana_string"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "sourceCost": 500
+}

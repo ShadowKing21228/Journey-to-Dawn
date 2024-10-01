@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['{\"text\":\"Reinforcement of Steel Plate Helmet:\\\\n\\\\n1x Steel Plate Helmet\\\\n40x Iron Ingot\\\\n1x Netherite Ingot\\\\n1x Smithing Hammer\\\\n\\\\nAll materials need to be put together on a smithing table.\"}','{\"text\":\"Reinforcement of Steel Plate Chestplate:\\\\n\\\\n1x Steel Plate Chestplate\\\\n64x Iron Ingot\\\\n1x Netherite Ingot\\\\n1x Smithing Hammer\\\\n\\\\nAll materials need to be put together on a smithing table.\"}','{\"text\":\"Reinforcement of Steel Plate Leggings:\\\\n\\\\n1x Steel Plate Leggings\\\\n56x Iron Ingot\\\\n1x Netherite Ingot\\\\n1x Smithing Hammer\\\\n\\\\nAll materials need to be put together on a smithing table.\"}','{\"text\":\"Reinforcement of Steel Plate Boots:\\\\n\\\\n1x Steel Plate Boots\\\\n32x Iron Ingot\\\\n1x Netherite Ingot\\\\n1x Smithing Hammer\\\\n\\\\nAll materials need to be put together on a smithing table.\"}'],title:\"Reinforcement - Steel Plate A.\",author:unknown,generation:1,display:{Lore:[\"Steel Plate Armor\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

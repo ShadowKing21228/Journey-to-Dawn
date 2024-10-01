@@ -1,0 +1,8 @@
+{
+  "type": "cakescosmetics:sewing",
+  "ingredient": {
+    "item": "nock_enough_arrows:quiver",
+	"count": 4
+  },
+  "result": "supplementaries:quiver"
+}

@@ -1,0 +1,186 @@
+tools = {}
+
+[general]
+	"Enable 'q' Button" = true
+	"'q' Button on the Right" = false
+	"Disable Q Menu Effects" = false
+	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
+	"Use Anti Overlap" = true
+	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
+	"Use Piston Logic Replacement" = true
+	#Allowed values: (0,)
+	"Piston Push Limit" = 12
+	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
+	#Blocks that Quark should treat as Shulker Boxes.
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
+	"Interpret Shulker Box Like Blocks" = true
+	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
+	"Enable Worldgen Watchdog" = false
+	#Set to true if you need to find the class name for a screen that's causing problems
+	"Print Screen Classnames" = false
+	#A list of screens that can accept quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
+	"Allowed Screens" = []
+	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
+	"Use Screen List Blacklist" = false
+	#Set to true to make the quark big worldgen features such as stone clusters generate as spheres rather than unique shapes. It's faster, but won't look as cool
+	"Use Fast Worldgen" = false
+	#Enables quark network profiling features. Do not enable this unless requested to.
+	"Enable Network Profiling" = false
+	#Used for terrablender integration
+	"Terrablender Region Weight" = 1
+	#Set to false to stop quark from adding its own items to multi-requirement vanilla advancements
+	"Enable Advancement Modification" = true
+	#Set to false to stop quark from adding its own advancements
+	"Enable Quark Advancements" = true
+	#Set to false to disable the popup message telling you that you can config quark in the q menu
+	"Enable Onboarding" = true
+	#Set to false to disable the behavior where quark will automatically hide any disabled items
+	"Hide Disabled Content" = true
+	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
+	"Enable Jei Item Info" = true
+	#For JEI info purposes, add any items here to specifically disable their JEI info from Quark. Note that Quark already only shows info that's relevant to which features are enabled
+	"Suppressed Info" = []
+
+[categories]
+	Automation = true
+	Building = true
+	Management = true
+	Tools = true
+	Tweaks = true
+	World = true
+	Mobs = true
+	Client = true
+	Experimental = true
+	Oddities = true
+
+[automation]
+	"Dispensers Place Blocks" = true
+	"Metal Buttons" = true
+	"Feeding Trough" = true
+	"Obsidian Plate" = true
+	"Pistons Move Tile Entities" = true
+	"Iron Rod" = true
+	Gravisand = true
+	"Redstone Randomizer" = true
+	"Ender Watcher" = true
+	"Jukebox Automation" = true
+	"Chains Connect Blocks" = true
+	Chute = true
+
+	[automation.dispensers_place_blocks]
+		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
+		#Set to false to refrain from registering any behaviors for blocks that have optional dispense behaviors already set.
+		#An optional behavior is one that will defer to the generic dispense item behavior if its condition fails.
+		#e.g. the Shulker Box behavior is optional, because it'll throw out the item if it fails, whereas TNT is not optional.
+		#If true, it'll attempt to use the previous behavior before trying to place the block in the world.
+		#Requires a game restart to re-apply.
+		"Wrap Existing Behaviors" = true
+
+	[automation.metal_buttons]
+		"Enable Iron" = true
+		"Enable Gold" = true
+
+	[automation.feeding_trough]
+		#How long, in game ticks, between animals being able to eat from the trough
+		#Allowed values: [1,)
+		Cooldown = 30
+		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
+		"Max Animals" = 32
+		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
+		#Allowed values: (0,1]
+		"Love Chance" = 0.333333333
+		Range = 10.0
+		#Set to false to make it so animals look for a nearby trough every time they want to eat instead of remembering the last one. Can affect performance if false.
+		"Enable Trough Caching" = true
+
+	[automation.pistons_move_tile_entities]
+		"Enable Chests Moving Together" = true
+		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
+		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
+		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
+
+	[automation.iron_rod]
+		"Use Pre End Recipe" = false
+
+[building]
+	"Soul Sandstone" = true
+	"Variant Furnaces" = true
+	"Wooden Posts" = true
+	"Hollow Logs" = true
+	"Leaf Carpet" = true
+	"Nether Brick Fence Gate" = true
+	Thatch = true
+	"Raw Metal Bricks" = true
+	"More Brick Types" = true
+	"Gold Bars" = true
+	Rope = true
+	"Bamboo Backport" = true
+	Grate = true
+	"Variant Bookshelves" = true
+	"Sturdy Stone" = true
+	"Variant Chests" = true
+	"Japanese Palette" = true
+	"More Potted Plants" = true
+	"Celebratory Lamps" = true
+	"Vertical Slabs" = true
+	"Framed Glass" = true
+	"Vertical Planks" = true
+	"Rainbow Lamps" = true
+	"Variant Ladders" = true
+	Hedges = true
+	"Glass Item Frame" = true
+	"Compressed Blocks" = true
+	"Shear Vines" = true
+	"More Stone Variants" = true
+	Stools = true
+	Midori = true
+	"Duskbound Blocks" = true
+	"Industrial Palette" = true
+	Shingles = true
+	"More Mud Blocks" = true
+
+	[building.hollow_logs]
+		"Enable Auto Crawl" = true
+
+	[building.leaf_carpet]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		# - immersive_weathering
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+
+	[building.thatch]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - goated
+		# - environmental
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Allowed values: [0,1]
+		"Fall Damage Multiplier" = 0.5
+
+	[building.more_brick_types]
+		#This also comes with a utility recipe for Red Nether Bricks
+		"Enable Blue Nether Bricks" = true
+		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
+		"Enable Sandstone Bricks" = true
+		#This also includes Mossy Cobblestone Bricks
+		"Enable Cobblestone Bricks" = true
+		#Requires Cobblestone Bricks to be enabled
+		"Enable Blackstone Bricks" = true
+		#Requires Cobblestone Bricks to be enabled
+		"Enable Dirt Bricks" = true
+		#Requires Cobblestone Bricks to be enabled
+		"Enable Netherrack Bricks" = true
+
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
+	[building.rope]
+		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
+		#Note that ropes will still use the same blacklist.
+		"Force Enable

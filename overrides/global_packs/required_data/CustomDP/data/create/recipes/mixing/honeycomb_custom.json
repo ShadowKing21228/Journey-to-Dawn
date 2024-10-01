@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "undergarden:blood_globule"
+    },
+    {
+      "item": "undergarden:blood_globule"
+    },
+    {
+      "item": "undergarden:blood_globule"
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    },
+    {
+      "item": "undergarden:ditchbulb"
+    },
+    {
+      "item": "undergarden:ditchbulb"
+    },
+    {
+      "item": "undergarden:ditchbulb"
+    },
+    {
+      "item": "undergarden:ditchbulb"
+    },
+    {
+      "item": "undergarden:ditchbulb"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ]
+}

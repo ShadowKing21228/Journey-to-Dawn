@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "item": "tyafi:kam_boots",
+            "slot": 0
+        },
+		{
+            "item": "genshinstrument:glorious_drum",
+            "slot": 1
+        },
+        {
+            "item": "tyafi:tyhb_boots",
+            "slot": 2
+        },
+		{
+            "item": "genshinstrument:windsong_lyre",
+            "slot": 3
+        },
+        {
+            "item": "tyafi:chr_boots",
+            "slot": 4
+        },
+		{
+            "item": "genshinstrument:floral_zither",
+            "slot": 5
+        },
+        {
+            "item": "tyafi:shchz_boots",
+            "slot": 6
+        },
+		{
+            "item": "genshinstrument:vintage_lyre",
+            "slot": 7
+        }
+    ],
+    "hephaestus_forge_item": "ftbquests:book",
+    "essences": {
+        "aureal": 200,
+        "experience": 200,
+        "blood": 5000,
+        "souls": 1
+    },
+    "result": {
+        "item": "kubejs:elegy_of_memories",
+        "count": 1
+    }
+}

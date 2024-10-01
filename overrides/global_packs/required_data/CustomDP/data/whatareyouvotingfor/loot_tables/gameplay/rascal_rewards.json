@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+  		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:angel_blessing",
+          "weight": 21
+        },
+		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:eye_of_nebula",
+          "weight": 21
+        },
+		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:golem_heart",
+          "weight": 21
+        },
+		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:blazing_core",
+          "weight": 9
+        },
+		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:ocean_stone",
+          "weight": 9
+        },
+		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:void_pearl",
+          "weight": 8
+        },
+		{
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:the_cube",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

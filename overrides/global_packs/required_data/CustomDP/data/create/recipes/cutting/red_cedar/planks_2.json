@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "totemic:stripped_cedar_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+	  "count": 6,
+      "item": "totemic:cedar_planks"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "waystones:warp_scroll",
+	"count": 4
+  },
+  "pedestalItems": [
+    {
+      "item": "waystones:bound_scroll"
+    },
+    {
+      "item": "irons_spellbooks:hogskin"
+    },
+    {
+      "item": "create:experience_block"
+    },
+    {
+      "item": "irons_spellbooks:hogskin"
+    },
+    {
+      "item": "waystones:bound_scroll"
+    },
+    {
+      "item": "irons_spellbooks:hogskin"
+    },
+    {
+      "item": "create:experience_block"
+    },
+    {
+      "item": "irons_spellbooks:hogskin"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "kubejs:twilight_edelweiss"
+    }
+  ],
+  "sourceCost": 1500
+}

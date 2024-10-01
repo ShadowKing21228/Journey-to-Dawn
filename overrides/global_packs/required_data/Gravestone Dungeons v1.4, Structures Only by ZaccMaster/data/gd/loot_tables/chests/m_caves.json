@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1000,
+            "functions": [
+              {
+                "decoration": "red_x",
+                "function": "minecraft:exploration_map",
+                "destination" : "gd:m_caves",
+                "skip_existing_chunks": true,
+                "zoom": 2
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Overgrown Caves Explorer Map"
+              }
+            ],
+            "name": "minecraft:map"
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 15
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 1.0,
+          "min": 1.0
+        }
+      }
+    ]
+  }

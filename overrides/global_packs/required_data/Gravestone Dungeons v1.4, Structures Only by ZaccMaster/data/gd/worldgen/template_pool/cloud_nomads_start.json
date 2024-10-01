@@ -1,0 +1,39 @@
+{
+  "name": "gd:cloud_nomads_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/main_ship_1",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/main_ship_4",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/main_ship_7",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/main_ship_10",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    }
+  ]
+}

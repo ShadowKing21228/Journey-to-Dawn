@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "kubejs:brass_plate"
+    },
+    "B": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "C": {
+      "item": "botania:life_essence"
+    },
+    "D": {
+      "item": "totemic:baykok_bow"
+    },
+    "E": {
+      "item": "minecraft:painting"
+    },
+    "F": {
+      "item": "twilightforest:mazebreaker_pickaxe"
+    },
+    "G": {
+      "item": "twilightforest:keepsake_casket"
+    },
+	"H": {
+      "item": "cloudstorage:balloon_bit"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "HDEFH",
+    "ABGBA"
+  ],
+  "result": {
+    "item": "dimpaintings:nether_painting"
+  }
+}

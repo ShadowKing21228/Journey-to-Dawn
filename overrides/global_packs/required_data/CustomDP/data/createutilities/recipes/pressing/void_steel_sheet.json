@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createutilities:void_steel_ingot"
+  },
+  "transitionalItem": {
+    "item": "createutilities:void_steel_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createutilities:void_steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "createutilities:void_steel_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createutilities:void_steel_sheet"
+    }
+  ],
+  "loops": 3
+}

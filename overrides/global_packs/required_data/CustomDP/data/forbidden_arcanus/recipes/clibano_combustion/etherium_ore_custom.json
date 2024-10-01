@@ -1,0 +1,17 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 150,
+  "experience": 1.0,
+  "fire_type": "enchanted_fire",
+  "ingredient": {
+    "item": "forbidden_arcanus:rune_block",
+		"count": 3
+  },
+  "residue": {
+    "chance": 0.35,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "enigmaticlegacy:etherium_ore"
+	}
+}

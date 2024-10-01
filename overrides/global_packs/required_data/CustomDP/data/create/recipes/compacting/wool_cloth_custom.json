@@ -1,0 +1,20 @@
+
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:cloth"
+    },
+	{
+      "item": "forbidden_arcanus:cloth"
+    },
+	{
+      "item": "forbidden_arcanus:cloth"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:wool_cloth"
+    }
+  ]
+}

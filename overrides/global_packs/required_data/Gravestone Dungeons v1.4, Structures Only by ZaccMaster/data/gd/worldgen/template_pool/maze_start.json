@@ -1,0 +1,15 @@
+{
+  "name": "gd:maze_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:maze/maze59",
+        "projection": "rigid",
+        "processors": "gd:maze"
+      }
+    }
+  ]
+}

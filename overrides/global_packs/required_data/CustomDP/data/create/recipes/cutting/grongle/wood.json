@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "undergarden:grongle_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "undergarden:stripped_grongle_wood"
+    }
+  ]
+}

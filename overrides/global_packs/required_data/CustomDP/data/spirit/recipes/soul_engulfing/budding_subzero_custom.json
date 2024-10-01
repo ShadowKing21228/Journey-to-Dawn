@@ -1,0 +1,62 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "byg:subzero_crystal_block"
+    },
+    "multiblock": {
+      "pattern": [
+	    [
+          "H   H",
+          "     ",
+		  "     ",
+          "     ",
+          "H   H"
+        ],
+        [
+          "A   A",
+          " B B ",
+		  "  @  ",
+          " B B ",
+          "A   A"
+        ],
+        [
+          "CDEDC",
+          "DFGFD",
+		  "EG&GE",
+          "DFGFD",
+          "CDEDC"
+        ]
+      ],
+      "keys": {
+        "A": {
+          "block": "quark:chorus_fruit_block"
+        },
+		"B": {
+          "block": "ars_nouveau:lava_lily"
+        },
+		"C": {
+          "block": "quark:chorus_fruit_block"
+        },
+		"D": {
+          "block": "byg:purpur_stone_slab"
+        },
+		"E": {
+          "block": "byg:purpur_stone_stairs"
+        },
+		"F": {
+          "block": "minecraft:purpur_pillar"
+        },
+		"G": {
+          "block": "byg:purpur_stone"
+        },
+		"H": {
+          "block": "minecraft:end_rod"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 60,
+  "outputItem": "byg:budding_subzero_crystal"
+}

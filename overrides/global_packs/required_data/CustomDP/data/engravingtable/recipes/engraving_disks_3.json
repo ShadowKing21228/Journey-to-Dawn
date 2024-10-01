@@ -1,0 +1,250 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:blank3"
+    }
+  ],
+  "results": [
+    {
+      "item": "bigdans_music_discs:brute",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:bad_omen",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:stride",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:overtune",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:underscore",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:luminous",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:soulless",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:snowstorm",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:comet",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:forest",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:shrieker",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:time",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:glide",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:cascade",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:alive",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:sleigh",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:lightning",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:northen_lights",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:warden_run",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:ochre",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:ribbit",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:shrieker_x_brute",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:shulker",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:thunder_storm",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:tundra",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:the_wither",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:pumpkin",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:raiders",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:the_ender_dragon",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:special",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:gaurdian",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:gilded",
+      "count": 1,
+      "chance": 0.0208
+    },
+	{
+      "item": "bigdans_music_discs:warm",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:whisper",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:gold_pluck",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:purple_matter",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:rock",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:what",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:bluezing",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:woodland",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:fort_stress",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:rain",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:deserted",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:vines",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:temple",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:just_for_you",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:bastion",
+      "count": 1,
+      "chance": 0.0209
+    },
+	{
+      "item": "bigdans_music_discs:sci_mine",
+      "count": 1,
+      "chance": 0.0209
+    }
+  ]
+}

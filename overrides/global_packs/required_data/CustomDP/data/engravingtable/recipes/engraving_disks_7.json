@@ -1,0 +1,75 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:blank7"
+    }
+  ],
+  "results": [
+    {
+      "item": "sg_simple_utilities:coca_cola_fortnite_record",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_creator",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_creator_jb",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_deep_breath",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_foreign_land",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_haggstrom",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_hard_way",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_minecraft",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_precipice",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_relic",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_sweden",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_time_of_fashion",
+      "count": 1,
+      "chance": 0.076
+    },
+	{
+      "item": "sg_simple_utilities:music_disc_variation_1",
+      "count": 1,
+      "chance": 0.076
+    }
+  ]
+}

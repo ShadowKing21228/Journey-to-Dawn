@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar_head",
+  "ingredients": [
+    {
+      "item": "twilightforest:carminite"
+    },
+    {
+      "item": "twilightforest:carminite"
+    },
+    {
+      "item": "botania:chiseled_livingrock_bricks"
+    },
+    {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    {
+      "item": "botania:chiseled_livingrock_bricks"
+    },
+    {
+      "item": "twilightforest:carminite"
+    }
+  ],
+  "mana": 25000,
+  "output": {
+    "item": "botania:conjuration_catalyst"
+  }
+}

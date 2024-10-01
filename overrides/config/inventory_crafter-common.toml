@@ -1,0 +1,7 @@
+
+[balance]
+	#Does the inventory crafting table require a crafting table to work?
+	#Keeping this on is recommended for balance reasons.
+	#[Default: true]
+	requireCraftingTable = true
+

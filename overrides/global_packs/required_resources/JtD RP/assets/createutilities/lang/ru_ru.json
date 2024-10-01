@@ -1,0 +1,72 @@
+{
+  "itemGroup.createutilities.base": "Create Utilities",
+
+"block.createutilities.gearcube": "Шестимерная коробка передач",
+"block.createutilities.lshaped_gearbox": "L-образная коробка передач",
+"block.createutilities.void_motor": "Пустотный мотор",
+"block.createutilities.void_chest": "Пустотный мотор",
+"block.createutilities.void_tank": "Пустотный резервуар",
+"block.createutilities.void_battery": "Пустотная батарея",
+"block.createutilities.void_casing": "Пустотный корпус",
+"block.createutilities.void_steel_block": "Блок пустотной стали",
+"block.createutilities.void_steel_scaffolding": "Подмостки из пустотной стали",
+"block.createutilities.void_steel_ladder": "Лестница из пустотной стали",
+"block.createutilities.void_steel_bars": "Прутья из пустотной стали",
+"block.createutilities.amethyst_tiles": "Аметистовый плитняк",
+"block.createutilities.small_amethyst_tiles": "Малый аметистовый плитняк",
+
+"item.createutilities.void_steel_ingot": "Пустотный слиток стали",
+"item.createutilities.void_steel_sheet": "Лист пустотной стали",
+"item.createutilities.graviton_tube": "Гравитонная труба",
+"item.createutilities.polished_amethyst": "Полированный аметист",
+
+"createutilities.logistics.owner": "Владелец",
+"createutilities.logistics.void.click_to_set_owner": "Щелкните, чтобы установить владельца",
+"createutilities.logistics.void.click_to_remove_owner": "Щелкните, чтобы снять владение",
+
+"createutilities.tooltip.void_battery.header": "Информация о пустотной батарее:",
+"createutilities.tooltip.void_battery.energy": "Энергия",
+
+"createutilities.ponder.gearcube.header": "Передача вращательного усилия с помощью шестимерной коробки передач",
+"createutilities.ponder.gearcube.text_1": "Передача вращения во всех направлениях может быстро занять много места",
+"createutilities.ponder.gearcube.text_2": "Шестимерная коробка передач — это более компактный аналог такой настройки",
+
+"createutilities.ponder.lshaped_gearbox.header": "Передача вращательного усилия с помощью L-образной коробки передач",
+"createutilities.ponder.lshaped_gearbox.text_1": "Изменение направлений может быстро занять много места",
+"createutilities.ponder.lshaped_gearbox.text_2": "Более компактной альтернативой является использование коробки передач, но два вала остаются неиспользованными",
+"createutilities.ponder.lshaped_gearbox.text_3": "С L-образной коробкой передач можно сделать это более чисто и экономично",
+"createutilities.ponder.lshaped_gearbox.text_4": "Щелкнув по ней гаечным ключом, можно изменить ориентацию вторичной оси",
+
+"createutilities.ponder.void_motor.header": "Использование пустотного мотора",
+"createutilities.ponder.void_motor.text_1": "Пустотные моторы могут передавать вращательное усилие на большие расстояния",
+"createutilities.ponder.void_motor.text_2": "Размещение предметов в двух верхних слотах может задать частоту",
+"createutilities.ponder.void_motor.text_3": "Щелкните по нижнему слоту, чтобы снять владение пустотным мотором",
+"createutilities.ponder.void_motor.text_4": "Щелкните по нему снова, чтобы вернуть владение",
+"createutilities.ponder.void_motor.text_5": "Если пустотный мотор находится во владении, только его владелец может изменить его частоту",
+"createutilities.ponder.void_motor.text_6": "Пустотный мотор будет получать вращательное усилие только от моторов пустоты с той же частотой и владельцем",
+
+"createutilities.ponder.void_chest.header": "Использование пустотный сундуков",
+"createutilities.ponder.void_chest.text_1": "Пустотные сундуки могут передавать предметы на большие расстояния",
+"createutilities.ponder.void_chest.text_2": "Размещение предметов в двух верхних слотах может задать частоту",
+"createutilities.ponder.void_chest.text_3": "Щелкните по нижнему слоту, чтобы снять владение пустотным сундуком",
+"createutilities.ponder.void_chest.text_4": "Щелкните по нему снова, чтобы вернуть владение",
+"createutilities.ponder.void_chest.text_5": "Если пустотный сундук находится во владении, только его владелец может изменить его частоту",
+"createutilities.ponder.void_chest.text_6": "Пустотный сундук будет получать предметы только от пустотных сундуков с той же частотой и владельцем",
+
+"createutilities.ponder.void_tank.header": "Использование пустотных резервуаров",
+"createutilities.ponder.void_tank.text_1": "Пустотные резервуары могут передавать жидкости на большие расстояния",
+"createutilities.ponder.void_tank.text_2": "Размещение предметов в двух верхних слотах может задать частоту",
+"createutilities.ponder.void_tank.text_3": "Щелкните по нижнему слоту, чтобы снять владение пустотных резервуаров",
+"createutilities.ponder.void_tank.text_4": "Щелкните по нему снова, чтобы вернуть владение",
+"createutilities.ponder.void_tank.text_5": "Если пустотный резервуар находится во владении, только его владелец может изменить его частоту",
+"createutilities.ponder.void_tank.text_6": "Пустотные резервуары будет получать жидкости только от пустотных резервуаров с той же частотой и владельцем",
+
+"createutilities.ponder.void_battery.header": "Использование пустотных батарей",
+"createutilities.ponder.void_battery.text_1": "Пустотные батареи могут передавать энергию на большие расстояния",
+"createutilities.ponder.void_battery.text_2": "Размещение предметов в двух верхних слотах может задать частоту",
+"createutilities.ponder.void_battery.text_3": "Щелкните по нижнему слоту, чтобы снять владение пустотной батареи",
+"createutilities.ponder.void_battery.text_4": "Щелкните по ней снова, чтобы вернуть владение",
+"createutilities.ponder.void_battery.text_5": "Если пустотная батарея находится во владении, только её владелец может изменить её частоту",
+"createutilities.ponder.void_battery.text_6": "Пустотная батарея будет получать энергию только от пустотной батареи с той же частотой и владельцем"
+
+}

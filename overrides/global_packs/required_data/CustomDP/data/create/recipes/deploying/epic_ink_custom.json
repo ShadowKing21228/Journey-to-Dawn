@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:common_ink"
+    },
+    {
+      "item": "twilightforest:magic_beans"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:epic_ink"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:inactive_catalyst"
+  },
+  "transitionalItem": {
+    "item": "kubejs:inactive_catalyst"
+  },
+  "sequence": [
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        },
+        {
+            "item": "quark:raw_gold_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        },
+        {
+            "item": "quark:raw_gold_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        },
+        {
+            "item": "quark:raw_gold_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        },
+        {
+            "item": "quark:raw_gold_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:inactive_catalyst"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:unawakened_catalyst"
+    }
+  ],
+  "loops": 1
+}

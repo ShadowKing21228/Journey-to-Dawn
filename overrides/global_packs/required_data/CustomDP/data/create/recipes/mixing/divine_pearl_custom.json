@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust_speck"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "results": [
+    {
+	  "count": 4,
+      "item": "irons_spellbooks:divine_pearl"
+    }
+  ]
+}

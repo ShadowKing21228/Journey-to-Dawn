@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:copper_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:copper_sheet"
+    }
+  ]
+}

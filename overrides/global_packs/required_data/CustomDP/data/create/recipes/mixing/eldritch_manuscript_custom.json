@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+	{
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:eldritch_manuscript"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

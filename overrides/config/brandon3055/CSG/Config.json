@@ -1,0 +1,14 @@
+{
+  "inventory": {
+    "0:0": "{Count:1b,id:\"ftbquests:book\"}",
+    "0:20": "{Count:1b,id:\"undergarden:wigglewood_sapling\"}",
+    "2:0": "{Count:1b,id:\"minecraft:soul_torch\"}",
+    "0:17": "{Count:1b,id:\"minecraft:recovery_compass\"}",
+    "0:7": "{Count:1b,id:\"byg:chain_plating\"}",
+    "0:24": "{Count:2b,id:\"byg:chain_plating\"}",
+    "0:32": "{Count:1b,id:\"sg_simple_utilities:iron_cords\"}",
+    "0:1": "{Count:1b,id:\"enigmaticlegacy:unwitnessed_amulet\"}",
+    "0:10": "{Count:1b,id:\"byg:chain_plating\"}"
+  },
+  "wipeBlacklist": []
+}

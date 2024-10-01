@@ -1,0 +1,14 @@
+
+["Spwan Setting"]
+	#Number of days until sweet magic mobs spring up. Default: 5
+	#Range: 0 ~ 999
+	"Set Date" = 5
+	#Sweet Magic Mob spawn setting in Cave. Default: true
+	"Spawn Sweet Magic Mobe" = true
+	#Setting up a Drowned spawn. Default: true.
+	"Spawn Drowned" = true
+	#Setting up a Wandering Trader spawn. Default: true.
+	"Spawn Wandering Trader" = true
+	#Setting up a Phantom spawn. Default: true.
+	"Spawn Phantom" = true
+

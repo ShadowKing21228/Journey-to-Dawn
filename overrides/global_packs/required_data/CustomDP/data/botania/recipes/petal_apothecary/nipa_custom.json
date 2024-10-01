@@ -1,0 +1,35 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "botania:green_petal"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+	{
+      "item": "botania:green_petal"
+    },
+    {
+      "item": "botania:lime_petal"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+	{
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "botania:lime_petal"
+    }
+  ],
+  "output": {
+    "item": "forbidden_arcanus:nipa"
+  },
+  "reagent": {
+    "item": "twilightforest:transformation_powder"
+  }
+}

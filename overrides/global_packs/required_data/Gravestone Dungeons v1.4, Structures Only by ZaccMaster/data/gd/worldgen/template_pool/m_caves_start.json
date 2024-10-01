@@ -1,0 +1,15 @@
+{
+  "name": "gd:m_caves_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/m_caves104",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    }
+  ]
+}

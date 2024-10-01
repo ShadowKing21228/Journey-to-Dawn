@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:mana_ring"
+    },
+    {
+      "item": "irons_spellbooks:ice_rune"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:frostward_ring"
+    }
+  ]
+}

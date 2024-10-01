@@ -1,0 +1,62 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "byg:therium_crystal_block"
+    },
+    "multiblock": {
+      "pattern": [
+	    [
+          "H   H",
+          "     ",
+		  "     ",
+          "     ",
+          "H   H"
+        ],
+        [
+          "A   A",
+          " B B ",
+		  "  @  ",
+          " B B ",
+          "A   A"
+        ],
+        [
+          "CDEDC",
+          "DFGFD",
+		  "EG&GE",
+          "DFGFD",
+          "CDEDC"
+        ]
+      ],
+      "keys": {
+        "A": {
+          "block": "byg:tall_cryptic_vent"
+        },
+		"B": {
+          "block": "byg:cryptic_end_rod"
+        },
+		"C": {
+          "block": "byg:cryptic_redstone_ore"
+        },
+		"D": {
+          "block": "byg:cryptic_stone_slab"
+        },
+		"E": {
+          "block": "byg:cryptic_stone_stairs"
+        },
+		"F": {
+          "block": "byg:cryptic_magma_block"
+        },
+		"G": {
+          "block": "byg:cryptic_stone"
+        },
+		"H": {
+          "block": "byg:tall_cryptic_vent"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 60,
+  "outputItem": "byg:budding_therium_crystal"
+}

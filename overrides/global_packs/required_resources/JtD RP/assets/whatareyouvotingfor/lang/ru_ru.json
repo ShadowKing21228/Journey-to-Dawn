@@ -1,0 +1,28 @@
+{
+	"block.whatareyouvotingfor.sniffer_egg" : "Яйцо нюхли",
+	
+	"entity.whatareyouvotingfor.sniffer" : "Нюхля",
+	"entity.whatareyouvotingfor.rascal" : "Негодник",
+	"entity.whatareyouvotingfor.tuff_golem" : "Туфовый голем",
+	
+	"item.whatareyouvotingfor.sniffer_spawn_egg" : "Яйцо призыва нюхли",
+	"item.whatareyouvotingfor.rascal_spawn_egg" : "Яйцо призыва негодника",
+
+	"advancements.adventure.find_rascal.title" : "Да начнется игра!", 
+	"advancements.adventure.find_rascal.description" : "Найдите Негодника глубоко в шахтах и поиграйте с ним в прятки",
+	
+	"advancements.adventure.win_hide_and_seek.title" : "Мастер пряток", 
+	"advancements.adventure.win_hide_and_seek.description" : "Найдите одного и того же Негодника 3 раза и получите награду",
+	
+	"advancements.adventure.summon_tuff_golem.title" : "Изысканный вкус", 
+	"advancements.adventure.summon_tuff_golem.description" : "Призовите Туфового голема, чтобы оживить вашу базу",
+
+	"advancements.adventure.give_tuff_golem_item.title" : "Произведение искусства", 
+	"advancements.adventure.give_tuff_golem_item.description" : "Дайте Туфовому голему предмет для отображения",
+	
+	"advancements.adventure.sniffer_egg.title" : "Подозрительное яичко", 
+	"advancements.adventure.sniffer_egg.description" : "Найдите потерянное яйцо Нюхли",
+	
+	"advancements.adventure.hatch_sniffer.title" : "Взрыв из Прошлого", 
+	"advancements.adventure.hatch_sniffer.description" : "Наблюдайте, как детеныш Нюхача вылупляется из яйца впервые за много лет"
+}

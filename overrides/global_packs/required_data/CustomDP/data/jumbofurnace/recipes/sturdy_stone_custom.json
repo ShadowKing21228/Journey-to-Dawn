@@ -1,0 +1,16 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "minecraft:cobblestone",
+			"count": 9
+		}
+	],
+	"result":
+	{
+		"item": "quark:sturdy_stone"
+	},
+	"experience": 0.1
+}

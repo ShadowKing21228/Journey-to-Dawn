@@ -1,0 +1,9 @@
+{
+  "message.action_bar.low_oxygen_alert": "У вас заканчивается кислород!",
+  "message.action_bar.remaining_oxygen": "Кислород : %s %s",
+
+  "advancements.place_banner_in_the_end.descr": "Установите баннер в Энде",
+  "advancements.place_banner_in_the_end.title": "Гигантский скачок для человечества",
+
+  "death.attack.out_of_oxygen": "У %s закончился воздух"
+}

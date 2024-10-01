@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "item": "kubejs:scroll_of_harmony",
+            "slot": 0
+        },
+		{
+            "item": "twilightforest:time_planks",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:deorum_nugget",
+            "slot": 2
+        },
+		{
+            "item": "totemic:drum",
+            "slot": 3
+        },
+        {
+            "item": "botania:mana_string",
+            "slot": 4
+        },
+		{
+            "item": "totemic:drum",
+            "slot": 5
+        },
+        {
+            "item": "forbidden_arcanus:deorum_nugget",
+            "slot": 6
+        },
+		{
+            "item": "twilightforest:time_planks",
+            "slot": 7
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:note_block",
+    "essences": {
+        "aureal": 150,
+        "experience": 0,
+        "blood": 0,
+        "souls": 1
+    },
+    "result": {
+        "item": "genshinstrument:glorious_drum",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "hexerei:mixing_cauldron"
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:alchemist_cauldron",
+    "count": 1
+  },
+  "time": 120
+}

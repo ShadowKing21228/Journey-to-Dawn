@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "botania:mana_diamond"
+    },
+    "B": {
+      "item": "minecraft:amethyst_block"
+    },
+	"C": {
+      "item": "createindustry:cast_iron_ingot"
+    },
+    "D": {
+      "item": "alexsmobs:straddlite"
+    },
+    "E": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "pattern": [
+    "ABBBA",
+    "ACCCA",
+	"  C  ",
+    " DED "
+  ],
+  "result": {
+    "item": "irons_spellbooks:arcane_anvil"
+  }
+}

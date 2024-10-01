@@ -1,0 +1,20 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "botania:fertilizer"
+    },
+    {
+      "item": "undergarden:grongle_sapling"
+    },
+    {
+      "item": "totemic:cedar_sapling"
+    }
+  ],
+  "output": {
+    "item": "hexerei:willow_sapling"
+  },
+  "reagent": {
+    "item": "hexerei:seed_mixture"
+  }
+}

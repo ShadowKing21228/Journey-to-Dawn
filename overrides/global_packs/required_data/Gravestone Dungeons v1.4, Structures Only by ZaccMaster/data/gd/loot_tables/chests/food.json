@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:11161600,CustomPotionEffects:[{Id:3,Duration:6000,Amplifier:2},{Id:22,Duration:3600},{Id:9,Duration:600}],display:{Name:'[\"\",{\"text\":\"Ale\",\"italic\":false,\"color\":\"#aa5000\"}]',Lore:['[\"\",{\"text\":\"A traditional beer brewed from\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"malted barley, hops, yeast, and\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"water.\",\"italic\":false,\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:6684723,CustomPotionEffects:[{Id:10,Duration:1200,Amplifier:2},{Id:21,Duration:1200},{Id:9,Duration:600}],display:{Name:'[\"\",{\"text\":\"Mulled Wine\",\"italic\":false,\"color\":\"#660033\"}]',Lore:['[\"\",{\"text\":\"A warm and spiced beverage made\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"by simmering red wine with\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"cinnamon sticks, cloves, star\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"anise, orange peel, and sugar.\",\"italic\":false,\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:13408512,CustomPotionEffects:[{Id:5,Duration:3600,Amplifier:2},{Id:11,Duration:3600},{Id:2,Duration:1800,Amplifier:1},{Id:9,Duration:600}],display:{Name:'[\"\",{\"text\":\"Mead\",\"italic\":false,\"color\":\"#cc9900\"}]',Lore:['[\"\",{\"text\":\"An ancient fermented honey\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"drink, varies in sweetness and\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"dryness. Often featuring herbs or\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"spices for added flavor.\",\"italic\":false,\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Beef Stew\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[{\"text\":\"Haste I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Strength I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"A hearty dish made with chunks of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"beef, root vegetables like carrots,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"onions, and potatoes, simmered in a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"savory broth seasoned with herbs\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and spices.\",\"italic\":false,\"color\":\"gray\"}]']},Effects:[{EffectId:3b,EffectDuration:14400},{EffectId:5b,EffectDuration:7200},{EffectId:18b,EffectDuration:3600},{EffectId:2b,EffectDuration:600}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Chicken and Vegetable Stew\",\"italic\":false,\"color\":\"#999900\"}]',Lore:['[{\"text\":\"Regeneration I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Speed I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"A comforting stew made with tender\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"chicken pieces, assorted vegetables\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"such as celery, peas, and turnips,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"cooked together in a flavorful\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"chicken broth.\",\"italic\":false,\"color\":\"gray\"}]']},Effects:[{EffectId:10b,EffectDuration:7200},{EffectId:1b,EffectDuration:7200},{EffectId:17b,EffectDuration:2400}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Lamb and Barley Stew\",\"italic\":false,\"color\":\"#993366\"}]',Lore:['[{\"text\":\"Healthboost I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Resistance I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"A rich and satisfying stew\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"featuring tender pieces of lamb,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"barley grains, and vegetables like\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"carrots, onions, and leeks, cooked\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"slowly until the flavors meld\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"together.\",\"italic\":false,\"color\":\"gray\"}]']},Effects:[{EffectId:21b,EffectDuration:7200},{EffectId:11b,EffectDuration:6000},{EffectId:9b,EffectDuration:600}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Fisherman\\'s Stew\",\"italic\":false,\"color\":\"#003366\"}]',Lore:['[{\"text\":\"Dolphin\\'s Grace I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"A rustic seafood stew made with a\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"variety of fish and shellfish such\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"as cod, shrimp, mussels, and clams,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"simmered in a tomato-based broth\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"with aromatic herbs and garlic.\",\"italic\":false,\"color\":\"gray\"}]']},Effects:[{EffectId:30b,EffectDuration:14400},{EffectId:17b,EffectDuration:2400}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Bean and Sausage Stew\",\"italic\":false,\"color\":\"#cc3300\"}]',Lore:['[{\"text\":\"Speed I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Jump Boost I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"A hearty stew made with white beans,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"smoked sausage or bacon, and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"seasonal vegetables, simmered\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"together until the beans are tender\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and the flavors are well blended.\",\"italic\":false,\"color\":\"gray\"}]']},Effects:[{EffectId:1b,EffectDuration:12000},{EffectId:8b,EffectDuration:12000},{EffectId:4b,EffectDuration:7200}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Venison Stew\",\"italic\":false,\"color\":\"#990033\"}]',Lore:['[{\"text\":\"Strength I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Resistance I\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"A robust stew made with lean\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"venison meat, root vegetables, and\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"mushrooms, simmered in a rich red\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"wine broth flavored with juniper\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"berries, thyme, and bay leaves.\",\"italic\":false,\"color\":\"gray\"}]']},Effects:[{EffectId:5b,EffectDuration:9600},{EffectId:11b,EffectDuration:7200},{EffectId:2b,EffectDuration:1200}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

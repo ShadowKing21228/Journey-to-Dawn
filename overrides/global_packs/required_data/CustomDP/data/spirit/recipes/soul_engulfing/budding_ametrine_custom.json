@@ -1,0 +1,62 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "byg:ametrine_ore"
+    },
+    "multiblock": {
+      "pattern": [
+	    [
+          "H   H",
+          "     ",
+		  "     ",
+          "     ",
+          "H   H"
+        ],
+        [
+          "A   A",
+          " B B ",
+		  "  @  ",
+          " B B ",
+          "A   A"
+        ],
+        [
+          "CDEDC",
+          "DFGFD",
+		  "EG&GE",
+          "DFGFD",
+          "CDEDC"
+        ]
+      ],
+      "keys": {
+        "A": {
+          "block": "enigmaticlegacy:end_anchor"
+        },
+		"B": {
+          "block": "minecraft:sculk_shrieker"
+        },
+		"C": {
+          "block": "minecraft:end_stone"
+        },
+		"D": {
+          "block": "minecraft:end_stone_brick_slab"
+        },
+		"E": {
+          "block": "minecraft:end_stone_brick_stairs"
+        },
+		"F": {
+          "block": "alexsmobs:sculk_boomer"
+        },
+		"G": {
+          "block": "supplementaries:end_stone_lamp"
+        },
+		"H": {
+          "block": "botania:fork_light_relay"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 60,
+  "outputItem": "byg:budding_ametrine_ore"
+}

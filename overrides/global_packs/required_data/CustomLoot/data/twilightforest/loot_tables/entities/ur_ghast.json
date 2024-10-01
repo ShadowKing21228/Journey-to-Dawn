@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:carminite"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:fiery_tears"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ur_ghast_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Исследовательский дневник. Запись об эксперименте 147  Цель эксперимента: прорыв измеренческих тканей                    В ходе эксперимента была проведена попытка прорвать ткань реальности сильнее, чем наши прошлые портальные установки. \"}','{\"text\":\"Удалось создать межизмеренческий коридор. К сожалению, с другой стороны полезли существа неизвестного происхождения, похожие на летающие сферы с отростками по нижнему периметру. \"}','{\"text\":\"В ходе их прорыва портал дестабилизировался и высвободил гигантский объём неизвестной энергии. Рядом стоящий Король смог оградить команду и взять на себя эту энергию, \"}','{\"text\":\"в то время как остальные разобрались с этим неизвестным видом. Линч утверждает, что эксперимент провалился, так как было допущено повреждение Короля.  \"}','{\"text\":\"Тем не менее, Король находится в стабильном состоянии, имея лишь аномально большую ауру, что неудивительно после поглощения той энергии. Сама же задача эксперимента по прорыву измеренческих тканей была выполнена. \"}','{\"text\":\"Итог эксперимента: Спорно \"}'],title:\"Эксперимент CXLVII\",author:\"Неизвестно\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

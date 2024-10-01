@@ -1,0 +1,25 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "ingredients": [
+    {
+      "item": "quark:soul_bead"
+    },
+    {
+      "item": "ars_nouveau:ritual_binding"
+    },
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "totemic:buffalo_hide"
+    },
+    {
+      "item": "botania:life_essence"
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:ritual_wilden_summon",
+    "count": 2
+  },
+  "grindingTime": 800
+}

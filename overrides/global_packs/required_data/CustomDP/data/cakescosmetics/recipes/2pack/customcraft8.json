@@ -1,0 +1,8 @@
+{
+  "type": "cakescosmetics:sewing",
+  "ingredient": {
+    "item": "cakescosmetics:sewing_kit",
+	"count": 4
+  },
+  "result": "botania:cosmetic_hyper_plus"
+}

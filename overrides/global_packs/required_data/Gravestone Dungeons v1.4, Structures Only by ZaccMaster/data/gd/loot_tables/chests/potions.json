@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0.5
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:15463925,display:{Name:'[{\"text\":\"Potion of the Athletic One\",\"italic\":false,\"color\":\"#eeeeee\"}]',Lore:['[{\"text\":\"Operates like purgative,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"but speeds you up. Trust me.\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:8,Duration:12000,Amplifier:1},{Id:1,Duration:12000,Amplifier:1},{Id:18,Duration:6000}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:28671,display:{Name:'[{\"text\":\"Potion of the Mermaid\",\"italic\":false,\"color\":\"#0033ff\"}]',Lore:['[{\"text\":\"Provides faster swimming in water.\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"Tastes like old fish...\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"Maybe spoiled.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:30,Duration:9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 9,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:2216424,display:{Name:'[{\"text\":\"Potion of Fast Acent\",\"italic\":false,\"color\":\"#33cccc\"}]',Lore:['[{\"text\":\"Greatly decreases your body mass\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"for a short time to rise high up\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"in the sky.\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:25,Duration:300,Amplifier:15},{Id:2,Duration:300,Amplifier:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:8421402,display:{Name:'[{\"text\":\"Potion of the Quick Miner\",\"italic\":false,\"color\":\"#999933\"}]',Lore:['[{\"text\":\"Smells like beer, tastes like honey.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Speed up your work in the mines!\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:3,Duration:18000,Amplifier:1},{Id:17,Duration:6000}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:2397127,display:{Name:'[{\"text\":\"Potion of the Oak Skin\",\"italic\":false,\"color\":\"#cc6600\"}]',Lore:['[{\"text\":\"Brewed from the leaves of\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Atta Aikhjarto, it imparts\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"the strenght of an oak. \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']},CustomPotionEffects:[{Id:11,Duration:1200,Amplifier:3},{Id:2,Duration:1200,Amplifier:4}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:4184457,display:{Name:'[{\"text\":\"Potion of the Luky One\",\"italic\":false,\"color\":\"#99ff33\"}]',Lore:['[{\"text\":\"Lifts up the adventurer\\'s mood.\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"More loot can be found in chests\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"and barrels.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:26,Duration:18000,Amplifier:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:15914028,display:{Name:'[{\"text\":\"Potion of Charisma\",\"italic\":false,\"color\":\"#ffcc00\"}]',Lore:['[{\"text\":\"Loosens your tongue,\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"but confuses your mind...\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Less loot will be found in chests\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"and barrels\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:27,Duration:21600,Amplifier:2},{Id:32,Duration:7200}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lingering_potion",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:593183,display:{Name:'[{\"text\":\"Lingering Potion of Withering\",\"italic\":false,\"color\":\"dark_gray\"}]',Lore:['[{\"text\":\"Brewed from the roots of a wither\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"rose, it poisons the mind of every\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"creature.\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Keep your distance..\",\"italic\":false,\"color\":\"gray\"}]']},CustomPotionEffects:[{Id:15,Duration:600},{Id:20,Duration:600,Amplifier:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:7999259,display:{Name:'[{\"text\":\"Potion of the Bull\",\"italic\":false,\"color\":\"#990000\"}]',Lore:['[{\"text\":\"Burning like fire, but providing\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"a lot of strenght and resistance.\",\"italic\":false,\"color\":\"dark_gray\"}]']},CustomPotionEffects:[{Id:22,Duration:3600,Amplifier:2},{Id:11,Duration:6000,Amplifier:1},{Id:5,Duration:6000,Amplifier:3}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

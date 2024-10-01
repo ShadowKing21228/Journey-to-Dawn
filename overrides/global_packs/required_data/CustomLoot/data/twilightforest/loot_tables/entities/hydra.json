@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 35.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:hydra_chop"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 7.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:fiery_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:hydra_trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+			  "tag": "{pages:['{\"text\":\"Давным-давно, когда Сумрачный Лес был пуст, из неизвестности туда явились люди. Прошедшие боль, ужасы и смерти, но полные веры в себя и в мирное будущее, они стали заселять эти мрачные рощи. \"}','{\"text\":\"Но они не знали, что не зря эти леса пустовали всё это время...                   Полные ужасных тварей, гигантских монстров, что доставали до верхушек деревьев, или же столь малых, что пробирались под кожу. У людей не было шанса. \"}','{\"text\":\"Когда им показалось, что они покинули худшее место, полное тьмы и гнили, они попали в место ещё страшнее...               Но они не сдались. \"}','{\"text\":\"Они научились использовать магию монстров против их самих, унеся их с лица Сумрачных лесов. Они поняли, как заставлять вещи вращаться без ручной работы, обеспечив вечной едой весь народ.  \"}','{\"text\":\"Они связали каждый биом, от горячих болот до ледников, создав полноценную жизнь в безжизненном мире.                                И всё так же они ищут путь в ещё более прекрасные миры. И всё так же они развиваются.\"}','{\"text\":\"Ибо имя им- Маэмар. Ибо цель их- Процветать\"}'],title:\"Древние сказания\",author:\"Неизвестно\"}"
+			}
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

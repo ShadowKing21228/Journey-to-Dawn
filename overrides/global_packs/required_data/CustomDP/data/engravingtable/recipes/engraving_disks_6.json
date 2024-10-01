@@ -1,0 +1,180 @@
+{
+  "type": "engravingtable:engraving",
+  "ingredients": [
+    {
+      "item": "kubejs:blank6"
+    }
+  ],
+  "results": [
+    {
+      "item": "twilightforest:music_disc_radiance",
+      "count": 1,
+      "chance": 0.0295
+    },
+	{
+      "item": "twilightforest:music_disc_steps",
+      "count": 1,
+      "chance": 0.0295
+    },
+	{
+      "item": "twilightforest:music_disc_superstitious",
+      "count": 1,
+      "chance": 0.0295
+    },
+	{
+      "item": "twilightforest:music_disc_home",
+      "count": 1,
+      "chance": 0.0295
+    },
+	{
+      "item": "twilightforest:music_disc_wayfarer",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "twilightforest:music_disc_findings",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "twilightforest:music_disc_maker",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "twilightforest:music_disc_thread",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "twilightforest:music_disc_motion",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_6",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_8",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_9",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_10",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_11",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_12",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_15",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_16",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:musicdisc_17",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_18",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_19",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_20",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_21",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_22",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_24",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_25",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_26",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_27",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_28",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_29",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_30",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_31",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_33",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_34",
+      "count": 1,
+      "chance": 0.0294
+    },
+	{
+      "item": "aitchum__soundtrack_music_disc:music_disc_35",
+      "count": 1,
+      "chance": 0.0294
+    }
+  ]
+}

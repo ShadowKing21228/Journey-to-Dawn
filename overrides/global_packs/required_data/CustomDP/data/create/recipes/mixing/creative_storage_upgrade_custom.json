@@ -1,0 +1,62 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:catalytic_essence"
+    },
+    {
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    },
+	{
+      "item": "storagedrawers:upgrade_template"
+    }
+  ],
+  "results": [
+    {
+      "item": "storagedrawers:creative_storage_upgrade"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

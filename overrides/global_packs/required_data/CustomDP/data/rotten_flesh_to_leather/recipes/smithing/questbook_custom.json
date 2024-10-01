@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "kubejs:iron_plate"
+  },
+  "base": {
+    "item": "minecraft:writable_book"
+  },
+  "result": {
+    "item": "ftbquests:book"
+  }
+}

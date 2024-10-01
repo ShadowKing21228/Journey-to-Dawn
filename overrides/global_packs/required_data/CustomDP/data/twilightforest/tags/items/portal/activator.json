@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id":"kubejs:twilight_edelweiss",
+      "required":false
+    }
+  ]
+}

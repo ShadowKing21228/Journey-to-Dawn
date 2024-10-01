@@ -1,0 +1,16 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "kubejs:hardened_craft_alloy"
+		}
+	],
+	"result":
+	{
+		"item": "create:andesite_alloy_block",
+		"count": 2
+	},
+	"experience": 0.1
+}

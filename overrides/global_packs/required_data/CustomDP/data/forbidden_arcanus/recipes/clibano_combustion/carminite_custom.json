@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 100,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "minecraft:redstone"
+  },
+  "residue": {
+    "chance": 0.50,
+    "name": "carminite"
+  },
+  "result": {
+		"item": "twilightforest:carminite"
+	}
+}

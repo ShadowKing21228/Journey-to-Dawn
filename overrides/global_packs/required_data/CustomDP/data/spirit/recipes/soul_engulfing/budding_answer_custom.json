@@ -1,0 +1,52 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:elegy_of_answer"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "A   A",
+          " B B ",
+		  "  @  ",
+          " B B ",
+          "A   A"
+        ],
+        [
+          "CDEDC",
+          "DFGFD",
+		  "EG&GE",
+          "DFGFD",
+          "CDEDC"
+        ]
+      ],
+      "keys": {
+        "A": {
+          "block": "forbidden_arcanus:darkstone_pedestal"
+        },
+		"B": {
+          "block": "ars_nouveau:brazier_relay"
+        },
+		"C": {
+          "block": "forbidden_arcanus:arcane_polished_darkstone_pillar"
+        },
+		"D": {
+          "block": "forbidden_arcanus:arcane_polished_darkstone_slab"
+        },
+		"E": {
+          "block": "forbidden_arcanus:arcane_polished_darkstone_stairs"
+        },
+		"F": {
+          "block": "forbidden_arcanus:dark_nether_star_block"
+        },
+		"G": {
+          "block": "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+        }
+      }
+    }
+  },
+  "destroysStructure": false,
+  "duration": 120,
+  "outputItem": "sg_simple_utilities:answer"
+}

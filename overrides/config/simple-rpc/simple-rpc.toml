@@ -1,0 +1,343 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1193454134783909950
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% запускает сборку"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Майнкрафт Сборка [%mcver%]"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% модов установлено"
+	#The buttons to display on Discord
+	[[init.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+		
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% начинает путешествие"
+	#The seconds line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Открыл Меню"
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% в поисках товарищей"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% глядит в оба"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+    [[realms_list.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% перемещается"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+	
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Изучает %world%"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Майнкрафт Сборка [%mcver%]"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+    [[single_player.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Начинает путь в %servername% вместе с %players% друзьями"
+	#The second line of text under the app name
+	state = "Playing online"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Майнкрафт Сборка [%mcver%]"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Анализирует %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	[[realms.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "%player% странствует"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = ""
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "Создано Saudade Studio"
+		url = "https://vk.com/saudade_mine"
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = true
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "overworld"
+		#The first line of text under the app name
+		description = "%player% наслаждается Рассветом"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_nether"
+		#The first line of text under the app name
+		description = "%player% бродит по Незеру"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_end"
+		#The first line of text under the app name
+		description = "%player% постигает Край мира"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "undergarden:undergarden"
+		#The first line of text under the app name
+		description = "%player% блуждает по Тёмному Саду"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "dimdungeons:dungeon_dimension"
+		#The first line of text under the app name
+		description = "%player% изучает Измерение Подземелий"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "dimdungeons:build_dimension"
+		#The first line of text under the app name
+		description = "%player% обустраивает личный мир"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "twilightforest:twilight_forest"
+		#The first line of text under the app name
+		description = "%player% покоряет Сумеречный лес"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://www.dropbox.com/scl/fi/xiiczjmsu1etxw0wtdd8e/2023-09-03_09.08.54.png?rlkey=53dz6k9qamo6w3pdol4pnz2gs&dl=1"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Майнкрафт Сборка [%mcver%]"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["https://www.dropbox.com/scl/fi/pmh5d5y84xv1kek3qz4f2/miniicon.png?rlkey=69qqcoszfyppph7kv5ay2qxul&dl=1"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = ""
+		#The buttons to display on Discord
+		buttons = []
+

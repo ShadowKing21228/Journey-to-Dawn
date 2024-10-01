@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "undergarden:wigglewood_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "undergarden:stripped_wigglewood_wood"
+    }
+  ]
+}

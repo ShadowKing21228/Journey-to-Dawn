@@ -1,0 +1,38 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:andesite_mesh"
+    },
+    {
+      "item": "undergarden:deepsoil"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.01,
+      "item": "forbidden_arcanus:nipa"
+    },
+    {
+      "chance": 0.198,
+      "item": "hexerei:mandrake_flower"
+    },
+    {
+      "chance": 0.198,
+      "item": "hexerei:belladonna_flower"
+    },
+    {
+      "chance": 0.198,
+      "item": "hexerei:mugwort_bush"
+    },
+    {
+      "chance": 0.198,
+      "item": "hexerei:yellow_dock_bush"
+    },
+    {
+      "chance": 0.198,
+      "item": "hexerei:sage_seed"
+    }
+  ]
+}

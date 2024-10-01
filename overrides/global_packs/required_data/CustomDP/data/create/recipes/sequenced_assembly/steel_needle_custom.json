@@ -1,0 +1,44 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createindustry:heavy_plate"
+  },
+  "transitionalItem": {
+    "item": "createindustry:heavy_plate"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "createindustry:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "createindustry:heavy_plate"
+        }
+      ]
+    },
+	{
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "createindustry:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "createindustry:heavy_plate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "engravingtable:steel_needle"
+    }
+  ],
+  "loops": 1
+}

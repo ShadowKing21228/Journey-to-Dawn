@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "kubejs:resonating_crystall_2"
+    }
+  ],
+  "result": {
+    "item": "kubejs:resonating_crystall_2",
+    "count": 2
+  },
+  "time": 120
+}

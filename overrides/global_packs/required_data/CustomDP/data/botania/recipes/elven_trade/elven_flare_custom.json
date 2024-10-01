@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "jumbofurnace:jumbo_furnace"
+    }
+  ],
+  "output": [
+    {
+      "item": "kubejs:elven_flare"
+    }
+  ]
+}

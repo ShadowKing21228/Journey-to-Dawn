@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "kubejs:highly_compressed_stone"
+    }
+  },
+  "pattern": [
+    "AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA",
+	"AAAAAAAAA"
+  ],
+  "result": {
+    "item": "kubejs:overcompressed_stone_chunk"
+  }
+}

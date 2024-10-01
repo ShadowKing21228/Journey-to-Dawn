@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_spellbooks:common_ink"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    }
+  ],
+  "sequence": [
+        {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        },
+        {
+            "item": "createindustry:sulfur_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        }
+      ]
+    },
+	  {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        },
+        {
+            "item": "spirit:soul_powder"
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        }
+      ]
+    },
+	      {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        },
+        {
+          "amount": 33,
+          "fluid": "create_enchantment_industry:hyper_experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:common_ink"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "irons_spellbooks:common_ink"
+  }
+}

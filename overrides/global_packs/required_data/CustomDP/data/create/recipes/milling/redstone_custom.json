@@ -1,0 +1,25 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "undergarden:utherium_block"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "minecraft:redstone",
+	  "count": 3
+    },
+	{
+      "chance": 0.75,
+      "count": 1,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.25,
+      "count": 1,
+      "item": "minecraft:redstone"
+    }
+  ]
+}

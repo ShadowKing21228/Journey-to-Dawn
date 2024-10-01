@@ -1,0 +1,12 @@
+{
+    "name": "Патч 1.14.0",
+    "icon": "minecraft:book",
+    "category": "dimdungeons:patch_notes",	
+	"sortnum": 140,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)Новое тематическое подземелье: Пески"
+        }		
+    ]
+}

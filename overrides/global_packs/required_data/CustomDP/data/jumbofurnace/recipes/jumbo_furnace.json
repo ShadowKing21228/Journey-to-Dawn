@@ -1,0 +1,19 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "minecraft:furnace",
+			"count": 27
+		},
+		{
+			"item": "botania:world_seed"
+		}
+	],
+	"result":
+	{
+		"item": "jumbofurnace:jumbo_furnace"
+	},
+	"experience": 0.1
+}

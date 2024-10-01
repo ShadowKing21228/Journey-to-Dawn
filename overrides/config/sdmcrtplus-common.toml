@@ -1,0 +1,12 @@
+
+[rpg_module]
+	#The module is needed only for developers of RPG builds. It adds a variety of methods to do this.
+	#Модуль нужный только для разработчиков RPG сборок. Он добавляет множество методов для этого.
+	RPG_MODULE = false
+	#Includes the ability to create and spawn monsters with your own settings.
+	#Включает возможность создания и появление монастров с собственными настройками
+	ELEMENTS_MOBS = false
+	#Responsible for all sorts of mechanics related to blocks.
+	#Отвечает за всяческие механики связанные с блоками
+	BLOCK_SKILLS = false
+

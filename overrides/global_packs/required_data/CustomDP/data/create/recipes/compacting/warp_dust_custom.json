@@ -1,0 +1,32 @@
+
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createutilities:polished_amethyst"
+      },
+    {
+      "item": "createutilities:polished_amethyst"
+      },
+    {
+      "item": "createutilities:polished_amethyst"
+      },
+    {
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+      },
+    {
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+      },
+    {
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+      }
+	  
+	  
+  ],
+  "results": [
+    {
+      "item": "waystones:warp_dust",
+	  "count": 4
+    }
+  ]
+}

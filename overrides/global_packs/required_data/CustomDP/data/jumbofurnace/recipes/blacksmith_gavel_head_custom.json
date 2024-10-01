@@ -1,0 +1,15 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "kubejs:depthrock_blacksmith_gavel_head"
+		}
+	],
+	"result":
+	{
+		"item": "forbidden_arcanus:blacksmith_gavel_head"
+	},
+	"experience": 0.1
+}

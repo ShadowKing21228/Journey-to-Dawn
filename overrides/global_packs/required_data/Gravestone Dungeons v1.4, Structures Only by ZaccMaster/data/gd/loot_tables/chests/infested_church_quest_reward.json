@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fangsword:1b,RepairCost:100,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:-3,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-123719,68343,223110,-136686]},{AttributeName:\"generic.max_health\",Amount:6,Slot:mainhand,Name:\"generic.max_health\",UUID:[I;-123719,68443,223110,-136886]},{AttributeName:\"generic.attack_damage\",Amount:7,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-123719,68543,223110,-137086]}],display:{Name:'[{\"text\":\"Evoker\\'s Heavy Greatsword\",\"italic\":false,\"color\":\"#0066cc\"}]',Lore:['[{\"text\":\"Evoker Fangs I\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Once charged up, the sword\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"raises fangs at enemies\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"around the wielder, while sneaking.\",\"italic\":false,\"color\":\"dark_gray\"}]']},Enchantments:[{id:knockback,lvl:2},{id:looting,lvl:3},{id:sharpness,lvl:6},{id:sweeping,lvl:3},{id:unbreaking,lvl:3}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/rare_lootbox"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "byg:emeraldite_shards"
+    },
+    {
+      "item": "byg:emeraldite_shards"
+    },
+    {
+      "item": "byg:pendorite_scraps"
+    },
+    {
+      "item": "byg:pendorite_scraps"
+    },
+    {
+      "item": "byg:pendorite_scraps"
+    },
+    {
+      "item": "byg:pendorite_scraps"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:pendorite_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

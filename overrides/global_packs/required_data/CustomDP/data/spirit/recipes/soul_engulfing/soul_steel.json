@@ -1,0 +1,29 @@
+{
+  "type": "spirit:soul_engulfing",
+  "input": {
+    "ingredient": {
+      "item": "botania:elementium_ingot"
+    },
+    "multiblock": {
+      "pattern": [
+        [
+          "   ",
+          " @ ",
+          "   "
+        ],
+        [
+          " S ",
+          "S&S",
+          " S "
+        ]
+      ],
+      "keys": {
+        "S": {
+          "block": "spirit:soul_powder_block"
+        }
+      }
+    }
+  },
+  "duration": 60,
+  "outputItem": "spirit:soul_steel_ingot"
+}

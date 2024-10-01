@@ -1,0 +1,16 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 150,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "byg:subzero_crystal_shard"
+  },
+  "residue": {
+    "chance": 0.45,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "minecraft:echo_shard"
+	}
+}

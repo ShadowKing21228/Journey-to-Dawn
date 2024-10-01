@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:brass_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:brass_sheet"
+    }
+  ]
+}

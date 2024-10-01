@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "quark:sturdy_stone"
+  },
+  "mana": 1337,
+  "output": {
+    "item": "minecraft:andesite"
+  }
+}

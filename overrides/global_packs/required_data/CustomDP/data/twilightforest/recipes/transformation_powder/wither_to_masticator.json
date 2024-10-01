@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:transformation_powder",
+  "from": "minecraft:wither",
+  "reversible": false,
+  "to": "undergarden:masticator"
+}

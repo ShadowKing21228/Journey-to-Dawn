@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:raw_gwibling",
+          "weight": 13
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:glitterkelp",
+          "weight": 13
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:blood_globule",
+          "weight": 9
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:raw_dweller_meat",
+          "weight": 9
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:cooked_gwibling",
+          "weight": 6
+        },
+		{
+          "type": "minecraft:item",
+          "name": "undergarden:indigo_stew",
+          "weight": 6
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:underbeans",
+          "weight": 13
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:gloomgourd_seeds",
+          "weight": 9
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:droopvine_item",
+          "weight": 9
+        },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "undergarden:roasted_underbeans",
+          "weight": 6
+        }
+      ],
+      "rolls": 3.0
+    }
+  ]
+}

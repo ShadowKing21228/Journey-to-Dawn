@@ -1,0 +1,51 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "enigmaticlegacy:heaven_scroll"
+  },
+  "output": "enigmaticlegacy:fabulous_scroll",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:elytra"
+      }
+    },
+	{
+      "item": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+	{
+      "item": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      }
+    }
+  ],
+  "source": 7500
+}

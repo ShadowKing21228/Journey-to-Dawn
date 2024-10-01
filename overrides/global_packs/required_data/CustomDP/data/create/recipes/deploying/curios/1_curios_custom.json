@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:cast_time_ring"
+    },
+    {
+      "item": "irons_spellbooks:fire_rune"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:fireward_ring"
+    }
+  ]
+}

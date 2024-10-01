@@ -1,0 +1,33 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"type": "forge:nbt",
+			"item": "minecraft:netherrack",
+			"count": 2
+		},
+		{
+			"type": "forge:nbt",
+			"item": "supplementaries:cage",
+			"count": 2
+		},
+		{
+			"type": "forge:nbt",
+			"item": "kubejs:iron_plate",
+			"count": 4
+		},
+		{
+			"tag": "twilightforest:fiery_vial"
+		},
+		{
+			"item": "kubejs:elven_flare"
+		}
+	],
+	"result":
+	{
+		"item": "create:empty_blaze_burner",
+		"count": 2
+	},
+	"experience": 0.5
+}

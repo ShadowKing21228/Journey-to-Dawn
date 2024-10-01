@@ -1,0 +1,1096 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "62F9F01721C2D0D7"
+	group: "54DECDB6D89E76B0"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "62F9F01721C2D0D7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"407240969A006F83"
+			]
+			description: ["&6Меч,&r это классика. Средняя длина, вес, отлично подходит как для мощных атак, так и для отступательных движений. Можно работать как одним, так и двумя. &oИдеальный баланс&r"]
+			hide: true
+			id: "4C90051C1897F868"
+			shape: "square"
+			tasks: [{
+				id: "1E6593349F7662CD"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5CC507C1DB6F7CA8"]
+			description: ["Думаю, пытаться добиться максимального урона от режущих ударов не стоит. Лучше стражу перейти к &6молотящим.&r Скоростью атаки пидётся пожертвовать окончательно, но зато врагов будет в лепёшку от ударов плющить! &oНу, надеюсь&r"]
+			hide: true
+			id: "2A42195875DA4622"
+			shape: "square"
+			tasks: [{
+				id: "3C03E0B0EA1BA15F"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["761527812F6E0398"]
+			description: ["&oКоса хороша в рассекающих ударах&r, но они недостаточно мощны. Думаю, если сделать из лезвия &6топорб&r то сила ударов неплохо вырастет! Однако таким тяжёлым оружием уже не помашешь"]
+			hide: true
+			id: "5CC507C1DB6F7CA8"
+			shape: "square"
+			tasks: [{
+				id: "3621460FE77C747A"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CC507C1DB6F7CA8"]
+			description: ["&oЯ слишком сильно ушёл в урон&r, из-за чего пострадала скорость атак. Надо избавиться от лишнего веса, наприме соеденить копьё и топор в &6алебарду.&r Колющие и одновременно режущие атаки позволят достичь хорошего урона с большей скоростью ударов"]
+			hide: true
+			id: "10F97C3F5D2CA389"
+			shape: "square"
+			tasks: [{
+				id: "3A3AD8FB16E8BE36"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Железная Алебарда"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08D1BCA7D7C80C23"]
+			description: ["&oЧто будет, если изогнуть и повернуть лезвие глефы?&r &6Коса!&r Мощные рассекающие удары, которые и к себе никого не подпустят из-за длины оружия, и врагов прекрасно разкидают, так как скорость атак всё ещё приемлима."]
+			hide: true
+			id: "761527812F6E0398"
+			shape: "square"
+			tasks: [{
+				id: "71A465387D114766"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5635088655A2EC49"]
+			description: ["Если слегка переделать копьё, то выйдет &6глефа.&r Из одноручного колющего оно превратилось в двуручное режущее оружие, да и при том расстояние удара ещё немного выросло. &oХороший баланс между уроном и скоростью атак, учитывая длину&r"]
+			hide: true
+			id: "08D1BCA7D7C80C23"
+			shape: "square"
+			tasks: [{
+				id: "5DE674D54306C2B4"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B4BE0A044BDC679"]
+			description: ["&oЭксперимент с удлинением меча прошёл неплохо&r, так что его вполне можно повторить. Получившийся &6клеймор&r хоть и не приспособлен к одноручному ношению, но всё так же хорош в синергии длины, скорости и урона"]
+			hide: true
+			id: "22AE1E6F864049D1"
+			shape: "square"
+			tasks: [{
+				id: "6D3D90BA00C9CA74"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["353B88137BD7CF4E"]
+			description: ["&oМне понравилась идея с перебалансировкой&r, так что я решил провести эксперимент. Если скрестить &6два лезвия меча с одной рукояткой,&r то в теории выйдет оружие, которому надо не 360, а 180 градусов для разворота к врагу, что неплохо увеличит мои шансы на выживание в бою с толпой"]
+			hide: true
+			id: "66002BDA88061F15"
+			shape: "square"
+			tasks: [{
+				id: "14471EECB862EA2D"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_twinblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22AE1E6F864049D1"]
+			description: ["Как бы я не оправдывал клеймор, правда в том, &oчто он довольно тяжёлый&r. Если убрать лишний вес и сделать хоть и так же двуручное, но более сбалансированное оружие, то получится поддерживать частые удары на неплохой дистанции. Ну, то есть выйдет &6катана&r"]
+			hide: true
+			id: "353B88137BD7CF4E"
+			shape: "square"
+			tasks: [{
+				id: "740CEC4B568BF252"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B4BE0A044BDC679"]
+			description: ["&oЕсли и идти в дальность атак&r, то лучше выбирать древковые оружия, вроде &6копья.&r Простые колющие атаки, которые способны достать врага на расстоянии, однако его конструкция такова, что можно иметь аж целых 2 копья одновременно! &oДвойное затыкивание, получается&r"]
+			hide: true
+			id: "5635088655A2EC49"
+			shape: "square"
+			tasks: [{
+				id: "77B7D598E24A6663"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66002BDA88061F15"]
+			description: ["Главный недостаток двулезвийного клинка в том, &oчто он двуручный&r. Если слегка упростить конструкцию, то я смогу иметь сразу два клинка за раз, и тогда ко мне подступиться будем, можно сказать невозможно. Такое оружие, вроде называется &6двойной глефой&r"]
+			hide: true
+			id: "6B3F1AB6AB8AE853"
+			shape: "square"
+			tasks: [{
+				id: "2BA9F2B0C8F4139F"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C90051C1897F868"]
+			description: ["&6Длинная версия меча.&r Увеличенная дальность попадания, и хоть махать им стало тяжелее, но он всё так же неплохо держится и в одной руке, благодаря чему можно использовать стразу два меча"]
+			hide: true
+			id: "5B4BE0A044BDC679"
+			shape: "square"
+			tasks: [{
+				id: "7345C1AE36EB5712"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B4BE0A044BDC679"]
+			description: ["Длинный меч хоть и мощный, но &oтяжёловатый&r. Думаю, если сделать из него&6 рапиру,&r то я получу быстрое, и тем не менее вполне сильное оружие"]
+			hide: true
+			id: "644405D2903F03C4"
+			shape: "square"
+			tasks: [{
+				id: "2C619401795F24D0"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5480571FF24231C7"]
+			description: ["Помню, было такое оружие... &6сая.&r Это парное оружие, можно сказать &oсмесь рапир и сабель&r. Благодаря своим очень быстрым колющим ударам саи могут с лёгкостью компенсировать свою малую мощь"]
+			hide: true
+			id: "4931AF16AC1714A0"
+			shape: "square"
+			tasks: [{
+				id: "598A54571EBE9151"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_sai"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["644405D2903F03C4"]
+			description: ["Хм...Что если пойти &oещё дальше в тему быстрых ударов&r? Если слегка укоротить меч, то выйдет &6сабля,&r что прекрасно работает в обоих руках и имеет быстрые удары"]
+			hide: true
+			id: "5480571FF24231C7"
+			shape: "square"
+			tasks: [{
+				id: "603E0020E5E6F1FF"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4931AF16AC1714A0"]
+			description: ["Чем быстрее моё вооружение, тем оно короче, а как бы я не тренировался, &oбороться с врагами вблизи я не намерен&r. Надо сделать лёгкое и при этом дистанционное оружие. Что-то вроде боевого бумеранга... &6Чакрам.&r Вот оно! Научившись правильно запускать его, я смогу держать врагов на расстоянии и при это постоянно наносить им урон"]
+			hide: true
+			id: "66EE10B02BF6C4D1"
+			shape: "square"
+			tasks: [{
+				id: "77F4D454790101A6"
+				item: {
+					Count: 1b
+					id: "simplyswords:iron_chakram"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F3548695F55209A"]
+			description: ["Хоть я и сказал, что мне нужно научиться сражаться, сразу лезть с мечом наперевес к тем же гнилозверям &oравно суициду&r. Мне надо на чём-то оттачивать своё мастерство... Ну, например на &6манекене.&r По нему и удары наглядно проходят, и оружие не ломается."]
+			hide: true
+			id: "1BF21D410608BC8F"
+			shape: "rsquare"
+			tasks: [{
+				id: "75A729DA37B2AEA4"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "Тренировки на кукле"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"407240969A006F83"
+			]
+			description: ["&o\"Лучшая защита-это нападение\"&r. Не знаю, моя ли это мысль или откуда-то из прошлого, но факт остаётся фактом- несясь очертя голову на врага, легко эту голову и потерять. Лучше всё-же иметь при себе &6щит,&r что бы в случае опасности защититься от ударов. Жаль, что &oс двуручным оружием щит не работает...&r"]
+			hide: true
+			id: "738BE1C0EDC6A211"
+			shape: "square"
+			tasks: [{
+				id: "4A11F62C6356F71B"
+				item: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"4D3C822AEAB3D875"
+				"407240969A006F83"
+			]
+			description: ["Несмотря ни на что, я всё ещё уверен, что из &6топоров&r выходит прекрасное оружие. Надо лишь знать, как подступиться. Хотя, возможно надо всего лишь &oпоменять саму суть топоров&r..."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65E001604B01C987"
+			shape: "square"
+			tasks: [{
+				id: "5AC4B4536A04B356"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:axes"
+					}
+				}
+				title: "Любой топор"
+				type: "item"
+			}]
+			title: "Топор"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"65E001604B01C987"
+				"02268C57949C11E5"
+			]
+			description: ["Иногда я встречал торги у &oКаменнорождённых&r, где они за стак регалиума могли обменять обычный топор из клоггрума на &6боевой.&r Как бы я не пытался, воссоздать такое сам я не могу- оружие просто получается неподьёмным, а эту громадину хоть и тяжело, но можно использовать для аннигиляции врагов. &oСтранно, что сами Каменнорождённые ими не пользуются...&r"]
+			hide: true
+			id: "2008C3CF47378332"
+			shape: "square"
+			tasks: [{
+				id: "772A21C66FF18DC9"
+				item: {
+					Count: 1b
+					id: "undergarden:cloggrum_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2008C3CF47378332"
+				"7A98CA0942113BF0"
+			]
+			description: ["&6Клоггрумовые инструменты,&r которые можно обковать &6металлом забытых,&r становятся не просто сильнее, но и лучше против созданий Тёмного Сада. Как оказалось, даже боевой топор-не исключение. &oЭто просто невероятное оружие&r, что по размеру, что по силе"]
+			hide: true
+			id: "3BB8470696C7B81C"
+			shape: "square"
+			tasks: [{
+				id: "35E04A8962EC611A"
+				item: {
+					Count: 1b
+					id: "undergarden:forgotten_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"65E001604B01C987"
+				"75F828BEF05FF9B0"
+			]
+			description: ["&6Минотавры,&r что гуляют по собственному лабиринту, пользуются не обычным золотым топором. Это особый &6топор минотавров.&r Им он, судя по всему, даёт бонусы в бою, но вот я &oне могу реализовать их потенциал&r"]
+			hide: true
+			id: "54D1152DC26C7A6A"
+			shape: "square"
+			tasks: [{
+				id: "1C3D7251163F3BC4"
+				item: {
+					Count: 1b
+					id: "twilightforest:gold_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"54D1152DC26C7A6A"
+				"5E4888A725557178"
+			]
+			description: ["&6Гриботавр,&r Хранитель Лабиринта минотавров, держит в руках не золотой, а будто &6алмазный топор.&r Он выглядит даже более особенным, чем обычные топоры минотавров! Думаю, с ним и я &oсмогу лучше сражаться при разгоне&r"]
+			hide: true
+			id: "5475EE65F65CDF9F"
+			shape: "square"
+			tasks: [{
+				id: "1D780D86AE908E7F"
+				item: {
+					Count: 1b
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00DD7EC45E9EEC09"]
+			description: ["Это уже что-то посерьёзней, чем сковородка! Настоящий &6боевой молот!&r Быстрый, но увесистый, простой, но эффективный, этот молот может многое. &oДумаю, он вполне стоит своих ресурсов &r"]
+			hide: true
+			id: "13D5F4A15F90DF24"
+			shape: "square"
+			tasks: [{
+				id: "60FA2345F01B6567"
+				item: {
+					Count: 1b
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"65E001604B01C987"
+				"0D8792DC2FAF3E36"
+			]
+			description: ["Не уверен, что кухонную утварь можно считать за полноценное оружие, но &6сковорода-&rэто просто нечто. Неплохой урон, размах по целям, так ещё и на ней можно еду готовить. Вот так взял, завалил пару коров-&oи сразу пожарил...Класс&r"]
+			hide: true
+			id: "00DD7EC45E9EEC09"
+			shape: "square"
+			tasks: [{
+				id: "7B6D9E41E3CAB112"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"3BD502D40420C6AD"
+			]
+			description: ["&6Рогатка&r это хорошо, но всё же закидывать суперопасных врагов галькой не звучит как хороший план. Мне стоит раздобыть &6лук&r и немного &6стрел.&r &oХотя бы на всякий случай&r"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1855290E20930407"
+			shape: "square"
+			tasks: [
+				{
+					id: "523DB81B3668731C"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6AA5BD5D547779F1"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1855290E20930407"
+				"47359A2C0110C02B"
+			]
+			description: ["Носить все стрелы в карманах во-первых &oнеудобно&r-много места занимают, во-вторых &oопасно&r. Думаю, стоит создать отдельный мешок под эти стрелы. Что-то вроде &6колчана&r для стрел"]
+			hide: true
+			id: "49D75997B2928E12"
+			shape: "square"
+			tasks: [{
+				id: "4C66323B37204585"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1855290E20930407"
+				"1BE4ED73D6A03A78"
+			]
+			description: ["В замке &oСнежной Королевы&r, среди прочих наград, можно найти &6уникальные луки.&r Одни телепортируют, другие самонаводятся, в общем-интересные штуки. Некоторые должны лежать где-то в сундуках, некоторые хранятся у самой Королевы. Интересно, у меня получится собрать &oвсю коллекцию?&r"]
+			hide: true
+			id: "10DBCC85C3E81581"
+			shape: "square"
+			tasks: [
+				{
+					id: "40F76EF24D5654BD"
+					item: {
+						Count: 1b
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B180351DBCF00EC"
+					item: {
+						Count: 1b
+						id: "twilightforest:ender_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B0FD0D3809E9D0D"
+					item: {
+						Count: 1b
+						id: "twilightforest:ice_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27F55B677351D8EB"
+					item: {
+						Count: 1b
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Коллекция луков"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1855290E20930407"]
+			description: ["Бесспорно, &6лук&r гораздо лучше той же рогатке в серьёзном бою, но вот стоять на месте, пока не натянешь тетиву может быть &oрискованно&r. Не лучше ли сделать так, что снаряды могли бы быть в луке заранее? Соорудить нечто вроде &6арбалета,&r с которым можно будет заранее подготовить стрелу-звучит как неплохая задумка"]
+			hide: true
+			id: "1E00DDC93A2CB6DF"
+			shape: "square"
+			tasks: [{
+				id: "4E1D2141EA8706D0"
+				item: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1E00DDC93A2CB6DF"
+				"0E9D3AEBB89CFF5F"
+			]
+			description: ["После идеи с заранее приготовленным зарядом, я подумал: &o\"а нельзя ли сделать устройство, которое и заряжать для выстрела не надо?\"&r. Тут-то мне и пришла в голову идея этой &6пушки,&r Используя сжатый воздух, она будет сразу же стрелять во врага! Как бы то ни было иронично, но стрелять эта штука может только &6едой,&r иначе весь корпус просто не выдержит "]
+			hide: true
+			id: "7DDE30D804BD20CC"
+			shape: "square"
+			tasks: [{
+				id: "7E8E42E36BEAC2BF"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7DDE30D804BD20CC"]
+			description: ["Получив в своё распоряжение &6сталь&r, я решил попоробовать переделать свою &6картофельную пушку&r во что-нибудь более мощное. Результат оказался неплохим, ведь теперь пушка может стрелять сразу &o4 снарядами за раз&r! Стальные механизмы творят чудеса"]
+			hide: true
+			id: "445DA440B3048617"
+			shape: "square"
+			tasks: [{
+				id: "7F12D8A5FA6C90F1"
+				item: {
+					Count: 1b
+					id: "createindustry:quad_potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1E00DDC93A2CB6DF"
+				"5799039F305DC7A5"
+			]
+			description: ["Идея с заряженным арбалетом привела меня к &6излучателю маны.&r Он, по сути же, стреляет маной, верно? Если подобрать к нему &6линзу,&r что будет наносить урон, то выйдет инструмент ещё круче, чем тот же арбалет, ведь его &oвообще заряжать не надо!&r"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "botania:mana_gun"
+				tag: { }
+			}
+			id: "03DA9BF08ACF3B67"
+			shape: "square"
+			tasks: [
+				{
+					id: "1EA99B6A37C5B1B9"
+					item: {
+						Count: 1b
+						id: "botania:mana_gun"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4042AE90A44E1EEF"
+					item: "botania:clip"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"7EEDE903D90C135B"
+				"49D75997B2928E12"
+			]
+			description: ["Когда я делал &6колчан,&r я думал только о том что бы ложить туда простые стрелы, &oно тут я подумал...&r Возможно, у меня есть шанс создать что-то более уникальное, &6заменив наконечник?&r У меня есть некоторые идеи в голове, от более мощных стрел до поджигающих! &oНадо пробовать&r"]
+			hide: true
+			icon: "quark:torch_arrow"
+			id: "709D37BE241FB8E4"
+			shape: "square"
+			tasks: [
+				{
+					id: "500F45A8384E4D03"
+					item: "forbidden_arcanus:boom_arrow"
+					type: "item"
+				}
+				{
+					id: "533905EC18746695"
+					item: "quark:torch_arrow"
+					type: "item"
+				}
+				{
+					id: "545DE07087ED7EFB"
+					item: {
+						Count: 1b
+						id: "supplementaries:rope_arrow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Стрелы на пробу"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"68D610DE64387C82"
+			]
+			description: ["Эти багровые комары крайне доставучи, однако должен признать, что &oиспользовать кровь врага против него же самого&r- это умно. Хоть я и не смогу пополнять их мешки с кровью, но воссоздать механизм стрельбы вполне могу. Получатся эдакие &6распылители крови.&r &oКакое забавное и одновременно жуткое стрелковое орудие...&r"]
+			hide: true
+			hide_dependency_lines: true
+			id: "75A609B0526751FD"
+			shape: "square"
+			tasks: [{
+				id: "4FEF6ADE025A25E2"
+				item: {
+					Count: 1b
+					id: "alexsmobs:blood_sprayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"75A609B0526751FD"
+				"56E187EC3050D8D7"
+			]
+			description: ["&6Искажённый Король...&r Странное существо, которое защищало &oЗамок Высокогорья&r. Хоть в тот момень времени думать о его внешности и не было-на кону была моя жизнь, но сейчас я замечаю сходство с &oбагровыми комарами и искажённым лесом&r. Быть может, я и создать &6особый вариант&r распылителя крови смогу?"]
+			hide: true
+			id: "1725DE38524FA927"
+			shape: "square"
+			tasks: [{
+				id: "71D211882F9CE8FE"
+				item: {
+					Count: 1b
+					id: "alexsmobs:hemolymph_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BF21D410608BC8F"]
+			description: ["Зомби, что я встречал чуть ли не в каждом мире, могут тонуть. Это странно, ведь &oмёртвым дышать не надо&r, но превратившись в &6утопленников,&r они могут найти &6трезубец-&r особое, подводное оружие. Если повезёт добыть его с такого утопца, то я смогу отлично и сражаться, и перемещаться, будучи погружённым в воду"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2A88787582260C41"
+			shape: "square"
+			tasks: [{
+				id: "2995C6A712CABAA8"
+				item: {
+					Count: 1b
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"6A5E31712B36E99E"
+			]
+			description: ["&oРыцарские катакомбы&r были полны разных существ в доспехах из &6королевского металла.&r Да, я насобирал немного, но что если собрать этого металла побольше? В этих катакомбах я встречал записи о &6блоке цепей-&rмассивном метательном оружие с большой разрушительной способностью. Да, на него надо много этого металла, но судя по записям, &oоно того стоит&r"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1248343BF1CC48A2"
+			shape: "square"
+			tasks: [{
+				id: "5F3FDC7F92F68E83"
+				item: {
+					Count: 1b
+					id: "twilightforest:block_and_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BF21D410608BC8F"]
+			description: ["Оказывается, нежить водится и в водах. Особая &oрыба-кость&r, что появляется в океанах по ночам, представляет большую опасность, однако с неё может выпасть её &6череп.&r Мало того, что он крайне острый, так ещё и лёгкий как перо, что позволяет осыпать врагов даже не дождём, а &oливнем из ударов&r"]
+			hide: true
+			hide_dependency_lines: true
+			id: "50946EAB7C76778E"
+			shape: "square"
+			tasks: [{
+				id: "51D4BC3EC2A2A798"
+				item: {
+					Count: 1b
+					id: "alexsmobs:skelewag_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"56E187EC3050D8D7"
+			]
+			description: ["&6Шёпот...&r Страшные существа в балахонах, что появились вместе с Искажённым Воином. &oДо сих пор от них мурашки по коже&r. Ну, по крайней мере я могу использовать их особые сухожилия, что бы воссоздать &6оружие,&r похожее на их шеи. Так я смогу драться на небольшом расстоянии, не целясь в противника"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0BCE1263B3D161F6"
+			shape: "square"
+			tasks: [{
+				id: "0090903F97EE9ECA"
+				item: {
+					Count: 1b
+					id: "alexsmobs:tendon_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"5F01DAA741485D16"
+			]
+			description: ["Среди всех знакомых мне предметов самым разрушительным является &6динамит.&r Думаю, эту его особенность можно применить &oи в бою&r, так как &6бомбы&r хорошо подойдут и для расчистки территорий, и для аннигиляции толп противников"]
+			hide: true
+			hide_dependency_lines: true
+			id: "19CA06317D76B110"
+			shape: "square"
+			tasks: [{
+				id: "263B527F0847A696"
+				item: "supplementaries:bomb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"1BE4ED73D6A03A78"
+			]
+			description: ["Чем больше я находился в &oЗамке Авроры&r, тем больше находил упоминаний о некоем &6Стеклянном мече.&r В клочках бумаг, лежавших на полу говорилось, что это самое сильное оружие в мире, по после первого же удара оно обречено на поломку. &oКак что-то столь хрупкое может быть настолько мощным?&r Хочется удостовериться в этих словах и самому отыскать этот меч"]
+			hide: true
+			hide_dependency_lines: true
+			id: "01116DE1E85E3404"
+			shape: "square"
+			tasks: [{
+				id: "7BB962DB7BEBE5DD"
+				item: {
+					Count: 1b
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1BF21D410608BC8F"
+				"01C29B9AC7390D73"
+			]
+			description: ["Я заметил, что хоть моё тело и очень хилое, но сам по себе я довольно резвый и гибкий. &oБыть может, когда-то я занимался гимнастикой...&r не суть. Важно то, что с таким телом я могу заняться &6паркуром&r, научиться перемещаться по миру максимально быстро. Это и для побегов от врагов поможет, и для пересечения местностей необходимо!"]
+			hide: true
+			id: "3768D80BACD76701"
+			shape: "square"
+			tasks: [{
+				id: "0EC0A1CD2B9E0549"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "parcool:parcool_guide"
+					}
+				}
+				type: "item"
+			}]
+			title: "Путеводитель по паркуру"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01116DE1E85E3404"]
+			description: [
+				"Вау... Я смог объеденить &6Вечную Стеллу,&r делающую предмет неломаемым, со &6Стеклянным мечом.&r Получается, у меня есть самое мощное и при этом вечное оружие во всех мирах?"
+				"{@pagebreak}"
+				"&aПоздравляю! Вы нашли пасхалку! Всего здесь 12 пасхалок, на каждую из глав. Открыв все, вы получите доступ к 13, особой пасхалке! Удачи!&r"
+				"                               &o&f -Сигмариус&r"
+			]
+			hide: true
+			id: "6AA523235AAE0F5A"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "70192B28DF1B11C2"
+				item: {
+					Count: 1b
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+						Modifier: "forbidden_arcanus:eternal"
+						Repair: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Стекло, что крепче бедрока"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"738BE1C0EDC6A211"
+				"62185FAAB6AD98BF"
+			]
+			description: ["Для чего нужен щит? &oДля защиты носителя.&r Тогда, думаю объеденить &6щит&r с артефактом &6обсидианового черепа&r будет не такой уж и плохой идеей. По крайней мере, может пригодится в бою с огненными врагами"]
+			id: "7D50782FF0F377A3"
+			shape: "square"
+			tasks: [{
+				id: "4926B243F94D9042"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							"forbidden_arcanus:tick_counter": {
+								value: 0
+							}
+						}
+					}
+					id: "forbidden_arcanus:obsidian_skull_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"738BE1C0EDC6A211"
+				"77C0B4308F8B222D"
+			]
+			description: ["Среди пиглинов иногда встречаются такие, что выглядят более...&o Брутально.&r У них есть топоры и особые &6щиты-баклеры,&r которыми они не защищаются, а таранят! Возможно, я смогу заполучить такой щит и тоже &6таранить своих противников...&r"]
+			hide: true
+			id: "6465FE5E840CC1DA"
+			shape: "square"
+			tasks: [{
+				id: "263652430307B1EB"
+				item: {
+					Count: 1b
+					id: "bigbrain:buckler"
+					tag: {
+						Damage: 0
+						Ready: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Искусство боя"
+}

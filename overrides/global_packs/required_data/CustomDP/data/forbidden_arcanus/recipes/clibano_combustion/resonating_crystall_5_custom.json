@@ -1,0 +1,17 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 1500,
+  "experience": 100.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "kubejs:resonating_crystall_5"
+  },
+  "residue": {
+    "chance": 0.25,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "kubejs:resonating_crystall_5",
+		"count": 2
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "kubejs:golden_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:golden_sheet"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potions"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{luminous:1b,RepairCost:100,display:{Name:'[\"\",{\"text\":\"Crystal Greatsword\",\"italic\":false,\"color\":\"#006699\"}]',Lore:['[\"\",{\"text\":\"Illumination I\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"Once charged up, the sword\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"illuminates mobs in a\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"small radius.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{lvl:2,id:knockback},{lvl:2,id:sweeping},{lvl:3,id:unbreaking}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:2,Slot:mainhand,Name:\"generic.knockback_resistance\",UUID:[I;-12443,158062,101754,-316124]},{AttributeName:\"generic.movement_speed\",Amount:-0.02,Slot:mainhand,Name:\"generic.movement_speed\",UUID:[I;-12443,158362,101754,-316724]},{AttributeName:\"generic.attack_damage\",Amount:10,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12443,158662,101754,-317324]}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gd:chests/potion_items"
+        }
+      ]
+    }
+  ]
+}

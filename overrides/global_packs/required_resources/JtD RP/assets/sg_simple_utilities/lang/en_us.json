@@ -1,0 +1,16 @@
+{
+  "tooltip.sg_simple_utilities.secret_ticket1": "The totem quietly whispers your name:",
+  "gui.sg_simple_utilities.work_table.label_storage": "Storage",
+  "itemGroup.tabsimple_utilities_window": "Simple Utilities",
+  "item.sg_simple_utilities.iron_cords": "Iron Cords",
+  "item.sg_simple_utilities.toolkit": "Toolkit",
+  "item.sg_simple_utilities.secret_ticket": "Audience ticket",
+  "gui.sg_simple_utilities.work_table.label_inventory": "Inventory",
+  "tooltip.sg_simple_utilities.secret_ticket2": ". This means that you are worthy of an audience. Contact the author of the assembly in PM on Discord, and you will be able to get into the history of the modpack",
+  "item.sg_simple_utilities.throwable_rope": "Throwable Rope",
+  "gui.sg_simple_utilities.work_show.label_workbench_recipes": "Workbench Recipes",
+  "block.sg_simple_utilities.workbench": "Workbench",
+  "subtitles.rope_throw": "Rope throw",
+  "block.sg_simple_utilities.rope_utility_block": "Rope Utility Block",
+  "gui.sg_simple_utilities.work_table.label_workbench": "Workbench"
+}

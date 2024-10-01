@@ -1,0 +1,34 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "undergarden:sediment"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.1,
+      "item": "undergarden:sediment"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:gravel"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:sand"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "chance": 0.2,
+      "item": "hexerei:selenite_shard"
+    }
+  ]
+}

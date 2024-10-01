@@ -1,0 +1,18 @@
+{
+  "item.map_atlases.atlas": "Атлас",
+  "item.map_atlases.end_atlas": "Атлас Края",
+  "item.map_atlases.nether_atlas": "Атлас Ада",
+  "item.map_atlases.atlas.tooltip_1": "Карт: %d",
+  "item.map_atlases.atlas.tooltip_2": "Пустых карт: %d",
+  "item.map_atlases.atlas.tooltip_3": "Размер: 1:%s",
+  "item.map_atlases.atlas.tooltip_err": "Неактивно",
+  "item.map_atlases.atlas.tooltip_full": "Заполнено!",
+  "key.map_atlases.open_minimap": "Открыть GUI миникарты",
+  "item.map_atlases.dummy_filled_map": "Карта",
+  "item.map_atlases.dummy_filled_map.dummy": "Болванка",
+  "item.map_atlases.dummy_filled_map.desc": "Используйте любую полную карту",
+  "category.map_atlases.minimap": "Клавиши под Атлас",
+  "subtitles.map_atlases.atlas_open": "Атлас открыт",
+  "subtitles.map_atlases.atlas_page_turn": "Страница атласа перелистывается",
+  "subtitles.map_atlases.atlas_create_map": "Карта атласа нарисована"
+}

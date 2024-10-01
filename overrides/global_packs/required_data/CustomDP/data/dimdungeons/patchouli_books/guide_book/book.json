@@ -1,0 +1,10 @@
+{
+	"name": "Подземелья измерений",
+	"landing_text": "Откройте для себя сложные и одновременно полезные подземелья измерений.",
+	"model": "dimdungeons:item_guidebook",
+	"version": 0,
+	"subtitle": "v177 June 2023",
+	"show_progress": false,
+	"advancement_namespaces": [ "dimdungeons" ],
+	"creative_tab": "dimdungeons"
+}

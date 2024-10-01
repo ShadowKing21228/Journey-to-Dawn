@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "irons_spellbooks:copper_spell_book"
+  },
+  "mana": 19370,
+  "output": {
+    "item": "irons_spellbooks:rotten_spell_book"
+  }
+}

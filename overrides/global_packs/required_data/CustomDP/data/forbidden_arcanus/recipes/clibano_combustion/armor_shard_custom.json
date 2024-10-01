@@ -1,0 +1,17 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 150,
+  "experience": 1.0,
+  "fire_type": "soul_fire",
+  "ingredient": {
+    "item": "byg:chain_plating"
+  },
+  "residue": {
+    "chance": 0.65,
+    "name": "armor_shard"
+  },
+  "result": {
+		"item": "twilightforest:armor_shard",
+		"count": 3
+	}
+}

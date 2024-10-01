@@ -1,0 +1,226 @@
+
+###############################
+# Logging properties
+###############################
+[logging]
+	# The logging level. Set to 'off' to disable logging.
+	# Values = [trace|debug|info|warn|error|off]
+	level = "info"
+	# The size a log file can be before rolling over to a new file.
+	size = "1000K"
+	# The directory where the logs should be stored.
+	# This is relative to the Minecraft install path.
+	folder = "logs"
+
+###############################
+# Headless properties.
+###############################
+[headless]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 319
+
+###############################
+# Orc properties.
+###############################
+[orc]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 319
+
+###############################
+# Ghoul properties.
+###############################
+[ghoul]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 319
+	# The amount a ghoul can heal themselves when eating meat.
+	#Range: 1.0 ~ 1024.0
+	healAmount = 4.0
+	# Determines whether a ghoul open doors.
+	canOpenDoors = true
+
+###############################
+# Boulder properties.
+###############################
+[boulder]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 60
+
+###############################
+# Shadow properties.
+###############################
+[shadow]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 60
+
+	[shadow.nether_spawning]
+		# Enable / disable spawning.
+		enabled = true
+		# Minimum world height for spawning.
+		#Range: -64 ~ 319
+		"minHeight: " = -64
+		# Maximum world height for spawning.
+		#Range: -64 ~ 319
+		"maxHeight: " = 319
+
+###############################
+# Gazer properties.
+###############################
+[gazer]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 60
+	# The cooldown time of a bite attack (measured in ticks).
+	#Range: > 1
+	biteCooldownTime = 20
+	# The charge time of a paraylsis spell attack (measured in ticks).
+	#Range: > 1
+	paralysisChargeTime = 80
+	# The cooldown time of a summon spell (measured in ticks).
+	#Range: > 1
+	summonCooldownTime = 2400
+	# Minimum spawn group size for summon spell.
+	#Range: > 0
+	minSummonSpawns = 1
+	# Maximum spawn group size for summon spell.
+	#Range: > 1
+	maxSummonSpawns = 3
+
+	[gazer.nether_spawning]
+		# Enable / disable spawning.
+		enabled = true
+		# Minimum world height for spawning.
+		#Range: -64 ~ 319
+		"minHeight: " = -64
+		# Maximum world height for spawning.
+		#Range: -64 ~ 319
+		"maxHeight: " = 319
+
+###############################
+# Shadowlord properties.
+###############################
+[shadowlord]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 20
+	# The charge time of a harm spell attack (measured in ticks).
+	#Range: > 1
+	harmChargeTime = 50
+	# The cooldown time of a summon spell (measured in ticks).
+	#Range: > 1
+	summonCooldownTime = 2400
+	# Minimum spawn group size for summon spell.
+	#Range: > 0
+	minSummonSpawns = 1
+	# Maximum spawn group size for summon spell.
+	#Range: > 1
+	maxSummonSpawns = 2
+
+	[shadowlord.nether_spawning]
+		# Enable / disable spawning.
+		enabled = true
+		# Minimum world height for spawning.
+		#Range: -64 ~ 319
+		"minHeight: " = -64
+		# Maximum world height for spawning.
+		#Range: -64 ~ 319
+		"maxHeight: " = 319
+
+###############################
+# Daemon properties.
+###############################
+[daemon]
+	# Enable / disable spawning.
+	enabled = true
+	# Minimum world height for spawning.
+	#Range: -64 ~ 319
+	"minHeight: " = -64
+	# Maximum world height for spawning.
+	#Range: -64 ~ 319
+	"maxHeight: " = 0
+	# The cooldown time of a firespout spell (measured in ticks).
+	#Range: > 1
+	firespoutCooldownTime = 200
+	# The max distance (in blocks) that firespout spell can travel.
+	#Range: 3 ~ 20
+	firespoutMaxDistance = 10
+
+	[daemon.nether_spawning]
+		# Enable / disable spawning.
+		enabled = true
+		# Minimum world height for spawning.
+		#Range: -64 ~ 319
+		"minHeight: " = -64
+		# Maximum world height for spawning.
+		#Range: -64 ~ 319
+		"maxHeight: " = 319
+
+###############################
+# Paralysis spell properties.
+###############################
+[paralysis]
+	# The amount of damage the spell inflicts (this is in addition to the slowness/paralysis).
+	#Range: > 1
+	damage = 2
+	# The length of time in ticks that the spell lasts for.
+	#Range: > 1
+	duration = 200
+
+###############################
+# Shadowlord spell properties.
+###############################
+[shadowlord_spell]
+	# The amount of damage the spell inflicts.
+	#Range: > 1
+	damage = 6
+
+###############################
+# Firespout spell properties.
+###############################
+[firespout]
+	# The radius of the explosion.
+	#Range: 1 ~ 10
+	explosionRadius = 1
+	# Maximum height in blocks that a firespout can reach.
+	#Range: 1 ~ 20
+	damage = 5
+

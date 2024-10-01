@@ -1,0 +1,46 @@
+{
+  "parent": "gd:arcane_nodes",
+  "criteria": {
+    "in_fair": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "gd:fair"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+        "title": {
+            "text": "Мошенники и шуты",
+            "bold": false,
+            "italic": true,
+            "color": "green"
+        },
+        "description": {
+            "text": "Посетить Эдинбургский ярмарок",
+		"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "requirements": [
+    [
+      "in_fair"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

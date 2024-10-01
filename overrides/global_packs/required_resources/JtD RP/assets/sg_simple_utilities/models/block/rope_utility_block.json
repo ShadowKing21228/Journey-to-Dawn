@@ -1,0 +1,9 @@
+{
+  "parent": "sg_simple_utilities:custom/rope_block",
+  "textures": {
+    "all": "sg_simple_utilities:blocks/rope_utility_block",
+    "particle": "sg_simple_utilities:blocks/rope_utility_block",
+    "0": "sg_simple_utilities:blocks/rope_utility_block"
+  },
+  "render_type": "cutout"
+}

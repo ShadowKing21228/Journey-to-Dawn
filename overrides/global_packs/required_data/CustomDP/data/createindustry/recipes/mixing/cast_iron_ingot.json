@@ -1,0 +1,22 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "twilightforest:raw_ironwood"
+    },
+    {
+      "item": "createindustry:charcoal_dust"
+    },
+    {
+      "item": "createindustry:charcoal_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "createindustry:cast_iron_ingot"
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 1000
+}
